@@ -1,0 +1,21 @@
+[2024-04-22 18:50:55] [info] Start Program:
+Path:"C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\x64\Debug\lab_8_9.exe"
+Arguments:
+Working directory: "C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\lab_8_9\"
+Modules: Selected: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\x64\Debug\lab_8_9.exe Excluded: 
+Sources: Selected: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\lab_8_9 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\ungur\AppData\Local\Temp\3edxjei2.qtx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-22 18:50:55] [info] Module: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\x64\Debug\lab_8_9.exe is selected because it matches selected pattern: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\x64\Debug\lab_8_9.exe
+[2024-04-22 18:50:57] [info] ----------------------------------------------------
+[2024-04-22 18:50:57] [info] Coverage binary generated in file: C:\Users\ungur\AppData\Local\Temp\3edxjei2.qtx
+[2024-04-22 18:50:57] [info] ----------------------------------------------------

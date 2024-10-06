@@ -1,0 +1,5 @@
+﻿  start.cpp
+C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\lab_8_9\cosfilm.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'start.cpp')
+  
+  lab_8_9.vcxproj -> C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\89\lab_8_9\x64\Debug\lab_8_9.exe
