@@ -1,0 +1,21 @@
+[2024-05-10 08:32:47] [info] Start Program:
+Path:"C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\x64\Debug\lab_10_11.exe"
+Arguments:
+Working directory: "C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\lab_10_11\"
+Modules: Selected: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\x64\Debug\lab_10_11.exe Excluded: 
+Sources: Selected: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\lab_10_11 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\ungur\AppData\Local\Temp\am0xidur.urt 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-05-10 08:32:47] [info] Module: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\x64\Debug\lab_10_11.exe is selected because it matches selected pattern: C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\x64\Debug\lab_10_11.exe
+[2024-05-10 08:32:49] [info] ----------------------------------------------------
+[2024-05-10 08:32:49] [info] Coverage binary generated in file: C:\Users\ungur\AppData\Local\Temp\am0xidur.urt
+[2024-05-10 08:32:49] [info] ----------------------------------------------------

@@ -1,0 +1,3 @@
+﻿  main.cpp
+moc_lab_10_11.obj : error LNK2019: unresolved external symbol "public: __cdecl lab_10_11::lab_10_11(class QWidget *)" (??0lab_10_11@@QEAA@PEAVQWidget@@@Z) referenced in function "public: __cdecl `public: static void (__cdecl*__cdecl QtPrivate::QMetaTypeForType<class lab_10_11>::getDefaultCtr(void))(class QtPrivate::QMetaTypeInterface const *,void *)'::`5'::<lambda_1>::operator()(class QtPrivate::QMetaTypeInterface const *,void *)const " (??R<lambda_1>@?4??getDefaultCtr@?$QMetaTypeForType@Vlab_10_11@@@QtPrivate@@SAP6AXPEBVQMetaTypeInterface@3@PEAX@ZXZ@QEBA@01@Z)
+C:\Users\ungur\OneDrive\Desktop\SEM_2\oop\lab\10,11\lab_10_11\x64\Debug\lab_10_11.exe : fatal error LNK1120: 1 unresolved externals
