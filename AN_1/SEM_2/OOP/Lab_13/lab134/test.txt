@@ -1,0 +1,4 @@
+Pruncul,dragoste,Carla,2005
+Marea,dragoste,Ana,2000
+Pacea,horror,Mihaela,2005
+Pas,drama,Ana,2000

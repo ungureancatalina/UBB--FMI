@@ -1,0 +1,7 @@
+Pruncul,dragoste,Carla,2005
+Marea,dragoste,Ana,2000
+Pacea,horror,Mihaela,2006
+Lotul,actiune,Tenia,2007
+Natura,actiune,Tudor,2004
+Cine,comedie,Xonia,2008
+Pas,altele,Ana,2000
