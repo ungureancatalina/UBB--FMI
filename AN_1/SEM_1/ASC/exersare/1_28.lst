@@ -1,0 +1,51 @@
+     1                                  ;Se citesc de la tastatura numere (in baza 10) pana cand se introduce cifra 0. Determinaţi şi afişaţi cel mai mare număr dintre cele citite.
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf,scanf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import scanf msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                  
+    12 00000000 00000000                nr dd 0
+    13 00000004 00000000                max dd 0
+    14 00000008 256400                  format1 db "%d", 0
+    15 0000000B 6E72206D61783D2025-     format2 db "nr max= %d", 0
+    15 00000014 6400               
+    16                                  
+    17                                  segment code use32 class=code
+    18                                  
+    19                                  start:
+    20                                      
+    21 00000000 B902000000                  mov ecx, 2
+    22 00000005 BB00000000                  mov ebx,0
+    23                                      
+    24                                      repeta:
+    25 0000000A 68[00000000]                    push dword nr
+    26 0000000F 68[08000000]                    push dword format1
+    27 00000014 FF15[00000000]                  call [scanf]
+    28 0000001A 83C408                          add esp,4*2
+    29                                          
+    30 0000001D A1[00000000]                    mov eax,[nr]
+    31 00000022 8B15[04000000]                  mov edx,[max]
+    32                                          
+    33 00000028 39D8                            cmp eax, ebx
+    34 0000002A 7410                            je afara
+    35                                          
+    36 0000002C 39D0                            cmp eax,edx
+    37 0000002E 7C05                            jl iesire
+    38 00000030 A3[04000000]                        mov [max],eax
+    39                                          iesire:
+    40 00000035 B902000000                      mov ecx,2
+    41 0000003A E2CE                        loop repeta
+    42                                      afara:
+    43                                  
+    44 0000003C FF35[04000000]              push dword [max]
+    45 00000042 68[0B000000]                push dword format2
+    46 00000047 FF15[00000000]              call [printf]
+    47 0000004D 83C408                      add esp,4*2
+    48                                      
+    49 00000050 6A00                    push dword 0
+    50 00000052 FF15[00000000]          call [exit]

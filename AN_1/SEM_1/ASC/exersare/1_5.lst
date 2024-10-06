@@ -1,0 +1,36 @@
+     1                                  ;Se dau doua numere naturale a si b (a, b: word, definite in segmentul de date). Sa se calculeze a/b si sa se afiseze catul si restul impartirii in urmatorul format: "Cat = <cat>, rest = <rest>" Exemplu: pentru a=23
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10                                  
+    11 00000000 9600                    a dw 150
+    12 00000002 0D00                    b dw 13
+    13 00000004 <res 00000002>          restul resw 1
+    14 00000006 <res 00000002>          cat resw 1
+    15 00000008 6361743D2025642C20-     mesaj db "cat= %d, rest= %d", 0
+    15 00000011 726573743D20256400 
+    16                                  
+    17                                  segment code use32 class=code
+    18                                  
+    19                                  start:
+    20 00000000 B800000000                  mov eax,0
+    21 00000005 BA00000000                  mov edx,0
+    22 0000000A 66A1[00000000]              mov ax,[a]
+    23 00000010 66F73D[02000000]            idiv word [b]
+    24 00000017 66A3[06000000]              mov [cat],ax
+    25 0000001D 668915[04000000]            mov [restul],dx
+    26                                      
+    27                                      
+    28 00000024 52                          push dword edx
+    29 00000025 50                          push dword eax
+    30 00000026 68[08000000]                push dword mesaj
+    31 0000002B FF15[00000000]              call [printf]
+    32 00000031 83C40C                      add esp,4*3
+    33                                      
+    34 00000034 6A00                    push dword 0
+    35 00000036 FF15[00000000]          call [exit]

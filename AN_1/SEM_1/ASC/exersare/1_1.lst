@@ -1,0 +1,57 @@
+     1                                  ;Sa se citeasca de la tastatura doua numere (in baza 10) si sa se calculeze produsul lor. Rezultatul inmultirii se va salva in memorie in variabila "rezultat" (definita in segmentul de date).
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit, printf, scanf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import scanf msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                  
+    12 00000000 <res 00000004>          a resd 1
+    13 00000004 <res 00000004>          b resd 1
+    14 00000008 <res 00000008>          rezultat resq 1
+    15 00000010 4E756D6172756C2061-     mesaj1 db "Numarul a este: ", 0
+    15 00000019 20657374653A2000   
+    16 00000021 4E756D6172756C2062-     mesaj2 db "Numarul b este: ", 0
+    16 0000002A 20657374653A2000   
+    17 00000032 256400                  format db "%d", 0
+    18 00000035 52657A756C74617420-     format2 db "Rezultat este: %lld", 0
+    18 0000003E 657374653A20256C6C-
+    18 00000047 6400               
+    19                                  
+    20                                  segment code use32 class=code
+    21                                  
+    22                                  start:
+    23 00000000 68[10000000]                push dword mesaj1
+    24 00000005 FF15[00000000]              call [printf]
+    25 0000000B 83C404                      add esp,4*1
+    26                                  
+    27 0000000E 68[00000000]                push dword a
+    28 00000013 68[32000000]                push dword format
+    29 00000018 FF15[00000000]              call [scanf]
+    30 0000001E 83C408                      add esp,4*2
+    31                                      
+    32 00000021 68[21000000]                push dword mesaj2
+    33 00000026 FF15[00000000]              call [printf]
+    34 0000002C 83C404                      add esp,4*1
+    35                                  
+    36 0000002F 68[04000000]                push dword b
+    37 00000034 68[32000000]                push dword format
+    38 00000039 FF15[00000000]              call [scanf]
+    39 0000003F 83C408                      add esp,4*2
+    40                                      
+    41 00000042 A1[00000000]                mov eax,[a]
+    42 00000047 F72D[04000000]              imul dword [b]
+    43 0000004D A3[08000000]                mov dword [rezultat],eax
+    44 00000052 8915[0C000000]              mov dword [rezultat+4],edx
+    45                                      
+    46 00000058 FF35[0C000000]              push dword [rezultat+4]
+    47 0000005E FF35[08000000]              push dword [rezultat]
+    48 00000064 68[35000000]                push dword format2
+    49 00000069 FF15[00000000]              call [printf]
+    50 0000006F 83C408                      add esp,4*2
+    51                                      
+    52 00000072 6A00                    push dword 0
+    53 00000074 FF15[00000000]          call [exit]
