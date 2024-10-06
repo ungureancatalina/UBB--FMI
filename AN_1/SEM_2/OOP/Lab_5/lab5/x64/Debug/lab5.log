@@ -1,0 +1,6 @@
+﻿  controller.c
+  ui.c
+  validator.c
+  Generating Code...
+x64\Debug\array.obj : warning LNK4042: object specified more than once; extras ignored
+  lab5.vcxproj -> C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\x64\Debug\lab5.exe

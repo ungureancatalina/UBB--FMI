@@ -1,0 +1,21 @@
+[2024-03-27 09:12:03] [info] Start Program:
+Path:"C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\x64\Debug\lab5.exe"
+Arguments:
+Working directory: "C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\lab5\"
+Modules: Selected: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\x64\Debug\lab5.exe Excluded: 
+Sources: Selected: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\lab5 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\ungur\AppData\Local\Temp\52t00pyc.qqm 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-03-27 09:12:03] [info] Module: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\x64\Debug\lab5.exe is selected because it matches selected pattern: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\5\x64\Debug\lab5.exe
+[2024-03-27 09:12:07] [info] ----------------------------------------------------
+[2024-03-27 09:12:07] [info] Coverage binary generated in file: C:\Users\ungur\AppData\Local\Temp\52t00pyc.qqm
+[2024-03-27 09:12:07] [info] ----------------------------------------------------
