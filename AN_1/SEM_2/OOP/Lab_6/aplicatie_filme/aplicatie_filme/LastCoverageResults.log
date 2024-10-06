@@ -1,0 +1,21 @@
+[2024-04-08 16:48:35] [info] Start Program:
+Path:"C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\x64\Debug\aplicatie_filme.exe"
+Arguments:
+Working directory: "C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme\"
+Modules: Selected: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\x64\Debug\aplicatie_filme.exe Excluded: 
+Sources: Selected: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\aplicatie_filme Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\ungur\AppData\Local\Temp\dcfqt2uy.jxn 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-04-08 16:48:35] [info] Module: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\x64\Debug\aplicatie_filme.exe is selected because it matches selected pattern: C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\6,7\aplicatie_filme\x64\Debug\aplicatie_filme.exe
+[2024-04-08 16:48:41] [info] ----------------------------------------------------
+[2024-04-08 16:48:41] [info] Coverage binary generated in file: C:\Users\ungur\AppData\Local\Temp\dcfqt2uy.jxn
+[2024-04-08 16:48:41] [info] ----------------------------------------------------
