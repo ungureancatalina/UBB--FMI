@@ -1,0 +1,12 @@
+     1                                  bits 32 
+     2                                  
+     3                                  global creare
+     4                                  
+     5                                  ;definire procedura
+     6                                  creare: 
+     7                                      ;in al va rezulta numarul corespunzator reprezentarii binare
+     8 00000000 AC                          lodsb
+     9 00000001 B330                        mov bl, '0'
+    10 00000003 28D8                        sub al,bl
+    11                                      
+    12 00000005 C3                          ret
