@@ -1,0 +1,5 @@
+﻿  ex7.cpp
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\2\ex7\ex7\ex7.cpp(20,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\2\ex7\ex7\ex7.cpp(26,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\2\ex7\ex7\ex7.cpp(33,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ex7.vcxproj -> C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\2\ex7\x64\Debug\ex7.exe
