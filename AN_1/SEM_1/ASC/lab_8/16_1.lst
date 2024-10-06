@@ -1,0 +1,62 @@
+     1                                  ;Sa se citeasca de la tastatura doua numere a si b (in baza 10). Sa se calculeze si sa se afiseze media lor aritmetica in baza 16.
+     2                                  
+     3                                  bits 32 
+     4                                  global start
+     5                                  
+     6                                  extern exit, printf, scanf          
+     7                                  import exit msvcrt.dll     
+     8                                  import printf msvcrt.dll     
+     9                                  import scanf msvcrt.dll   
+    10                                  
+    11                                  segment data use32 class=data
+    12                                  
+    13 00000000 00000000                a dd 0  
+    14 00000004 00000000                b dd 0     
+    15 00000008 4E756D6172756C2063-     message1 db "Numarul citit este a= ", 0  
+    15 00000011 697469742065737465-
+    15 0000001A 20613D2000         
+    16 0000001F 4E756D6172756C2063-     message2 db "Numarul citit este b= ", 0  
+    16 00000028 697469742065737465-
+    16 00000031 20623D2000         
+    17 00000036 256400                  format db "%d", 0 
+    18 00000039 4D6564696120617269-     format2 db "Media aritmetica a lui a si b este: %x", 0
+    18 00000042 746D65746963612061-
+    18 0000004B 206C75692061207369-
+    18 00000054 206220657374653A20-
+    18 0000005D 257800             
+    19                                    
+    20                                  segment code use32 class=code
+    21                                  start:
+    22                                      ;se afiseaza primul mesaj pt citirea lui a
+    23 00000000 68[08000000]                push dword message1 
+    24 00000005 FF15[00000000]              call [printf]
+    25 0000000B 83C404                      add  esp,4*1
+    26                                      ;se citeste de la tastatura a 
+    27 0000000E 68[00000000]                push dword a
+    28 00000013 68[36000000]                push dword format
+    29 00000018 FF15[00000000]              call [scanf]
+    30 0000001E 83C408                      add esp,4*2
+    31                                      
+    32                                      ;se afiseaza al doilea mesaj pt citirea lui b
+    33 00000021 68[1F000000]                push  dword message2 
+    34 00000026 FF15[00000000]              call  [printf]
+    35 0000002C 83C404                      add  esp,4*1
+    36                                      ;se citeste de la tastatura b
+    37 0000002F 68[04000000]                push dword b
+    38 00000034 68[36000000]                push dword format
+    39 00000039 FF15[00000000]              call [scanf]
+    40 0000003F 83C408                      add esp,4*2
+    41                                      
+    42                                      ;se calculeaza media aritmetica in eax
+    43 00000042 A1[00000000]                mov eax,[a]
+    44 00000047 0305[04000000]              add eax,[b]
+    45 0000004D D1F8                        sar eax,1
+    46                                      
+    47                                      ;se afiseaza media aritmetica
+    48 0000004F 50                          push dword eax
+    49 00000050 68[39000000]                push dword format2
+    50 00000055 FF15[00000000]              call [printf]
+    51 0000005B 83C408                      add esp,4*2
+    52                                      
+    53 0000005E 6A00                    push dword 0 
+    54 00000060 FF15[00000000]          call [exit] 
