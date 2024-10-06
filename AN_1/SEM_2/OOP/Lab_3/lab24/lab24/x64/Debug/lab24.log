@@ -1,0 +1,9 @@
+﻿  functionalitati.c
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\3,4\lab24\lab24\functionalitati.c(15,6): error C2220: the following warning is treated as an error
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\3,4\lab24\lab24\functionalitati.c(15,6): warning C4101: 'old': unreferenced local variable
+  domain.c
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\3,4\lab24\lab24\domain.c(114,5): error C2220: the following warning is treated as an error
+C:\Users\ungur\OneDrive\Desktop\SEM 2\oop\lab\3,4\lab24\lab24\domain.c(114,5): warning C4101: 'e': unreferenced local variable
+  participant.c
+  teste.c
+  Generating Code...
