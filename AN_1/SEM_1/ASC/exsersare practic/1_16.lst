@@ -1,0 +1,58 @@
+     1                                  ;Sa se citeasca de la tastatura doua numere a si b (in baza 10). Sa se calculeze si sa se afiseze media lor aritmetica in baza 16.
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf,scanf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import scanf msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                  
+    12 00000000 <res 00000004>          a resd 1
+    13 00000004 <res 00000004>          b resd 1
+    14 00000008 <res 00000004>          rezultat resd 1
+    15 0000000C 613D2000                mesaj1 db "a= ", 0
+    16 00000010 623D2000                mesaj2 db "b= ", 0
+    17 00000014 256400                  format1 db "%d", 0
+    18 00000017 72657A756C7461743D-     format2 db "rezultat= %x", 0
+    18 00000020 20257800           
+    19                                  
+    20                                  segment code use32 class=code
+    21                                  
+    22                                  start:
+    23                                          
+    24 00000000 68[0C000000]                push dword mesaj1
+    25 00000005 FF15[00000000]              call [printf]
+    26 0000000B 83C404                      add esp,4*1   
+    27                                          
+    28 0000000E 68[00000000]                push dword a
+    29 00000013 68[14000000]                push dword format1
+    30 00000018 FF15[00000000]              call [scanf]
+    31 0000001E 83C408                      add esp,4*2
+    32                                      
+    33 00000021 68[10000000]                push dword mesaj2
+    34 00000026 FF15[00000000]              call [printf]
+    35 0000002C 83C404                      add esp,4*1   
+    36                                          
+    37 0000002F 68[04000000]                push dword b
+    38 00000034 68[14000000]                push dword format1
+    39 00000039 FF15[00000000]              call [scanf]
+    40 0000003F 83C408                      add esp,4*2
+    41                                      
+    42 00000042 BA00000000                  mov edx,0
+    43 00000047 A1[00000000]                mov eax,[a]
+    44 0000004C 0305[04000000]              add eax,[b]
+    45 00000052 83D200                      adc edx,0
+    46 00000055 BB02000000                  mov ebx, 2
+    47 0000005A F7FB                        idiv ebx
+    48                                      
+    49 0000005C A3[08000000]                mov [rezultat],eax  
+    50                                          
+    51 00000061 FF35[08000000]              push dword [rezultat]
+    52 00000067 68[17000000]                push dword format2
+    53 0000006C FF15[00000000]              call [printf]
+    54 00000072 83C408                      add esp,4*2
+    55                                      
+    56 00000075 6A00                    push dword 0
+    57 00000077 FF15[00000000]          call [exit]

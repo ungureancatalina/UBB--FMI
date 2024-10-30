@@ -1,0 +1,35 @@
+     1                                  ;Sa se citeasca de la tastatura un numar in baza 16 si sa se afiseze valoarea acelui numar in baza 10. Exemplu: Se citeste: 1D; se afiseaza: 29
+     2                                  bits 32
+     3                                  global start
+     4                                  extern exit,printf,scanf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  import scanf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10                                  
+    11 00000000 <res 00000004>          a resd 1
+    12 00000004 257800                  format db "%x", 0
+    13 00000007 613D2000                mesaj db "a= ", 0
+    14 0000000B 613D20256400            format2 db "a= %d", 0
+    15                                  
+    16                                  segment code use32 class=code
+    17                                  
+    18                                  start:
+    19                                  
+    20 00000000 68[07000000]                push dword mesaj
+    21 00000005 FF15[00000000]              call [printf]
+    22 0000000B 83C404                      add esp,4*1
+    23                                      
+    24 0000000E 68[00000000]                push dword a
+    25 00000013 68[04000000]                push dword format
+    26 00000018 FF15[00000000]              call [scanf]
+    27 0000001E 83C408                      add esp,4*2
+    28                                          
+    29 00000021 FF35[00000000]              push dword [a]
+    30 00000027 68[0B000000]                push dword format2
+    31 0000002C FF15[00000000]              call [printf]
+    32 00000032 83C408                      add esp,4*2
+    33                                      
+    34 00000035 6A00                    push dword 0
+    35 00000037 FF15[00000000]          call [exit]

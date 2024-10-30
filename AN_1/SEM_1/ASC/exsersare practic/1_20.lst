@@ -1,0 +1,62 @@
+     1                                  ;Sa se citeasca de la tastatura in baza 16 doua numere a si b de tip dword si sa se afiseze suma partilor low si diferenta partilor high. Exemplu: a = 00101A35h, b = 00023219h suma = 4C4Eh diferenta = Eh
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf,scanf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import scanf msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                  
+    12 00000000 <res 00000004>          a resd 1
+    13 00000004 <res 00000004>          b resd 1
+    14 00000008 0000                    suma dw 0
+    15 0000000A 0000                    dif dw 0
+    16 0000000C 613D2000                mesaj1 db "a= ", 0
+    17 00000010 623D2000                mesaj2 db "b= ", 0
+    18 00000014 257800                  format1 db "%x", 0
+    19 00000017 73756D613D2025782C-     format2 db "suma= %x, diferenta= %x", 0
+    19 00000020 206469666572656E74-
+    19 00000029 613D20257800       
+    20                                  
+    21                                  segment code use32 class=code
+    22                                  
+    23                                  start:
+    24                                          
+    25 00000000 68[0C000000]                push dword mesaj1
+    26 00000005 FF15[00000000]              call [printf]
+    27 0000000B 83C404                      add esp,4*1   
+    28                                          
+    29 0000000E 68[00000000]                push dword a
+    30 00000013 68[14000000]                push dword format1
+    31 00000018 FF15[00000000]              call [scanf]
+    32 0000001E 83C408                      add esp,4*2
+    33                                      
+    34 00000021 68[10000000]                push dword mesaj2
+    35 00000026 FF15[00000000]              call [printf]
+    36 0000002C 83C404                      add esp,4*1   
+    37                                          
+    38 0000002F 68[04000000]                push dword b
+    39 00000034 68[14000000]                push dword format1
+    40 00000039 FF15[00000000]              call [scanf]
+    41 0000003F 83C408                      add esp,4*2
+    42                                      
+    43 00000042 B800000000                  mov eax,0
+    44 00000047 BB00000000                  mov ebx,0
+    45 0000004C 66A1[00000000]              mov ax,[a]
+    46 00000052 660305[04000000]            add ax,[b]
+    47 00000059 668B1D[02000000]            mov bx,[a+2]
+    48 00000060 662B1D[06000000]            sub bx,[b+2]
+    49                                      
+    50 00000067 A3[08000000]                mov [suma],eax
+    51 0000006C 891D[0A000000]              mov [dif],ebx    
+    52                                          
+    53 00000072 53                          push dword ebx
+    54 00000073 50                          push dword eax
+    55 00000074 68[17000000]                push dword format2
+    56 00000079 FF15[00000000]              call [printf]
+    57 0000007F 83C40C                      add esp,4*3
+    58                                      
+    59 00000082 6A00                    push dword 0
+    60 00000084 FF15[00000000]          call [exit]

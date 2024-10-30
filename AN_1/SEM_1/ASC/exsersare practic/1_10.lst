@@ -1,0 +1,37 @@
+     1                                  ;Sa se citeasca de la tastatura un numar in baza 10 si sa se afiseze valoarea acelui numar in baza 16. Exemplu: Se citeste: 28; se afiseaza: 1C
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf,scanf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import scanf msvcrt.dll
+     9                                  
+    10                                  segment data use32 class=data
+    11                                  
+    12 00000000 <res 00000004>          a resd 1
+    13 00000004 256400                  format db "%d", 0
+    14 00000007 613D2000                mesaj db "a= ", 0
+    15 0000000B 257800                  format2 db "%x", 0
+    16                                  
+    17                                  segment code use32 class=code
+    18                                  
+    19                                  start:
+    20                                  
+    21 00000000 68[07000000]                push dword mesaj
+    22 00000005 FF15[00000000]              call [printf]
+    23 0000000B 83C404                      add esp,4*1
+    24                                      
+    25 0000000E 68[00000000]                push dword a
+    26 00000013 68[04000000]                push dword format
+    27 00000018 FF15[00000000]              call [scanf]
+    28 0000001E 83C408                      add esp,4*2
+    29                                          
+    30 00000021 FF35[00000000]              push dword [a]
+    31 00000027 68[0B000000]                push dword format2
+    32 0000002C FF15[00000000]              call [printf]
+    33 00000032 83C408                      add esp,4*2
+    34                                      
+    35                                      
+    36 00000035 6A00                    push dword 0
+    37 00000037 FF15[00000000]          call [exit]

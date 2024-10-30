@@ -1,0 +1,30 @@
+     1                                  ;Se da un numar natural negativ a (a: dword). Sa se afiseze valoarea lui in baza 10 si in baza 16, in urmatorul format: "a = <base_10> (baza 10), a = <base_16> (baza 16)"
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10                                  
+    11 00000000 ECFFFFFF                a dd -20
+    12 00000004 613D2025640D0A00        format1 db "a= %d", 13,10, 0
+    13 0000000C 613D20257800            format2 db "a= %x", 0
+    14                                  
+    15                                  segment code use32 class=code
+    16                                  
+    17                                  start:
+    18                                          
+    19 00000000 FF35[00000000]              push dword [a]
+    20 00000006 68[04000000]                push dword format1
+    21 0000000B FF15[00000000]              call [printf]
+    22 00000011 83C408                      add esp,4*2
+    23                                      
+    24 00000014 FF35[00000000]              push dword [a]
+    25 0000001A 68[0C000000]                push dword format2
+    26 0000001F FF15[00000000]              call [printf]
+    27 00000025 83C408                      add esp,4*2
+    28                                      
+    29 00000028 6A00                    push dword 0
+    30 0000002A FF15[00000000]          call [exit]
