@@ -1,0 +1,37 @@
+     1                                  bits 32 
+     2                                  global start
+     3                                  extern exit 
+     4                                  import exit msvcrt.dll 
+     5                                  segment data use32 class=data
+     6                                  ;calculati c-a-(b+a)+c  a - byte, b - word, c - double word, d - qword - Interpretare fara semn
+     7                                  
+     8 00000000 08                      a db 8
+     9 00000001 0500                    b dw 5
+    10 00000003 0A000000                c dd 10
+    11 00000007 0700000000000000        d dq 7
+    12                                  
+    13                                  
+    14                                  segment code use32 class=code
+    15                                  start:
+    16                                  
+    17                                  ;b+a
+    18 00000000 66B80000                mov ax, 0
+    19 00000004 A0[00000000]            mov al, [a]
+    20 00000009 660305[01000000]        add ax, [b]
+    21                                      
+    22                                  ;c-a
+    23 00000010 8B1D[03000000]          mov ebx, [c]
+    24 00000016 B900000000              mov ecx, 0
+    25 0000001B 8A0D[00000000]          mov cl, [a]
+    26 00000021 29CB                    sub ebx, ecx
+    27                                  
+    28                                  ;c-a-(b+a)
+    29 00000023 BA00000000              mov edx, 0 
+    30 00000028 6689C2                  mov dx, ax
+    31 0000002B 29DA                    sub edx,ebx
+    32                                  
+    33                                  ;c-a-(b+a)+c
+    34 0000002D 01CA                    add edx,ecx  
+    35                                    
+    36 0000002F 6A00                    push dword 0 
+    37 00000031 FF15[00000000]          call [exit] 

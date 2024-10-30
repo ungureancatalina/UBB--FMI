@@ -1,0 +1,42 @@
+     1                                  bits 32 
+     2                                  global start
+     3                                  extern exit 
+     4                                  import exit msvcrt.dll 
+     5                                  segment data use32 class=data
+     6                                  ;calculati (d-a)-(a-c)-d cu a - byte, b - word, c - double word, d - qword - Interpretare cu semn
+     7                                  
+     8 00000000 04                      a db 4
+     9 00000001 0500                    b dw 5
+    10 00000003 0C000000                c dd 12
+    11 00000007 1300000000000000        d dq 19
+    12                                  
+    13                                  segment code use32 class=code
+    14                                  start:
+    15                                  
+    16                                  ;(d-a)
+    17 00000000 8B1D[07000000]          mov ebx, [d]
+    18 00000006 8B0D[0B000000]          mov ecx, [d+4]
+    19 0000000C A0[00000000]            mov al, [a]
+    20 00000011 6698                    cbw
+    21 00000013 98                      cwde
+    22 00000014 99                      cdq
+    23 00000015 29C3                    sub ebx,eax
+    24 00000017 19D1                    sbb ecx,edx
+    25                                  
+    26                                  ;(a-c)
+    27 00000019 A0[00000000]            mov al,[a]
+    28 0000001E 6698                    cbw
+    29 00000020 98                      cwde
+    30 00000021 2B05[03000000]          sub eax,[c]
+    31                                  
+    32                                  ;(d-a)-(a-c)
+    33 00000027 29C3                    sub ebx,eax
+    34                                  
+    35                                  ;(d-a)-(a-c)-d
+    36 00000029 A1[07000000]            mov eax,[d]
+    37 0000002E 8B15[0B000000]          mov edx, [d+4]
+    38 00000034 29C3                    sub ebx,eax
+    39 00000036 19D1                    sbb ecx,edx
+    40                                  
+    41 00000038 6A00                    push dword 0 
+    42 0000003A FF15[00000000]          call [exit] 

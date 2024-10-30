@@ -1,0 +1,176 @@
+     1                                  ;Se da un fisier text. Sa se obtina un alt fisier cu textul din primul fisier, dar in care caracterul de pe pozitia i se va interschimba cu caracterul de pe pozitia N/2+i, unde N este dimensiunea primului fisier in 
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  
+     6                                  extern exit,fprintf,fopen,fclose,fread
+     7                                  import exit msvcrt.dll
+     8                                  import fprintf msvcrt.dll
+     9                                  import fopen msvcrt.dll
+    10                                  import fread msvcrt.dll
+    11                                  import fclose msvcrt.dll
+    12                                  
+    13                                  segment data use32 class=data
+    14                                  
+    15                                  len equ 101
+    16 00000000 FFFFFFFF                descriptor1 dd -1
+    17 00000004 666973312E74787400      nume_fisier1 db "fis1.txt", 0
+    18 0000000D 7200                    mod_acces1 db "r", 0
+    19 0000000F 00<rept>                text1 times len db 0
+    20                                  
+    21 00000074 FFFFFFFF                descriptor2 dd -1
+    22 00000078 666973322E74787400      nume_fisier2 db "fis2.txt", 0
+    23 00000081 7700                    mod_acces2 db "w", 0
+    24 00000083 00<rept>                text2 times len db 0
+    25 000000E8 257300                  format db "%s", 0
+    26                                  
+    27 000000EB 00000000                n dd 0   ;lungimea textului
+    28 000000EF 02000000                i dd 2   ;poz i    
+    29 000000F3 00000000                nr dd 0  ;poz n/2+i
+    30 000000F7 00                      elem_i db 0     ;aici salvez elem de pe poz i
+    31 000000F8 00                      elem_nr db 0    ;aici salvez elem de pe poz n/2+i
+    32                                  
+    33                                  segment code use32 class=code
+    34                                  
+    35                                  start:
+    36                                  
+    37                                      ;primul fisier
+    38                                  
+    39                                      ;se deschide fis1
+    40 00000000 68[0D000000]                push dword mod_acces1
+    41 00000005 68[04000000]                push dword nume_fisier1
+    42 0000000A FF15[00000000]              call [fopen]
+    43 00000010 83C408                      add esp,4*2
+    44                                      
+    45 00000013 A3[00000000]                mov [descriptor1],eax
+    46                                  
+    47                                      ;daca nu se deschide bine iese din program
+    48 00000018 83F800                      cmp eax,0
+    49 0000001B 0F8456010000                    je final
+    50                                          
+    51                                      ;se citeste text1
+    52 00000021 FF35[00000000]              push dword [descriptor1]
+    53 00000027 6A65                        push dword len
+    54 00000029 6A01                        push dword 1
+    55 0000002B 68[0F000000]                push dword text1
+    56 00000030 FF15[00000000]              call [fread]
+    57 00000036 83C410                      add esp,4*4
+    58                                  
+    59                                      ;in eax se va afla lungimea textului1
+    60                                      ;calculez si salvez in nr n/2+i
+    61 00000039 A3[EB000000]                mov [n],eax
+    62 0000003E 60                          pushad
+    63 0000003F A1[EB000000]                mov eax,[n]
+    64 00000044 BA00000000                  mov edx,0
+    65 00000049 BB02000000                  mov ebx,2
+    66 0000004E F7FB                        idiv ebx
+    67 00000050 0305[EF000000]              add eax,[i]
+    68 00000056 A3[F3000000]                mov [nr],eax
+    69                                      
+    70                                      ;daca i sau nr sunt mai mari decat lungimea textului
+    71 0000005B A1[EF000000]                mov eax,[i]
+    72 00000060 3B05[EB000000]              cmp eax,[n]
+    73 00000066 0F8DC6000000                    jge afara
+    74 0000006C A1[F3000000]                mov eax,[nr]
+    75 00000071 3B05[EB000000]              cmp eax,[n]
+    76 00000077 0F8DB5000000                    jge afara
+    77 0000007D 61                          popad
+    78                                      
+    79                                      ;parcurg text1 pt a afla cele 2 elemente
+    80                                      ;in ebx se salveaza pozitia curenta
+    81 0000007E 89C1                        mov ecx,eax
+    82 00000080 BE[0F000000]                mov esi,text1
+    83 00000085 BB00000000                  mov ebx,0       
+    84                                      repeta:
+    85 0000008A AC                              lodsb
+    86 0000008B 3B1D[EF000000]                  cmp ebx,[i]
+    87 00000091 7505                                jne urm
+    88 00000093 A2[F7000000]                    mov [elem_i],al 
+    89                                          urm: 
+    90 00000098 3B1D[F3000000]                  cmp ebx,[nr]
+    91 0000009E 7505                                jne urm2
+    92 000000A0 A2[F8000000]                    mov [elem_nr],al
+    93                                          urm2:   
+    94 000000A5 43                              inc ebx
+    95 000000A6 E2E2                        loop repeta
+    96                                      
+    97                                      ;pargur iar pt a interschimba
+    98                                      ;in ebx se salveaza pozitia curenta
+    99 000000A8 8B0D[EB000000]              mov ecx,[n]
+   100 000000AE BE[0F000000]                mov esi,text1
+   101 000000B3 BF[83000000]                mov edi,text2
+   102 000000B8 BB00000000                  mov ebx,0       
+   103                                      repeta2:
+   104 000000BD AC                              lodsb
+   105 000000BE 3B1D[EF000000]                  cmp ebx,[i]
+   106 000000C4 7505                                jne urmm
+   107 000000C6 A0[F8000000]                    mov al,[elem_nr]
+   108                                          urmm: 
+   109 000000CB 3B1D[F3000000]                  cmp ebx,[nr]
+   110 000000D1 7505                                jne urmm2
+   111 000000D3 A0[F7000000]                    mov al,[elem_i]
+   112                                          urmm2:   
+   113 000000D8 AA                              stosb
+   114 000000D9 43                              inc ebx
+   115 000000DA E2E1                        loop repeta2
+   116                                          
+   117                                      ;se inchide fis1
+   118 000000DC FF35[00000000]              push dword [descriptor1]
+   119 000000E2 FF15[00000000]              call [fclose]
+   120 000000E8 83C404                      add esp,4*1
+   121                                      
+   122                                      
+   123                                      ;al doilea fisier
+   124                                      ;se deschide fis2
+   125 000000EB 68[81000000]                push dword mod_acces2
+   126 000000F0 68[78000000]                push dword nume_fisier2
+   127 000000F5 FF15[00000000]              call [fopen]
+   128 000000FB 83C408                      add esp,4*2
+   129 000000FE A3[74000000]                mov [descriptor2],eax
+   130                                  
+   131                                      ;daca nu se deschide bine iese din program
+   132 00000103 83F800                      cmp eax,0
+   133 00000106 746F                            je final
+   134                                      
+   135                                      ;se scrie in fis2 textul2 schimbat
+   136 00000108 68[83000000]                push dword text2
+   137 0000010D 68[E8000000]                push dword format
+   138 00000112 FF35[74000000]              push dword [descriptor2]
+   139 00000118 FF15[00000000]              call [fprintf]
+   140 0000011E 83C40C                      add esp,4*3
+   141                                          
+   142                                      ;se inchide fis2
+   143 00000121 FF35[74000000]              push dword [descriptor2]
+   144 00000127 FF15[00000000]              call [fclose]
+   145 0000012D 83C404                      add esp,4*1
+   146                                      
+   147 00000130 EB45                        jmp final
+   148                                      
+   149                                      afara:
+   150                                      ;se deschide fis2
+   151 00000132 68[81000000]                push dword mod_acces2
+   152 00000137 68[78000000]                push dword nume_fisier2
+   153 0000013C FF15[00000000]              call [fopen]
+   154 00000142 83C408                      add esp,4*2
+   155 00000145 A3[74000000]                mov [descriptor2],eax
+   156                                  
+   157                                      ;daca nu se deschide bine iese din program
+   158 0000014A 83F800                      cmp eax,0
+   159 0000014D 7428                            je final
+   160                                      
+   161                                      ;se scrie in fis2 textul1 neschimbat deoarece o pozitie nu poate fi accesata
+   162 0000014F 68[0F000000]                push dword text1
+   163 00000154 68[E8000000]                push dword format
+   164 00000159 FF35[74000000]              push dword [descriptor2]
+   165 0000015F FF15[00000000]              call [fprintf]
+   166 00000165 83C40C                      add esp,4*3
+   167                                          
+   168                                      ;se inchide fis2
+   169 00000168 FF35[74000000]              push dword [descriptor2]
+   170 0000016E FF15[00000000]              call [fclose]
+   171 00000174 83C404                      add esp,4*1
+   172                                          
+   173                                      final:
+   174                                    
+   175 00000177 6A00                    push dword 0
+   176 00000179 FF15[00000000]          call [exit]
