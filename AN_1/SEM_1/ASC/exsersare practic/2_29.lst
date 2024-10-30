@@ -1,0 +1,62 @@
+     1                                  ;Se da un fisier text. Fisierul contine numere (în baza 10) separate prin spatii. Sa se citeasca continutul acestui fisier, sa se determine maximul numerelor citite si sa se scrie rezultatul la sfarsitul fisierului
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,fclose,fscanf,fopen,fprintf
+     6                                  import exit msvcrt.dll
+     7                                  import fclose msvcrt.dll
+     8                                  import fscanf msvcrt.dll
+     9                                  import fopen msvcrt.dll
+    10                                  import fprintf msvcrt.dll
+    11                                  
+    12                                  
+    13                                  segment data use32 class=data
+    14                                  
+    15 00000000 32392E74787400          nume_fisier db "29.txt", 0
+    16 00000007 6100                    mod_acces db "a", 0
+    17 00000009 FFFFFFFF                descriptor dd -1
+    18 0000000D 256400                  format db "%d", 0
+    19 00000010 00000000                text dd 0
+    20 00000014 FFFFFFFF                max dd -1
+    21                                  
+    22                                  segment code use32 class=code
+    23                                  
+    24                                  start:
+    25                                          
+    26 00000000 68[07000000]                push dword mod_acces
+    27 00000005 68[00000000]                push dword nume_fisier
+    28 0000000A FF15[00000000]              call [fopen]
+    29 00000010 83C408                      add esp,4*2
+    30 00000013 A3[09000000]                mov [descriptor],eax
+    31                                      
+    32 00000018 83F800                      cmp eax,0
+    33 0000001B 745D                            je final
+    34                                     
+    35 0000001D B964000000                  mov ecx,100
+    36                                      repeta:
+    37 00000022 68[10000000]                    push dword text
+    38 00000027 68[0D000000]                    push dword format
+    39 0000002C FF35[09000000]                  push dword [descriptor]
+    40 00000032 FF15[00000000]                  call [fscanf]
+    41 00000038 83C40C                          add esp,4*3
+    42                                          
+    43 0000003B 8B1D[10000000]                  mov ebx, [text]
+    44 00000041 3B1D[14000000]                  cmp ebx,[max]
+    45 00000047 7E06                                jle maimic
+    46 00000049 891D[14000000]                  mov [max], ebx
+    47                                          maimic:
+    48 0000004F E2D1                        loop repeta
+    49                                      
+    50 00000051 FF35[14000000]              push dword [max]
+    51 00000057 68[0D000000]                push dword format
+    52 0000005C FF35[09000000]              push dword [descriptor]
+    53 00000062 FF15[00000000]              call [fprintf]
+    54 00000068 83C40C                      add esp,4*3
+    55                                      
+    56 0000006B FF35[09000000]              push dword [descriptor]
+    57 00000071 FF15[00000000]              call [fclose]
+    58 00000077 83C404                      add esp,4*1
+    59                                      
+    60                                      final:
+    61 0000007A 6A00                    push dword 0
+    62 0000007C FF15[00000000]          call [exit]

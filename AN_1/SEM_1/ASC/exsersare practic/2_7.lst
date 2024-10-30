@@ -1,0 +1,98 @@
+     1                                  ;Se da un fisier text. Sa se citeasca continutul fisierului, sa se determine litera mica (lowercase) cu cea mai mare frecventa si sa se afiseze acea litera, impreuna cu frecventa acesteia. Numele fisierului text est
+     2                                  
+     3                                  bits 32
+     4                                  global start
+     5                                  extern exit,printf,fclose,fread,fopen
+     6                                  import exit msvcrt.dll
+     7                                  import printf msvcrt.dll
+     8                                  import fclose msvcrt.dll
+     9                                  import fread msvcrt.dll
+    10                                  import fopen msvcrt.dll
+    11                                  
+    12                                  segment data use32 class=data
+    13                                  
+    14 00000000 372E74787400            nume_fisier db "7.txt", 0
+    15 00000006 7200                    mod_acces db "r", 0
+    16 00000008 FF                      descriptor db -1
+    17                                  len equ 100
+    18 00000009 00<rept>                text times len db 0 
+    19                                  
+    20 0000006D 00000000                max dd 0
+    21 00000071 00000000                lit dd 0
+    22                                  
+    23 00000075 00000000                c dd 0   ;lit din repetare
+    24 00000079 00000000                nr dd 0  ;frecv lit
+    25 0000007D 00000000                l dd 0  ;lung text
+    26                                  
+    27 00000081 6C69746572613D2025-     format db "litera= %c, frecventa= %d", 0
+    27 0000008A 632C20667265637665-
+    27 00000093 6E74613D20256400   
+    28                                  
+    29                                  segment code use32 class=code
+    30                                  
+    31                                  start:
+    32                                          
+    33 00000000 68[06000000]                push dword mod_acces
+    34 00000005 68[00000000]                push dword nume_fisier
+    35 0000000A FF15[00000000]              call [fopen]
+    36 00000010 83C408                      add esp,4*2
+    37 00000013 A3[08000000]                mov [descriptor],eax
+    38                                      
+    39 00000018 83F800                      cmp eax,0
+    40 0000001B 0F84AB000000                je final
+    41                                      
+    42 00000021 FF35[08000000]              push dword [descriptor]
+    43 00000027 6A64                        push dword len
+    44 00000029 6A01                        push dword 1
+    45 0000002B 68[09000000]                push dword text
+    46 00000030 FF15[00000000]              call [fread]
+    47 00000036 83C410                      add esp,4*4
+    48                                      
+    49 00000039 A3[7D000000]                mov [l],eax
+    50                                      
+    51 0000003E B97A000000                  mov ecx,'z'
+    52                                      repetare:
+    53 00000043 890D[75000000]                  mov [c],ecx
+    54 00000049 60                              pushad
+    55 0000004A BE[09000000]                    mov esi,text
+    56 0000004F 8B0D[7D000000]                  mov ecx,[l]
+    57                                          repeta:
+    58 00000055 B800000000                          mov eax,0
+    59 0000005A AC                                  lodsb
+    60 0000005B 3B05[75000000]                      cmp eax,[c]
+    61 00000061 7506                                jne dupa
+    62 00000063 FF05[79000000]                          inc dword [nr]
+    63                                              dupa:
+    64 00000069 E2EA                            loop repeta    
+    65 0000006B 61                              popad
+    66 0000006C 8B15[79000000]                  mov edx,[nr]
+    67 00000072 8B1D[6D000000]                  mov ebx,[max]
+    68 00000078 39DA                            cmp edx,ebx
+    69 0000007A 7E12                            jle afara
+    70 0000007C 8915[6D000000]                      mov dword [max],edx
+    71 00000082 8B1D[75000000]                      mov ebx, [c]
+    72 00000088 891D[71000000]                      mov dword [lit],ebx
+    73                                          afara:
+    74 0000008E C705[79000000]0000-             mov dword [nr],0
+    74 00000096 0000               
+    75                                          
+    76 00000098 BB61000000                      mov ebx,'a'
+    77 0000009D 39CB                            cmp ebx,ecx
+    78 0000009F 7402                            je iesi
+    79 000000A1 E2A0                        loop repetare
+    80                                      iesi:
+    81                                      
+    82 000000A3 FF35[6D000000]              push dword [max]
+    83 000000A9 FF35[71000000]              push dword [lit]
+    84 000000AF 68[81000000]                push dword format
+    85 000000B4 FF15[00000000]              call [printf]
+    86 000000BA 83C40C                      add esp,4*3
+    87                                      
+    88 000000BD FF35[08000000]              push dword [descriptor]
+    89 000000C3 FF15[00000000]              call [fclose]
+    90 000000C9 83C404                      add esp,4*1
+    91                                      
+    92                                      final:
+    93                                      
+    94 000000CC 6A00                    push dword 0
+    95 000000CE FF15[00000000]          call [exit]
