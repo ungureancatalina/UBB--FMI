@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #DFD1D8;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6fx.controller.UtilizatorController">
+    <children>
+        <Text layoutX="6.0" layoutY="40.0" text="UTILIZATORI" textAlignment="CENTER" wrappingWidth="920.0">
+            <font>
+                <Font name="DejaVu Sans Bold" size="32.0" />
+            </font>
+        </Text>
+
+        <TableView fx:id="tableView" layoutX="40.0" layoutY="100.0" prefHeight="300.0" prefWidth="920.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
+            <columns>
+                <TableColumn fx:id="tableIdUtilizator" minWidth="180.0" prefWidth="180.0" text="id" />
+                <TableColumn fx:id="tableLastNameUtilizator" minWidth="250.0" prefWidth="250.0" text="nume" />
+                <TableColumn fx:id="tableFirstNameUtilizator" minWidth="250.0" prefWidth="250.0" text="prenume" />
+            </columns>
+        </TableView>
+
+        <SplitPane dividerPositions="0.5" layoutX="40.0" layoutY="420.0" orientation="HORIZONTAL" prefHeight="120.0" prefWidth="920.0" style="-fx-background-color: #ffcede; -fx-border-color: #cc6699;">
+            <items>
+                <VBox alignment="CENTER" spacing="12.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
+                    <children>
+                        <TextField fx:id="cautare2" promptText="Cauta dupa nume" prefWidth="250.0" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" />
+                        <TextField fx:id="cautare1" promptText="Cauta dupa prenume" prefWidth="250.0" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" />
+                        <Button onAction="#handleCautare" text="Cauta utilizator" style="-fx-background-color: #572138; -fx-text-fill: white; -fx-border-color: #ffffff;" />
+                    </children>
+                </VBox>
+
+                <VBox alignment="CENTER" spacing="12.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
+                    <children>
+                        <Button onAction="#handleAddUtilizator" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #572138; -fx-border-color: #ffffff;  -fx-text-fill: white;" text="Adauga un prieten">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                        <Button onAction="#handleDeleteUtilizator" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #572138; -fx-border-color: #ffffff; -fx-text-fill: white;" text="Sterge prietenia">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                        <Button onAction="#handleOpenChat" prefHeight="50.0" prefWidth="180.0"
+                                style="-fx-background-color: #572138; -fx-border-color: #ffffff; -fx-text-fill: white;"
+                                text="Conversație">
+                            <font>
+                                <Font name="Inter Regular" size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

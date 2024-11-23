@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #DFD1D8;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6fx.controller.ChatController">
+    <children>
+        <TextField fx:id="cautare5" promptText="Cauta dupa nume" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" prefWidth="250.0" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;"/>
+        <TextField fx:id="cautare6" promptText="Cauta dupa prenume" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="20.0" prefWidth="250.0" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;"/>
+        <Button fx:id="chooseButton" text="Alege" onAction="#onChooseButtonClick" AnchorPane.leftAnchor="540.0" AnchorPane.topAnchor="20.0"  style="-fx-background-color: #572138; -fx-text-fill: white; -fx-border-color: #4b0027;"/>
+        <Label fx:id="utilizatoriAlesi" text="Utilizatori aleși:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0"  style="-fx-text-fill: #23010f; -fx-font-size: 14px;"/>
+        <ListView fx:id="utilizatoriList" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="100.0" prefHeight="150.0" prefWidth="560.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;"/>
+
+        <TextArea fx:id="chat" editable="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="260.0" prefWidth="560.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;"/>
+        <TextField fx:id="mesaje" promptText="Scrie mesajul" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="520.0" prefWidth="460.0"  style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;"/>
+        <Button fx:id="sendButton" text="Trimite" onAction="#onSendButtonClick" AnchorPane.leftAnchor="520.0" AnchorPane.topAnchor="520.0"  style="-fx-background-color: #572138; -fx-text-fill: white; -fx-border-color: #4b0027;"/>
+    </children>
+</AnchorPane>
+

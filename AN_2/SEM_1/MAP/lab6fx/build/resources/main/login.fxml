@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab6fx.controller.LoginController" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #DFD1D8;">
+    <children>
+        <VBox alignment="CENTER" layoutX="330.0" layoutY="150.0" spacing="20.0" style="-fx-background-color: #DFD1D8;">
+            <children>
+                <Label text="Autentificare" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #572138;" />
+                <TextField fx:id="cauta_nume" promptText="Nume" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" prefWidth="300.0" />
+                <TextField fx:id="cauta_prenume" promptText="Prenume" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" prefWidth="300.0" />
+                <PasswordField fx:id="cauta_parola" promptText="Parola" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" prefWidth="300.0" />
+                <Button text="Login" onAction="#handleLogin" style="-fx-background-color: #572138; -fx-text-fill: white;" prefWidth="150.0" />
+                <Label fx:id="errorLabel" textFill="red" style="-fx-font-size: 14px;"/>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
