@@ -5,6 +5,7 @@ import com.example.lab6fx.Observer;
 import com.example.lab6fx.domain.Prietenie;
 import com.example.lab6fx.domain.Tuple;
 import com.example.lab6fx.domain.Utilizator;
+import com.example.lab6fx.event.TipEvent;
 import com.example.lab6fx.event.UtilizatorEvent;
 import com.example.lab6fx.domain.validator.ValidationException;
 import com.example.lab6fx.repository.Repository;
@@ -43,7 +44,7 @@ public class PrietenieService implements Observable<UtilizatorEvent> {
         if(getAllPrietenii() != null){
             getAllPrietenii().forEach(p->{
                 if(p.getId().getLeft().equals(idUser1) && p.getId().getRight().equals(idUser2)){
-                    throw new ValidationException("The friendship already exist! ");
+                    throw new ValidationException("Exista deja prietenia ");
                 }
             });
             if (prietenie.getId().getLeft().equals(prietenie.getId().getRight())) {
@@ -59,11 +60,12 @@ public class PrietenieService implements Observable<UtilizatorEvent> {
 
     public Prietenie removePrietenie(Tuple<Long, Long> id)
     {
+        Tuple<Long, Long> orderedId = new Tuple<>(Math.min(id.getLeft(), id.getRight()), Math.max(id.getLeft(), id.getRight()));
         Long idUser1 = id.getLeft();
         Utilizator utilizator1 = repo_utilizator.findOne(idUser1).orElseThrow(() -> new ValidationException("Nu exista utilizatorul"));
         Long idUser2 = id.getRight();
         Utilizator utilizator2 = repo_utilizator.findOne(idUser2).orElseThrow(() -> new ValidationException("Nu exista utilizatorul"));
-        Prietenie pr = repo_prietenie.findOne(id).orElseThrow(() -> new ValidationException("Nu exista prietenia"));;
+        Prietenie pr = repo_prietenie.findOne(orderedId).orElseThrow(() -> new ValidationException("Nu exista prietenia"));;
         if (pr != null) {
             utilizator1.removePrieten(utilizator2);
             utilizator2.removePrieten(utilizator1);

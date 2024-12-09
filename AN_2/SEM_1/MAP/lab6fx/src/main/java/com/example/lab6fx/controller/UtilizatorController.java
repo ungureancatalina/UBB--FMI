@@ -4,6 +4,8 @@ import com.example.lab6fx.HelloApplication;
 import com.example.lab6fx.domain.*;
 import com.example.lab6fx.domain.validator.ValidationException;
 import com.example.lab6fx.event.TipEvent;
+import com.example.lab6fx.repository.Page;
+import com.example.lab6fx.repository.Pageable;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -62,7 +64,20 @@ public class UtilizatorController implements Observer<UtilizatorEvent> {
     TextField cautare2;
 
     @FXML
+    TextField numar_pagini;
+
+
+    @FXML
     private Label notificareLabel;
+
+    private int currentPage = 0;
+    private int pageSize = 10;
+    private int totalElements;
+
+    @FXML
+    private Button previousPageButton;
+    @FXML
+    private Button nextPageButton;
 
     @FXML
     public void initialize() {
@@ -71,6 +86,62 @@ public class UtilizatorController implements Observer<UtilizatorEvent> {
         tableLastNameUtilizator.setCellValueFactory(new PropertyValueFactory<Utilizator, String>("lastName"));
         tableFirstNameUtilizator.setCellValueFactory(new PropertyValueFactory<Utilizator, String>("firstName"));
         tableView.setItems(model);
+        numar_pagini.textProperty().addListener((observable, oldValue, newValue) -> {
+            try {
+                if (!newValue.isEmpty()) {
+                    int newPageSize = Integer.parseInt(newValue.trim());
+                    if (newPageSize > 0) {
+                        pageSize = newPageSize;
+                        currentPage = 0;
+                        initModel();
+                    } else {
+                        notificareLabel.setText("Nr de pagini nu poate fi negativ");
+                    }
+                }
+            } catch (NumberFormatException e) {
+                notificareLabel.setText("Nr de pagini este invalid");
+            } catch (SQLException e) {
+                notificareLabel.setText("Eroare: " + e.getMessage());
+            }
+        });
+
+        cautare1.textProperty().addListener((observable, oldValue, newValue) -> updateCautare());
+        cautare2.textProperty().addListener((observable, oldValue, newValue) -> updateCautare());
+    }
+
+    @FXML
+    public void handleNextPage() throws SQLException {
+        if ((currentPage + 1) * pageSize < totalElements) {
+            currentPage++;
+            initModel();
+        }
+    }
+
+    @FXML
+    public void handlePreviousPage() throws SQLException {
+        if (currentPage > 0) {
+            currentPage--;
+            initModel();
+        }
+    }
+
+    @FXML
+    public void handleActualizare() throws SQLException {
+        String numarPaginiText = numar_pagini.getText().trim();
+        int newPageSize = Integer.parseInt(numarPaginiText);
+        if (newPageSize <= 0) {
+            MessageAlert.showErrorMessage(null, "Nr de pagini este invalid");
+            return;
+        }
+        pageSize = newPageSize;
+        currentPage = 0;
+        initModel();
+    }
+
+
+    private void updatePaginationControls() {
+        previousPageButton.setDisable(currentPage == 0);
+        nextPageButton.setDisable((currentPage + 1) * pageSize >= totalElements);
     }
 
     @FXML
@@ -108,7 +179,6 @@ public class UtilizatorController implements Observer<UtilizatorEvent> {
             return;
         }
 
-        // Get the selected user from the search or table
         Utilizator selectedUser = tableView.getSelectionModel().getSelectedItem();
         if (selectedUser == null) {
             MessageAlert.showErrorMessage(null, "Alegeti un utilizator pentru a sterge prietenia");
@@ -207,10 +277,14 @@ public class UtilizatorController implements Observer<UtilizatorEvent> {
     }
 
     private void initModel()  throws SQLException {
-        Iterable<Utilizator> utilizatori = serv_ut.getAllUtilizators();
-        List<Utilizator> lista_utilizatori = StreamSupport.stream(utilizatori.spliterator(), false)
-                .collect(Collectors.toList());
-        model.setAll(lista_utilizatori);
+        Pageable pageable = new Pageable(currentPage, pageSize);
+        Page<Utilizator> page = serv_ut.getAllUtilizatorsPaged(pageable);
+
+        model.setAll((List<Utilizator>) page.getElementsOnPage());
+        tableView.setItems(model);
+
+        totalElements = page.getTotalElementCount();
+        updatePaginationControls();
     }
 
     @Override
@@ -225,16 +299,41 @@ public class UtilizatorController implements Observer<UtilizatorEvent> {
         }
     }
 
-    public Long getUtilizatorId(String firstname, String lastname) throws SQLException {
-        Long id = null;
-        Iterable<Utilizator> users = serv_ut.getAllUtilizators();
-        List<Utilizator> lista = StreamSupport.stream(users.spliterator(), false).collect(Collectors.toList());
-        for (Utilizator u : lista) {
-            if (u.getFirstName().equals(firstname) && u.getLastName().equals(lastname)) {
-                id = u.getId();
+    private void updateCautare() {
+        try {
+            String query1 = cautare1.getText().trim();
+            String query2 = cautare2.getText().trim();
+
+            Iterable<Utilizator> utilizatori = serv_ut.getAllUtilizators();
+            List<Utilizator> lista_utilizatori = StreamSupport.stream(utilizatori.spliterator(), false)
+                    .collect(Collectors.toList());
+
+            if (query1.isEmpty() && query2.isEmpty()) {
+                model.setAll(lista_utilizatori);
+            } else {
+                ObservableList<Utilizator> lista = FXCollections.observableArrayList();
+                for (Utilizator utilizator : lista_utilizatori) {
+                    if (utilizator.getFirstName().contains(query1) || utilizator.getLastName().contains(query2)) {
+                        Long id = utilizator.getId();
+                        for (Prietenie p : serv_pr.getAllPrietenii()) {
+                            Optional<Utilizator> u = Optional.empty();
+
+                            if (p.getId().getLeft().equals(id)) {
+                                u = Optional.ofNullable(serv_ut.getOne(p.getId().getRight()));
+                            } else if (p.getId().getRight().equals(id)) {
+                                u = Optional.ofNullable(serv_ut.getOne(p.getId().getLeft()));
+                            }
+                            u.ifPresent(lista::add);
+                        }
+                    }
+                }
+                model.setAll(lista);
             }
+            tableView.setItems(model);
+        } catch (Exception e) {
+            e.printStackTrace();
+            notificareLabel.setText("Eroare: " + e.getMessage());
         }
-        return id;
     }
 
 }

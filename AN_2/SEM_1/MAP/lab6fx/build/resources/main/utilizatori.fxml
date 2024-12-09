@@ -13,15 +13,20 @@
             </font>
         </Text>
 
-        <TableView fx:id="tableView" layoutX="40.0" layoutY="100.0" prefHeight="300.0" prefWidth="920.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
+        <TableView fx:id="tableView" layoutX="40.0" layoutY="80.0" prefHeight="300.0" prefWidth="920.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
             <columns>
                 <TableColumn fx:id="tableIdUtilizator" minWidth="180.0" prefWidth="180.0" text="id" />
                 <TableColumn fx:id="tableLastNameUtilizator" minWidth="250.0" prefWidth="250.0" text="nume" />
                 <TableColumn fx:id="tableFirstNameUtilizator" minWidth="250.0" prefWidth="250.0" text="prenume" />
             </columns>
         </TableView>
+        <HBox alignment="CENTER" spacing="10" layoutX="220.0" layoutY="400.0">
+            <Button text="Pagina anterioara" onAction="#handlePreviousPage" fx:id="previousPageButton"  style="-fx-background-color: #572138; -fx-text-fill: white; -fx-border-color: #ffffff;"/>
+            <Button text="Pagina urmatoare" onAction="#handleNextPage" fx:id="nextPageButton"  style="-fx-background-color: #572138; -fx-text-fill: white; -fx-border-color: #ffffff;"/>
+            <TextField fx:id="numar_pagini" promptText="Nr utilizatori/pagina" style="-fx-background-color: #755b62;-fx-text-fill: white; -fx-border-color: #cc6699;" />
+           </HBox>
 
-        <SplitPane dividerPositions="0.5" layoutX="40.0" layoutY="420.0" orientation="HORIZONTAL" prefHeight="120.0" prefWidth="920.0" style="-fx-background-color: #ffcede; -fx-border-color: #cc6699;">
+        <SplitPane dividerPositions="0.5" layoutX="40.0" layoutY="440.0" orientation="HORIZONTAL" prefHeight="120.0" prefWidth="920.0" style="-fx-background-color: #ffcede; -fx-border-color: #cc6699;">
             <items>
                 <VBox alignment="CENTER" spacing="12.0" style="-fx-background-color: #e5a9c6; -fx-border-color: #cc6699;">
                     <children>
@@ -52,7 +57,6 @@
                         </Button>
                     </children>
                 </VBox>
-
             </items>
         </SplitPane>
     </children>

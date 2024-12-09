@@ -1,9 +1,11 @@
 package com.example.lab6fx.controller;
 
+import com.example.lab6fx.Observer;
 import com.example.lab6fx.domain.LoggedIn;
 import com.example.lab6fx.domain.Message;
 import com.example.lab6fx.domain.Utilizator;
 import com.example.lab6fx.domain.validator.UtilizatorValidator;
+import com.example.lab6fx.event.UtilizatorEvent;
 import com.example.lab6fx.repository.database.MessageRepositoryDB;
 import com.example.lab6fx.repository.database.UtilizatorRepositoryDB;
 import com.example.lab6fx.service.UtilizatorService;
@@ -17,7 +19,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-public class ChatController {
+
+public class ChatController implements Observer<UtilizatorEvent> {
 
     @FXML
     private TextField cautare5;
@@ -43,40 +46,61 @@ public class ChatController {
     @FXML
     private Button sendButton;
 
+    String loggedInFirstName = LoggedIn.getFirstName();
+    String loggedInLastName = LoggedIn.getLastName();
+    String prenume = LoggedIn.getFirstName();
+    String nume = LoggedIn.getLastName();
+
     public ChatController() {
     }
 
     public void initialize() {
-        load();
+
     }
 
     public void load() {
         try {
             List<Message> allMessages = (List<Message>) messageRepo.findAll();
-            String loggedInFirstName = LoggedIn.getFirstName();
-            String loggedInLastName = LoggedIn.getLastName();
-
             chat.clear();
 
-            for (Message message : allMessages) {
-                boolean primeste = message.getTo().stream()
-                        .anyMatch(user -> user.getFirstName().equals(loggedInFirstName) &&
-                                user.getLastName().equals(loggedInLastName));
+            for (Utilizator utilizator : utilizatori_conv) {
+                String convFirstName = utilizator.getFirstName();
+                String convLastName = utilizator.getLastName();
 
-                boolean dela = utilizatori_conv.stream()
-                        .anyMatch(utilizator -> utilizator.getFirstName().equalsIgnoreCase(message.getFrom().getFirstName()) &&
-                                utilizator.getLastName().equalsIgnoreCase(message.getFrom().getLastName()));
+                chat.appendText("Conversatie cu " + convFirstName + " " + convLastName + ":\n");
 
-                if (primeste & dela) {
-                    chat.appendText("de la " +message.getFrom().getFirstName() + " catre " + loggedInFirstName+ ": " +
-                            message.getMessage() + "\n");
+                for (Message message : allMessages) {
+                    boolean primeste = message.getTo().stream()
+                            .anyMatch(user -> user.getFirstName().equalsIgnoreCase(loggedInFirstName) &&
+                                    user.getLastName().equalsIgnoreCase(loggedInLastName)) &&
+                            message.getFrom().getFirstName().equalsIgnoreCase(convFirstName) &&
+                            message.getFrom().getLastName().equalsIgnoreCase(convLastName);
+
+                    boolean trimite = message.getFrom().getFirstName().equalsIgnoreCase(loggedInFirstName) &&
+                            message.getFrom().getLastName().equalsIgnoreCase(loggedInLastName) &&
+                            message.getTo().stream()
+                                    .anyMatch(user -> user.getFirstName().equalsIgnoreCase(convFirstName) &&
+                                            user.getLastName().equalsIgnoreCase(convLastName));
+
+                    if (primeste) {
+                        chat.appendText("De la " + message.getFrom().getFirstName() + ": " +
+                                message.getMessage() + "\n");
+                    }
+
+                    if (trimite) {
+                        chat.appendText("De la " + loggedInFirstName + ": " +
+                                message.getMessage() + "\n");
+                    }
                 }
+
+                chat.appendText("\n");
             }
         } catch (RuntimeException e) {
             chat.appendText("Eroare la încărcarea mesajelor: " + e.getMessage() + "\n");
             e.printStackTrace();
         }
     }
+
 
 
     @FXML
@@ -102,8 +126,6 @@ public class ChatController {
     @FXML
     public void onSendButtonClick() {
         String mesaj = mesaje.getText().trim();
-        String prenume = LoggedIn.getFirstName();
-        String nume = LoggedIn.getLastName();
         Utilizator ut;
 
         try {
@@ -125,4 +147,8 @@ public class ChatController {
         }
     }
 
+    @Override
+    public void update(UtilizatorEvent utilizatorEvent) {
+
+    }
 }

@@ -7,6 +7,9 @@ import com.example.lab6fx.domain.Tuple;
 import com.example.lab6fx.domain.Utilizator;
 import com.example.lab6fx.event.UtilizatorEvent;
 import com.example.lab6fx.domain.validator.ValidationException;
+import com.example.lab6fx.repository.Page;
+import com.example.lab6fx.repository.Pageable;
+import com.example.lab6fx.repository.PagingRepository;
 import com.example.lab6fx.repository.Repository;
 import com.example.lab6fx.repository.database.PrietenieRepositoryDB;
 import com.example.lab6fx.repository.database.UtilizatorRepositoryDB;
@@ -19,11 +22,11 @@ import java.util.Optional;
 import java.util.Vector;
 
 public class UtilizatorService implements Observable<UtilizatorEvent> {
-    private final Repository<Long,Utilizator> repo_utilizator;
+    private final PagingRepository<Long,Utilizator> repo_utilizator;
     private final Repository<Tuple<Long,Long>, Prietenie> repo_prietenie;
     private final List<Observer<UtilizatorEvent>> observers;
 
-    public UtilizatorService(Repository<Long,Utilizator> repo_utilizator, Repository<Tuple<Long,Long>, Prietenie> repo_prietenie) {
+    public UtilizatorService(PagingRepository<Long,Utilizator> repo_utilizator, Repository<Tuple<Long,Long>, Prietenie> repo_prietenie) {
         this.repo_utilizator = repo_utilizator;
         this.repo_prietenie = repo_prietenie;
         this.observers = new ArrayList<>();
@@ -37,6 +40,10 @@ public class UtilizatorService implements Observable<UtilizatorEvent> {
     public Iterable<Prietenie> getPrietenii() throws SQLException
     {
         return repo_prietenie.findAll();
+    }
+
+    public Page<Utilizator> getAllUtilizatorsPaged(Pageable pageable) throws SQLException {
+        return repo_utilizator.findAll(pageable);
     }
 
     public Long getUtilizatorId() throws SQLException

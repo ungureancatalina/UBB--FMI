@@ -2,12 +2,15 @@ package com.example.lab6fx.repository.database;
 
 import com.example.lab6fx.domain.Utilizator;
 import com.example.lab6fx.domain.validator.UtilizatorValidator;
+import com.example.lab6fx.repository.Page;
+import com.example.lab6fx.repository.Pageable;
+import com.example.lab6fx.repository.PagingRepository;
 import com.example.lab6fx.repository.Repository;
 
 import java.sql.*;
 import java.util.*;
 
-public class UtilizatorRepositoryDB  implements Repository<Long, Utilizator> {
+public class UtilizatorRepositoryDB  implements PagingRepository<Long, Utilizator> {
 
     UtilizatorValidator utilizatorValidator;
     private String url;
@@ -150,4 +153,37 @@ public class UtilizatorRepositoryDB  implements Repository<Long, Utilizator> {
             }
         }
     }
+
+    @Override
+    public Page<Utilizator> findAll(Pageable pageable) throws SQLException {
+        List<Utilizator> utilizatori = new ArrayList<>();
+        String countQuery = "SELECT COUNT(*) AS total FROM utilizatori";
+        String query = "SELECT * FROM utilizatori LIMIT ? OFFSET ?";
+        int total = 0;
+
+        try (Connection connection = DriverManager.getConnection(url, username, password);
+             Statement countStatement = connection.createStatement();
+             PreparedStatement statement = connection.prepareStatement(query)) {
+            ResultSet countResultSet = countStatement.executeQuery(countQuery);
+            if (countResultSet.next()) {
+                total = countResultSet.getInt("total");
+            }
+            statement.setInt(1, pageable.getPageSize());
+            statement.setInt(2, pageable.getPageNumber() * pageable.getPageSize());
+
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Long id = resultSet.getLong("id");
+                String lastName = resultSet.getString("nume");
+                String firstName = resultSet.getString("prenume");
+                String password = resultSet.getString("password");
+
+                Utilizator u = new Utilizator(firstName, lastName, password);
+                u.setId(id);
+                utilizatori.add(u);
+            }
+        }
+
+        return new Page<>(utilizatori, total);
+        }
 }

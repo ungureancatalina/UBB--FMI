@@ -9,6 +9,7 @@ import com.example.lab6fx.domain.Utilizator;
 import com.example.lab6fx.domain.validator.CerereValidator;
 import com.example.lab6fx.domain.validator.PrietenieValidator;
 import com.example.lab6fx.domain.validator.UtilizatorValidator;
+import com.example.lab6fx.repository.PagingRepository;
 import com.example.lab6fx.repository.Repository;
 import com.example.lab6fx.repository.database.CerereRepositoryDB;
 import com.example.lab6fx.repository.database.PrietenieRepositoryDB;
@@ -33,7 +34,7 @@ public class HelloApplication extends Application
     String password = "catalina";
     String username= "postgres";
 
-    Repository<Long, Utilizator> repo_ut= new UtilizatorRepositoryDB(new UtilizatorValidator(),url, username, password);
+    PagingRepository<Long, Utilizator> repo_ut= new UtilizatorRepositoryDB(new UtilizatorValidator(),url, username, password);
     Repository<Tuple<Long, Long>, Prietenie> repo_pr = new PrietenieRepositoryDB(new PrietenieValidator(),url, username, password);
     Repository<Long, Cerere> repo_ce = new CerereRepositoryDB(new CerereValidator(),url, username, password);
     UtilizatorService serv_ut= new UtilizatorService(repo_ut,repo_pr);
@@ -49,43 +50,45 @@ public class HelloApplication extends Application
             System.out.println("Eroare la conectarea la baze de date");
             e.printStackTrace();
         }
-        try {
-            initView(stage);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        initLoginView(stage);
+
         stage.setWidth(1000);
         stage.setTitle("Aplicatie");
         stage.show();
     }
 
-    private void initView(Stage primaryStage) throws IOException, SQLException {
-        FXMLLoader fmxlLoader = new FXMLLoader(getClass().getResource("/login.fxml"));
-        Scene scene = new Scene(fmxlLoader.load());
-        primaryStage.setScene(scene);
-        LoginController loginController = fmxlLoader.getController();
-        loginController.setService(serv_ut, primaryStage);
 
+    private void initLoginView(Stage primaryStage) throws IOException {
+        FXMLLoader loginLoader = new FXMLLoader(getClass().getResource("/login.fxml"));
+        Scene loginScene = new Scene(loginLoader.load());
+        primaryStage.setScene(loginScene);
+        primaryStage.setTitle("Login");
+        primaryStage.show();
+
+        LoginController loginController = loginLoader.getController();
+        loginController.setService(serv_ut, primaryStage);
         loginController.setutilizator_autentificat(() -> {
             try {
-                initUtilizatorView(primaryStage);
+                openUtilizatorWindow();
             } catch (IOException e) {
                 e.printStackTrace();
             }
         });
     }
 
-    private void initUtilizatorView(Stage primaryStage) throws IOException {
-        FXMLLoader fmxlLoader = new FXMLLoader(getClass().getResource("/utilizatori.fxml"));
-        Scene scene = new Scene(fmxlLoader.load());
-        primaryStage.setScene(scene);
+    private void openUtilizatorWindow() throws IOException {
+        FXMLLoader utilizatorLoader = new FXMLLoader(getClass().getResource("/utilizatori.fxml"));
+        Scene utilizatorScene = new Scene(utilizatorLoader.load());
 
-        UtilizatorController utilizatorController = fmxlLoader.getController();
+        Stage utilizatorStage = new Stage();
+        utilizatorStage.setScene(utilizatorScene);
+        utilizatorStage.setTitle("Utilizatori");
+        utilizatorStage.show();
+
+        UtilizatorController utilizatorController = utilizatorLoader.getController();
         try {
-            utilizatorController.setAplicatie(serv_ut,serv_pr,serv_ce);
-            utilizatorController.setPrimaryStage(primaryStage);
+            utilizatorController.setAplicatie(serv_ut, serv_pr, serv_ce);
+            utilizatorController.setPrimaryStage(utilizatorStage);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
