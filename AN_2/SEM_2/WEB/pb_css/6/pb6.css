@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#cnp {
+    width: 340px;
+    letter-spacing: 2.6ch;
+}
+
+#prenume,#nume {
+    width: 520px;
+    letter-spacing: 2.55ch;
+}
+
+input {
+    background-image: url(http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif);
+    height: 25px;
+    background-size: 26px;
+    border: 2px solid black;
+    padding-left: 5px;
+
+}

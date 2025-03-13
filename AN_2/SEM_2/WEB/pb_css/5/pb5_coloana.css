@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main{
+    border: solid 2px black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width:500px;
+    height:900px;
+    background-color: yellow;
+}
+
+img{
+    width:180px;
+    height:200px;
+}
+
+p{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+
+li{
+    margin-left: 20px;
+    margin-top: 5px;
+    list-style-type: none;
+
+}

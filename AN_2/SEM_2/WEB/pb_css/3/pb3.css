@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#header {
+    min-height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+#meniu {
+    min-height: 25px;
+    background-color: yellow;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#meniu li {
+    display: inline-block;
+    border-left: 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#div {
+    flex-grow: 1;
+    min-height: calc(100vh - 185px);
+    background-color: green;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#footer {
+    min-height: 60px;
+    background-color: pink;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}

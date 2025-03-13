@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Formular de înscriere la eveniment">
+        <title> Formular de înscriere la eveniment</title> 
+    </head>
+    <body>
+        <h1>Formular de înscriere la eveniment</h1>
+        <div> <strong> Introduceți informațiile de mai jos </strong> </div>
+        <form method="get" action="model4.txt">
+            <table>
+                <tr>
+                    <th colspan="4"> Informații Personale</th>
+                </tr>
+                <tr>
+                    <td><b> Nume:</b></td>
+                    <td> <input type="text" name="nume"></td>
+                    <td><b> Prenume:</b></td>
+                    <td> <input type="text" name="prenume"></td>
+                </tr>
+                <tr>
+                    <td><b> Data nașterii:</b></td>
+                    <td> <input type="date" name="data_nasterii" ></td>
+                    <td><b> Sex:</b></td>
+                    <td> <input type="radio" name="sex" value="F"> Feminin 
+                         <input type="radio" name="sex" value="M"> Masculin </td>
+                </tr>
+                <tr>
+                    <td><b> Adresa:</b></td>
+                    <td colspan="3"> <input type="text" name="adresa" size="60" ></td>
+                </tr>
+                <tr>
+                    <td><b>Oraș:</b></td>
+                    <td><input type="text" name="oras" ></td>
+                    <td><b>Cod Poștal:</b></td>
+                    <td><input type="text" name="cod_postal" maxlength="6" ></td>
+                </tr>
+                <tr>
+                    <td><b>Telefon:</b></td>
+                    <td><input type="text" name="telefon" ></td>
+                    <td><b>Email:</b></td>
+                    <td><input type="text" name="email" ></td>
+                </tr>
+                <tr>
+                    <td><b>Preferințe Alimentare:</b></td>
+                    <td colspan="3">
+                        <input type="checkbox" name="nu_este_cazul" checked> Nu este cazul
+                        <input type="checkbox" name="vegetarian"> Vegetarian
+                        <input type="checkbox" name="vegan"> Vegan
+                        <input type="checkbox" name="fara_gluten"> Fără Gluten
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Genuri Muzicale Preferate:</b></td>
+                    <td colspan="3">
+                        <select name="genuri_muzicale" multiple>
+                            <option value="orice" selected>Orice tip </option>
+                            <option value="rock">Rock</option>
+                            <option value="pop">Pop</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="electronic">Electronic</option>
+                            <option value="folk">Folk</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Locatia unde va avea loc evenimentul:</b></td>
+                    <td colspan="3">
+                        <input type="text" name="oras" value="Banffy Castle, Bonțida" size="60" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Alte informații omise:</b></td>
+                    <td colspan="3">
+                        <textarea name="informații" cols="60" rows="4" placeholder="Introdu alte informații ce consideri că ar fi necesare."></textarea>
+                    </td>
+                </tr>    
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th colspan="2"> Informații Suplimentare</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                        <b> Preferințe de Cazare:  </b>
+                        <table>
+                            <tr>
+                                <td><input type="radio" name="cazare" value="hotel"> Hotel</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="cazare" value="camping"> Camping</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="cazare" value="hostel"> Hostel</td>
+                            </tr>
+                        </table>        
+                    </td>
+                    <td>
+                        <b>Metode de Plată Acceptate:</b>
+                        <ol start="2">
+                            <li>Card de Credit</li>
+                            <li>Transfer Bancar</li>
+                            <li>PayPal</li>
+                            <li>Numerar</li>
+                        </ol>
+                    </td>    
+                </tr>
+                <tr>
+                    <td>
+                        <b>Reguli și Reglementări:</b>
+                        <ol type="A">
+                            <li>Accesul cu băuturi alcoolice din exterior este interzis.</li>
+                            <li>Este interzisă utilizarea substanțelor ilegale.</li>
+                            <li>Respectați indicațiile personalului de securitate.</li>
+                            <li>Animalele de companie nu sunt permise.</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Facilități Disponibile:</b>
+                        <ol type="I">
+                            <li>Parcare Gratuită</li>
+                            <li>Wi-Fi în Zonele Publice</li>
+                            <li>Zone de Relaxare</li>
+                            <li>Standuri de Mâncare și Băuturi</li>
+                             <li>
+                                Servicii Extra:
+                                <ul>
+                                    <li>Serviciu VIP</li>
+                                    <li>Acces la Lounge</li>
+                                    <li>Merchandise Exclusiv</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th colspan="3">Adăugare Bilete</th>
+                </tr>
+                <tr>
+                    <th>Nr.</th>
+                    <th>Tip Bilet</th>
+                    <th>Cantitate</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <select name="bilet1_tip">
+                            <option value="general">General</option>
+                            <option value="vip">VIP</option>
+                            <option value="student">Student</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" name="bilet1_cantitate" min="1" max="10" step="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <select name="bilet2_tip">
+                            <option value="general">General</option>
+                            <option value="vip">VIP</option>
+                            <option value="student">Student</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" name="bilet2_cantitate" min="1" max="10" step="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <select name="bilet3_tip" disabled>
+                            <option value="general">General</option>
+                            <option value="vip">VIP</option>
+                            <option value="student">Student</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" name="bilet3_cantitate" min="1"  max="10" step="1" disabled>
+                    </td>
+                </tr>
+            </table>    
+            <br>
+            <fieldset>
+                <legend> Finalizare formular </legend>
+                <input type="checkbox" name="acord"> Sunt <span> de acord </span> cu termenii și condițiile.
+                <br><br>
+                <input type="submit" value="Trimite Formularul">
+            </fieldset>
+        </form>
+        <p> Asta e o poza cu o pisică pentru a te înveseli. </p>
+        <a href="https://unsplash.com/s/photos/cute-cat" target="_blank">
+            <img src="pisica.jpg" alt="Poza cu pisica" width="100" height="150">
+        </a>     
+    </body>
+</html>
