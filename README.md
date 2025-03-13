@@ -16,3 +16,11 @@
 - [Retele De Calculatoare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/retele_de_calculatoare)
 - [Engleza](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/engleza)
 - [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/psihopedagogie)
+
+## Semestrul 4
+- [Medii de proiectare si programare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/MPP)
+- [Sisteme de gestiune a bazelor de date](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/SGBD)
+- [Inteligenta artificiala](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/AI)
+- [Ingineria sistemelor soft](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/ISS)
+- [Programare web](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/WEB)
+- [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/psihopedagogie)
