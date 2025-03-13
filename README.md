@@ -4,16 +4,16 @@
 
 ## Semestrul 2
 - [Programare Orientata Obiect](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/OOP)
-- [Algoritmica Grafurilor](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/algoritmica%20grafurilor)
-- [Structuri De Date Si Algoritmi](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/sda)
+- [Algoritmica Grafurilor](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/AG)
+- [Structuri De Date Si Algoritmi](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/DSA)
 - [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_1/SEM_2/psihopedagogie)
 
 ## Semestrul 3
 - [Metode Avansate De Programare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/MAP)
-- [Baze De Date](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/baze%20de%20date)
-- [Programare Logica Si Functionala](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/plf)
+- [Baze De Date](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/DB)
+- [Programare Logica Si Functionala](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/PLF)
 - [Probabilitati Si Statistica](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/probabilitati%20si%20statistica)
-- [Retele De Calculatoare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/retele_de_calculatoare)
+- [Retele De Calculatoare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/Retele)
 - [Engleza](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/engleza)
 - [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/psihopedagogie)
 
