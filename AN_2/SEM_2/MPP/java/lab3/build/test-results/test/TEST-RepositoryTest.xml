@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-17T18:40:07" hostname="CĆTĆLINA" time="0.625">
+  <properties/>
+  <testcase name="Test Echipa Repository: Add, Modify, FindById, FindAll, Delete" classname="RepositoryTest" time="0.396"/>
+  <testcase name="Test Utilizator Repository: Add, Modify, FindById, FindAll, Delete" classname="RepositoryTest" time="0.036"/>
+  <testcase name="Test Cursa Repository: Add, Modify, FindById, FindAll, Delete" classname="RepositoryTest" time="0.033"/>
+  <testcase name="Test Participant Repository: Add, Modify, FindById, FindAll, Delete" classname="RepositoryTest" time="0.054"/>
+  <testcase name="Test ParticipantCursa Repository: Add, Modify, FindByCursa, FindAll, Delete" classname="RepositoryTest" time="0.103"/>
+  <system-out><![CDATA[2025-03-17T18:40:07.291087300Z Test worker INFO Starting configuration XmlConfiguration[location=C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\java_project\mpp-proiect-java-ungureancatalina\lab3\build\resources\main\log4j2.xml, lastModified=2025-03-17T14:40:03.360Z]...
+2025-03-17T18:40:07.294087Z Test worker INFO Start watching for changes to C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\java_project\mpp-proiect-java-ungureancatalina\lab3\build\resources\main\log4j2.xml every 0 seconds
+2025-03-17T18:40:07.296159300Z Test worker INFO Configuration XmlConfiguration[location=C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\java_project\mpp-proiect-java-ungureancatalina\lab3\build\resources\main\log4j2.xml, lastModified=2025-03-17T14:40:03.360Z] started.
+2025-03-17T18:40:07.298086600Z Test worker INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@5d8bafa9...
+2025-03-17T18:40:07.298086600Z Test worker INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@5d8bafa9 stopped.
+17 Mar 2025 20:40:07,312 TRACE ro.mpp2024.repository.EchipaRepository 23 adauga - Enter Se adauga o echipa in baza de date.
+17 Mar 2025 20:40:07,315 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,315 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,316 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,317 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,317 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,417 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a1d593e)
+17 Mar 2025 20:40:07,428 TRACE ro.mpp2024.repository.EchipaRepository 29 adauga - Exit with(Echipa a fost adaugata cu succes.)
+17 Mar 2025 20:40:07,430 TRACE RepositoryTest 108 testEchipaRepository - Enter 82
+17 Mar 2025 20:40:07,430 TRACE ro.mpp2024.repository.EchipaRepository 56 modifica - Enter Se modifica echipa cu id 82
+17 Mar 2025 20:40:07,431 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,431 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,431 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,432 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,432 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,432 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bdf8190)
+17 Mar 2025 20:40:07,440 TRACE ro.mpp2024.repository.EchipaRepository 63 modifica - Exit with(Echipa a fost modificata cu succes.)
+17 Mar 2025 20:40:07,440 TRACE ro.mpp2024.repository.EchipaRepository 71 findById - Enter Se cauta echipa cu id 82
+17 Mar 2025 20:40:07,441 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,441 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,441 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,441 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,441 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,442 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@192f2f27)
+17 Mar 2025 20:40:07,444 TRACE ro.mpp2024.repository.EchipaRepository 82 findById - Exit with(Echipa gasita: Echipa Modificata)
+17 Mar 2025 20:40:07,444 TRACE ro.mpp2024.repository.EchipaRepository 94 findAll - Enter Se preiau toate echipele din baza de date.
+17 Mar 2025 20:40:07,446 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,446 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,446 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,446 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,446 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,447 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@460f76a6)
+17 Mar 2025 20:40:07,448 TRACE ro.mpp2024.repository.EchipaRepository 107 findAll - Exit with(S-au preluat 1 echipe.)
+17 Mar 2025 20:40:07,448 TRACE ro.mpp2024.repository.EchipaRepository 42 sterge - Enter Se sterge echipa cu id 82
+17 Mar 2025 20:40:07,448 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,449 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,449 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,449 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,449 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,450 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11acdc30)
+17 Mar 2025 20:40:07,457 TRACE ro.mpp2024.repository.EchipaRepository 48 sterge - Exit with(Echipa a fost stearsa cu succes.)
+17 Mar 2025 20:40:07,457 TRACE ro.mpp2024.repository.EchipaRepository 71 findById - Enter Se cauta echipa cu id 82
+17 Mar 2025 20:40:07,458 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,458 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,458 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,458 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,458 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,459 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@770d4269)
+17 Mar 2025 20:40:07,459 TRACE ro.mpp2024.repository.EchipaRepository 88 findById - Exit with(Echipa nu a fost gasita.)
+17 Mar 2025 20:40:07,466 TRACE ro.mpp2024.repository.UtilizatorRepository 23 adauga - Enter Incep adaugarea utilizatorului: Utilizator Test
+17 Mar 2025 20:40:07,467 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,467 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,467 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,467 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,467 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,468 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56e07a08)
+17 Mar 2025 20:40:07,477 TRACE ro.mpp2024.repository.UtilizatorRepository 30 adauga - Exit with(Utilizatorul Utilizator Test a fost adaugat cu succes.)
+17 Mar 2025 20:40:07,477 TRACE RepositoryTest 80 testUtilizatorRepository - Enter 33
+17 Mar 2025 20:40:07,477 TRACE ro.mpp2024.repository.UtilizatorRepository 57 modifica - Enter Incep modificarea utilizatorului cu idUtilizator 33
+17 Mar 2025 20:40:07,477 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,477 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,478 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,478 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,478 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,479 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35d6ca49)
+17 Mar 2025 20:40:07,486 TRACE ro.mpp2024.repository.UtilizatorRepository 65 modifica - Exit with(Utilizatorul cu idUtilizator 33 a fost modificat cu succes.)
+17 Mar 2025 20:40:07,486 TRACE ro.mpp2024.repository.UtilizatorRepository 73 findById - Enter Incep cautarea utilizatorului cu id 33
+17 Mar 2025 20:40:07,487 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,487 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,487 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,487 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,487 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,488 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1950e8a6)
+17 Mar 2025 20:40:07,489 TRACE ro.mpp2024.repository.UtilizatorRepository 85 findById - Exit with(Utilizatorul cu id 33 a fost gasit.)
+17 Mar 2025 20:40:07,489 TRACE ro.mpp2024.repository.UtilizatorRepository 97 findAll - Enter Incep cautarea tuturor utilizatorilor.
+17 Mar 2025 20:40:07,489 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,489 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,489 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,489 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,490 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,490 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@47289387)
+17 Mar 2025 20:40:07,491 TRACE ro.mpp2024.repository.UtilizatorRepository 111 findAll - Exit with(Cautarea tuturor utilizatorilor s-a realizat cu succes.)
+17 Mar 2025 20:40:07,491 TRACE ro.mpp2024.repository.UtilizatorRepository 43 sterge - Enter Incep stergerea utilizatorului cu id 33
+17 Mar 2025 20:40:07,491 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,491 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,491 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,491 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,491 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,492 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@12cd9150)
+17 Mar 2025 20:40:07,499 TRACE ro.mpp2024.repository.UtilizatorRepository 49 sterge - Exit with(Utilizatorul cu id 33 a fost sters cu succes.)
+17 Mar 2025 20:40:07,499 TRACE ro.mpp2024.repository.UtilizatorRepository 73 findById - Enter Incep cautarea utilizatorului cu id 33
+17 Mar 2025 20:40:07,499 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,500 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,500 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,500 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,500 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,500 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@114a85c2)
+17 Mar 2025 20:40:07,501 TRACE ro.mpp2024.repository.UtilizatorRepository 91 findById - Exit with(Utilizatorul cu id 33 nu a fost gasit.)
+17 Mar 2025 20:40:07,503 TRACE ro.mpp2024.repository.CursaRepository 23 adauga - Enter Se adauga o cursa in baza de date.
+17 Mar 2025 20:40:07,504 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,504 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,504 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,504 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,504 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,505 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37eeec90)
+17 Mar 2025 20:40:07,512 TRACE ro.mpp2024.repository.CursaRepository 31 adauga - Exit with(Cursa a fost adaugata cu succes.)
+17 Mar 2025 20:40:07,512 TRACE ro.mpp2024.repository.CursaRepository 59 modifica - Enter Se modifica cursa cu id 64
+17 Mar 2025 20:40:07,512 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,512 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,513 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,513 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,513 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,514 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32fe9d0a)
+17 Mar 2025 20:40:07,521 TRACE ro.mpp2024.repository.CursaRepository 68 modifica - Exit with(Cursa a fost modificata cu succes.)
+17 Mar 2025 20:40:07,521 TRACE ro.mpp2024.repository.CursaRepository 76 findById - Enter Se cauta cursa cu id 64
+17 Mar 2025 20:40:07,521 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,522 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,522 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,522 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,522 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,523 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c9413d8)
+17 Mar 2025 20:40:07,523 TRACE ro.mpp2024.repository.CursaRepository 89 findById - Exit with(Cursa gasita: Cursa Modificata)
+17 Mar 2025 20:40:07,524 TRACE ro.mpp2024.repository.CursaRepository 101 findAll - Enter Se preiau toate cursele din baza de date.
+17 Mar 2025 20:40:07,524 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,524 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,524 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,524 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,524 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,525 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64da2a7)
+17 Mar 2025 20:40:07,525 TRACE ro.mpp2024.repository.CursaRepository 116 findAll - Exit with(S-au preluat 1 curse.)
+17 Mar 2025 20:40:07,525 TRACE ro.mpp2024.repository.CursaRepository 45 sterge - Enter Se sterge cursa cu id 64
+17 Mar 2025 20:40:07,526 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,526 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,526 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,526 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,526 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,526 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46074492)
+17 Mar 2025 20:40:07,533 TRACE ro.mpp2024.repository.CursaRepository 51 sterge - Exit with(Cursa a fost stearsa cu succes.)
+17 Mar 2025 20:40:07,533 TRACE ro.mpp2024.repository.CursaRepository 76 findById - Enter Se cauta cursa cu id 64
+17 Mar 2025 20:40:07,533 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,533 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,534 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,534 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,534 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,534 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d78795)
+17 Mar 2025 20:40:07,535 TRACE ro.mpp2024.repository.CursaRepository 95 findById - Exit with(Cursa nu a fost gasita.)
+17 Mar 2025 20:40:07,537 TRACE ro.mpp2024.repository.EchipaRepository 23 adauga - Enter Se adauga o echipa in baza de date.
+17 Mar 2025 20:40:07,537 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,537 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,537 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,537 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,537 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,538 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b9d6699)
+17 Mar 2025 20:40:07,545 TRACE ro.mpp2024.repository.EchipaRepository 29 adauga - Exit with(Echipa a fost adaugata cu succes.)
+17 Mar 2025 20:40:07,546 TRACE ro.mpp2024.repository.ParticipantRepository 24 adauga - Enter Incep adaugarea participantului: Participant Test
+17 Mar 2025 20:40:07,546 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,546 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,546 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,546 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,546 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,547 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21694e53)
+17 Mar 2025 20:40:07,554 TRACE ro.mpp2024.repository.ParticipantRepository 33 adauga - Exit with(Participantul Participant Test a fost adaugat cu succes.)
+17 Mar 2025 20:40:07,555 TRACE RepositoryTest 141 testParticipantRepository - Enter 75
+17 Mar 2025 20:40:07,555 TRACE ro.mpp2024.repository.ParticipantRepository 60 modifica - Enter Incep modificarea participantului cu idParticipant 75
+17 Mar 2025 20:40:07,555 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,555 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,555 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,555 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,555 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,556 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72b16078)
+17 Mar 2025 20:40:07,567 TRACE ro.mpp2024.repository.ParticipantRepository 70 modifica - Exit with(Participantul cu idParticipant 75 a fost modificat cu succes.)
+17 Mar 2025 20:40:07,567 TRACE ro.mpp2024.repository.ParticipantRepository 78 findById - Enter Incep cautarea participantului cu id 75
+17 Mar 2025 20:40:07,567 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,567 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,567 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,567 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,567 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,568 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22c86919)
+17 Mar 2025 20:40:07,569 TRACE ro.mpp2024.repository.ParticipantRepository 95 findById - Exit with(Participantul cu id 75 a fost gasit.)
+17 Mar 2025 20:40:07,569 TRACE ro.mpp2024.repository.ParticipantRepository 107 findAll - Enter Incep cautarea tuturor participantilor.
+17 Mar 2025 20:40:07,569 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,569 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,569 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,569 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,569 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,570 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@70fab835)
+17 Mar 2025 20:40:07,570 TRACE ro.mpp2024.repository.ParticipantRepository 125 findAll - Exit with(Cautarea tuturor participantilor s-a realizat cu succes.)
+17 Mar 2025 20:40:07,570 TRACE ro.mpp2024.repository.ParticipantRepository 46 sterge - Enter Incep stergerea participantului cu id 75
+17 Mar 2025 20:40:07,570 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,571 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,571 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,571 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,571 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,571 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0a7baf)
+17 Mar 2025 20:40:07,579 TRACE ro.mpp2024.repository.ParticipantRepository 52 sterge - Exit with(Participantul cu id 75 a fost sters cu succes.)
+17 Mar 2025 20:40:07,580 TRACE ro.mpp2024.repository.ParticipantRepository 78 findById - Enter Incep cautarea participantului cu id 75
+17 Mar 2025 20:40:07,580 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,580 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,580 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,580 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,580 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,581 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@62417a16)
+17 Mar 2025 20:40:07,581 TRACE ro.mpp2024.repository.ParticipantRepository 101 findById - Exit with(Participantul cu id 75 nu a fost gasit.)
+17 Mar 2025 20:40:07,582 TRACE ro.mpp2024.repository.EchipaRepository 42 sterge - Enter Se sterge echipa cu id 83
+17 Mar 2025 20:40:07,582 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,582 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,582 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,582 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,582 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,583 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32057e6)
+17 Mar 2025 20:40:07,590 TRACE ro.mpp2024.repository.EchipaRepository 48 sterge - Exit with(Echipa a fost stearsa cu succes.)
+17 Mar 2025 20:40:07,592 TRACE ro.mpp2024.repository.CursaRepository 23 adauga - Enter Se adauga o cursa in baza de date.
+17 Mar 2025 20:40:07,593 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,593 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,593 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,593 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,593 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,594 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@759fad4)
+17 Mar 2025 20:40:07,601 TRACE ro.mpp2024.repository.CursaRepository 31 adauga - Exit with(Cursa a fost adaugata cu succes.)
+17 Mar 2025 20:40:07,601 TRACE ro.mpp2024.repository.EchipaRepository 23 adauga - Enter Se adauga o echipa in baza de date.
+17 Mar 2025 20:40:07,601 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,601 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,601 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,602 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,602 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,602 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64712be)
+17 Mar 2025 20:40:07,609 TRACE ro.mpp2024.repository.EchipaRepository 29 adauga - Exit with(Echipa a fost adaugata cu succes.)
+17 Mar 2025 20:40:07,609 TRACE ro.mpp2024.repository.ParticipantRepository 24 adauga - Enter Incep adaugarea participantului: Participant Test
+17 Mar 2025 20:40:07,610 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,610 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,610 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,610 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,610 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,611 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@53499d85)
+17 Mar 2025 20:40:07,618 TRACE ro.mpp2024.repository.ParticipantRepository 33 adauga - Exit with(Participantul Participant Test a fost adaugat cu succes.)
+17 Mar 2025 20:40:07,619 TRACE ro.mpp2024.repository.ParticipantCursaRepository 113 adauga - Enter Incep adaugarea unui participant la cursa cu idCursa 65
+17 Mar 2025 20:40:07,619 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,619 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,619 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,619 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,620 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,621 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@782a4fff)
+17 Mar 2025 20:40:07,629 TRACE ro.mpp2024.repository.ParticipantCursaRepository 123 adauga - Exit with(Adaugarea participantului cu idParticipant 76 la cursa cu idCursa 65 s-a realizat cu succes.)
+17 Mar 2025 20:40:07,629 TRACE ro.mpp2024.repository.ParticipantCursaRepository 26 findByCursa - Enter Incep cautarea participantilor pentru cursa cu id 65
+17 Mar 2025 20:40:07,629 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,630 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,630 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,631 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,631 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,632 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46c670a6)
+17 Mar 2025 20:40:07,633 TRACE ro.mpp2024.repository.ParticipantCursaRepository 60 findByCursa - Exit with(Cautarea participantilor pentru cursa cu id 65 s-a incheiat cu succes.)
+17 Mar 2025 20:40:07,633 TRACE ro.mpp2024.repository.ParticipantRepository 24 adauga - Enter Incep adaugarea participantului: Participant Test 2
+17 Mar 2025 20:40:07,634 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,634 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,634 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,634 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,636 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,637 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59fc684e)
+17 Mar 2025 20:40:07,644 TRACE ro.mpp2024.repository.ParticipantRepository 33 adauga - Exit with(Participantul Participant Test 2 a fost adaugat cu succes.)
+17 Mar 2025 20:40:07,645 TRACE ro.mpp2024.repository.ParticipantCursaRepository 113 adauga - Enter Incep adaugarea unui participant la cursa cu idCursa 65
+17 Mar 2025 20:40:07,645 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,645 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,645 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,645 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,645 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,646 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ae81e1)
+17 Mar 2025 20:40:07,653 TRACE ro.mpp2024.repository.ParticipantCursaRepository 123 adauga - Exit with(Adaugarea participantului cu idParticipant 77 la cursa cu idCursa 65 s-a realizat cu succes.)
+17 Mar 2025 20:40:07,653 TRACE ro.mpp2024.repository.ParticipantCursaRepository 26 findByCursa - Enter Incep cautarea participantilor pentru cursa cu id 65
+17 Mar 2025 20:40:07,653 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,653 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,654 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,654 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,654 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,655 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fd1731c)
+17 Mar 2025 20:40:07,656 TRACE ro.mpp2024.repository.ParticipantCursaRepository 60 findByCursa - Exit with(Cautarea participantilor pentru cursa cu id 65 s-a incheiat cu succes.)
+17 Mar 2025 20:40:07,656 TRACE ro.mpp2024.repository.ParticipantCursaRepository 172 findAll - Enter Incep cautarea tuturor participantilor cursa
+17 Mar 2025 20:40:07,656 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,656 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,656 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,656 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,656 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,657 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ae76500)
+17 Mar 2025 20:40:07,658 TRACE ro.mpp2024.repository.ParticipantCursaRepository 211 findAll - Exit with(Cautarea tuturor participantilor cursa s-a realizat cu succes.)
+17 Mar 2025 20:40:07,658 TRACE ro.mpp2024.repository.ParticipantCursaRepository 131 sterge - Enter Incep stergerea participantului cu id 76
+17 Mar 2025 20:40:07,658 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,658 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,658 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,659 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,659 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,659 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24f360b2)
+17 Mar 2025 20:40:07,667 TRACE ro.mpp2024.repository.ParticipantCursaRepository 140 sterge - Exit with(Stergerea participantului cu id 76 s-a realizat cu succes.)
+17 Mar 2025 20:40:07,667 TRACE ro.mpp2024.repository.ParticipantCursaRepository 26 findByCursa - Enter Incep cautarea participantilor pentru cursa cu id 65
+17 Mar 2025 20:40:07,667 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,667 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,667 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,667 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,667 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,668 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@60cf80e7)
+17 Mar 2025 20:40:07,669 TRACE ro.mpp2024.repository.ParticipantCursaRepository 60 findByCursa - Exit with(Cautarea participantilor pentru cursa cu id 65 s-a incheiat cu succes.)
+17 Mar 2025 20:40:07,669 TRACE ro.mpp2024.repository.ParticipantRepository 46 sterge - Enter Incep stergerea participantului cu id 77
+17 Mar 2025 20:40:07,669 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,669 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,669 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,669 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,669 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,670 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@302fec27)
+17 Mar 2025 20:40:07,677 TRACE ro.mpp2024.repository.ParticipantRepository 52 sterge - Exit with(Participantul cu id 77 a fost sters cu succes.)
+17 Mar 2025 20:40:07,677 TRACE ro.mpp2024.repository.CursaRepository 45 sterge - Enter Se sterge cursa cu id 65
+17 Mar 2025 20:40:07,677 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,677 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,677 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,677 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,677 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,678 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@770d0ea6)
+17 Mar 2025 20:40:07,685 TRACE ro.mpp2024.repository.CursaRepository 51 sterge - Exit with(Cursa a fost stearsa cu succes.)
+17 Mar 2025 20:40:07,685 TRACE ro.mpp2024.repository.EchipaRepository 42 sterge - Enter Se sterge echipa cu id 84
+17 Mar 2025 20:40:07,685 TRACE ro.mpp2024.utils.JdbcUtils 47 getConnection - Enter
+17 Mar 2025 20:40:07,685 TRACE ro.mpp2024.utils.JdbcUtils 24 getNewConnection - Enter
+17 Mar 2025 20:40:07,685 INFO  ro.mpp2024.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+17 Mar 2025 20:40:07,685 INFO  ro.mpp2024.utils.JdbcUtils 30 getNewConnection - user: null
+17 Mar 2025 20:40:07,685 INFO  ro.mpp2024.utils.JdbcUtils 31 getNewConnection - pass: null
+17 Mar 2025 20:40:07,686 TRACE ro.mpp2024.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48c40605)
+17 Mar 2025 20:40:07,693 TRACE ro.mpp2024.repository.EchipaRepository 48 sterge - Exit with(Echipa a fost stearsa cu succes.)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

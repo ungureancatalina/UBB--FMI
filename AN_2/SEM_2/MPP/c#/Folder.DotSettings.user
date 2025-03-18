@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATests_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fmetadata_003F1a3cf769861e4ef0a32fe3259e5e26372000_003Ff7_003Fa427e68f_003FTests_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab3\Tests\bin\Debug\net8.0\Tests.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab3\bin\Debug\net8.0\log4net.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ef0e791_002D471c_002D4b80_002D8947_002Dcb8444a71da8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RepositoryTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6C06C6A0-014D-ACDD-F75C-21E36D4CD22B::net8.0::lab3.Tests.RepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ccc014b_002Dec2f_002D4996_002Db303_002D04f4d6860351/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestCursaRepository" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6C06C6A0-014D-ACDD-F75C-21E36D4CD22B::net8.0::lab3.Tests.RepositoryTest.TestCursaRepository&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c0b67efd_002D0274_002D4dde_002Da4ed_002D46c497b2d578/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6C06C6A0-014D-ACDD-F75C-21E36D4CD22B::net8.0::lab3.Tests.RepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
