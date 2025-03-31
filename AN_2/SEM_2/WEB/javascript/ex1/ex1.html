@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutare intre liste</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+<h2>Mutare intre liste</h2>
+<label>Lista 1
+    <select id="lista1" multiple ondblclick="muta(this, document.getElementById('lista2'))">
+        <option>Element 1</option>
+        <option>Element 2</option>
+        <option>Element 3</option>
+    </select>
+</label>
+<label>Lista 2
+    <select id="lista2" multiple ondblclick="muta(this, document.getElementById('lista1'))">
+        <option>Element 4</option>
+        <option>Element 5</option>
+        <option>Element 6</option>
+    </select>
+</label>
+<script src="ex1.js"></script>
+</body>
+</html>
+

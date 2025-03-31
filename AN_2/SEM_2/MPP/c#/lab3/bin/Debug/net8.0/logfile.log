@@ -218,3 +218,129 @@ Actual value was capacitateMotor.
 2025-03-17 18:58:25,696 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 24 a fost sters cu succes.
 2025-03-17 18:58:25,696 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea utilizatorului cu id 24
 2025-03-17 18:58:25,696 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 24 nu a fost gasit.
+2025-03-24 15:28:57,057 [1] INFO lab3.Program - Aplicatia a fost pornita.
+2025-03-24 15:28:57,316 [1] INFO lab3.Program - Conexiune deschisa cu succes.
+2025-03-24 15:28:57,318 [1] INFO lab3.Program - Operatiunea s-a incheiat cu succes.
+2025-03-24 15:29:15,669 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se adauga o cursa in baza de date.
+2025-03-24 15:29:15,700 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost adaugata cu succes.
+2025-03-24 15:29:15,702 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se modifica cursa cu id 29
+2025-03-24 15:29:15,710 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost modificata cu succes.
+2025-03-24 15:29:15,711 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se cauta cursa cu id 29
+2025-03-24 15:29:15,712 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa gasita: Cursa Modificata
+2025-03-24 15:29:15,713 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se preiau toate cursele din baza de date.
+2025-03-24 15:29:15,713 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - S-au preluat 1 curse.
+2025-03-24 15:29:15,714 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se sterge cursa cu id 29
+2025-03-24 15:29:15,722 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost stearsa cu succes.
+2025-03-24 15:29:15,723 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se cauta cursa cu id 29
+2025-03-24 15:29:15,723 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa nu a fost gasita.
+2025-03-24 15:29:15,729 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se adauga o echipa in baza de date.
+2025-03-24 15:29:15,736 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost adaugata cu succes.
+2025-03-24 15:29:15,737 [.NET TP Worker] DEBUG lab3.Tests.RepositoryTest - Echipa a fost adăugată: 34
+2025-03-24 15:29:15,737 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se modifica echipa cu id 34
+2025-03-24 15:29:15,744 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost modificata cu succes.
+2025-03-24 15:29:15,745 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se cauta echipa cu id 34
+2025-03-24 15:29:15,745 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa gasita: Echipa Modificata
+2025-03-24 15:29:15,745 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se preiau toate echipele din baza de date.
+2025-03-24 15:29:15,746 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - S-au preluat 1 echipe.
+2025-03-24 15:29:15,746 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se sterge echipa cu id 34
+2025-03-24 15:29:15,754 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost stearsa cu succes.
+2025-03-24 15:29:15,754 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se cauta echipa cu id 34
+2025-03-24 15:29:15,754 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa nu a fost gasita.
+2025-03-24 15:29:15,757 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se adauga o echipa in baza de date.
+2025-03-24 15:29:15,765 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost adaugata cu succes.
+2025-03-24 15:29:15,765 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se adauga o cursa in baza de date.
+2025-03-24 15:29:15,776 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost adaugata cu succes.
+2025-03-24 15:29:15,777 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Incep adaugarea participantului: Participant Test
+2025-03-24 15:29:15,785 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Participantul Participant Test a fost adaugat cu succes.
+2025-03-24 15:29:15,786 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep adaugarea unui participant la cursa cu idCursa 30
+2025-03-24 15:29:15,794 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Adaugarea participantului cu id 10 la cursa cu idCursa 30 s-a realizat cu succes.
+2025-03-24 15:29:15,794 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea participantilor pentru cursa cu id 30
+2025-03-24 15:29:15,795 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea participantilor pentru cursa cu id 30 s-a incheiat cu succes.
+2025-03-24 15:29:15,797 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea curselor pentru participantul cu id 10
+2025-03-24 15:29:15,798 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea curselor pentru participantul cu id 10 s-a incheiat cu succes.
+2025-03-24 15:29:15,798 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep stergerea participantului cu id 10
+2025-03-24 15:29:15,806 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Stergerea participantului cu id 10 s-a realizat cu succes.
+2025-03-24 15:29:15,806 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea participantilor pentru cursa cu id 30
+2025-03-24 15:29:15,806 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea participantilor pentru cursa cu id 30 s-a incheiat cu succes.
+2025-03-24 15:29:15,807 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Incep stergerea participantului cu id 10
+2025-03-24 15:29:15,814 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Participantul cu id 10 a fost sters cu succes.
+2025-03-24 15:29:15,814 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se sterge echipa cu id 35
+2025-03-24 15:29:15,821 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost stearsa cu succes.
+2025-03-24 15:29:15,821 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se sterge cursa cu id 30
+2025-03-24 15:29:15,831 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost stearsa cu succes.
+2025-03-24 15:29:15,833 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep adaugarea utilizatorului: Utilizator Test
+2025-03-24 15:29:15,842 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul Utilizator Test a fost adaugat cu succes.
+2025-03-24 15:29:15,842 [.NET TP Worker] DEBUG lab3.Tests.RepositoryTest - Utilizatorul a fost adăugat: 25
+2025-03-24 15:29:15,843 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep modificarea utilizatorului cu idUtilizator 25
+2025-03-24 15:29:15,851 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu idUtilizator 25 a fost modificat cu succes.
+2025-03-24 15:29:15,852 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea utilizatorului cu id 25
+2025-03-24 15:29:15,852 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 25 a fost gasit.
+2025-03-24 15:29:15,852 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea tuturor utilizatorilor.
+2025-03-24 15:29:15,853 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Cautarea tuturor utilizatorilor s-a realizat cu succes.
+2025-03-24 15:29:15,853 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep stergerea utilizatorului cu id 25
+2025-03-24 15:29:15,861 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 25 a fost sters cu succes.
+2025-03-24 15:29:15,861 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea utilizatorului cu id 25
+2025-03-24 15:29:15,861 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 25 nu a fost gasit.
+2025-03-24 16:49:26,586 [1] INFO lab3.Program - Aplicatia a fost pornita.
+2025-03-24 16:49:26,613 [1] INFO lab3.Program - Conexiune deschisa cu succes.
+2025-03-24 16:49:26,615 [1] INFO lab3.Program - Operatiunea s-a incheiat cu succes.
+2025-03-24 16:49:37,797 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se adauga o cursa in baza de date.
+2025-03-24 16:49:37,831 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost adaugata cu succes.
+2025-03-24 16:49:37,832 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se modifica cursa cu id 31
+2025-03-24 16:49:37,839 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost modificata cu succes.
+2025-03-24 16:49:37,839 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se cauta cursa cu id 31
+2025-03-24 16:49:37,841 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa gasita: Cursa Modificata
+2025-03-24 16:49:37,842 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se preiau toate cursele din baza de date.
+2025-03-24 16:49:37,842 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - S-au preluat 1 curse.
+2025-03-24 16:49:37,844 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se sterge cursa cu id 31
+2025-03-24 16:49:37,851 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost stearsa cu succes.
+2025-03-24 16:49:37,851 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se cauta cursa cu id 31
+2025-03-24 16:49:37,851 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa nu a fost gasita.
+2025-03-24 16:49:37,858 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se adauga o echipa in baza de date.
+2025-03-24 16:49:37,865 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost adaugata cu succes.
+2025-03-24 16:49:37,865 [.NET TP Worker] DEBUG lab3.Tests.RepositoryTest - Echipa a fost adăugată: 36
+2025-03-24 16:49:37,866 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se modifica echipa cu id 36
+2025-03-24 16:49:37,873 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost modificata cu succes.
+2025-03-24 16:49:37,873 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se cauta echipa cu id 36
+2025-03-24 16:49:37,873 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa gasita: Echipa Modificata
+2025-03-24 16:49:37,874 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se preiau toate echipele din baza de date.
+2025-03-24 16:49:37,874 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - S-au preluat 1 echipe.
+2025-03-24 16:49:37,874 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se sterge echipa cu id 36
+2025-03-24 16:49:37,881 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost stearsa cu succes.
+2025-03-24 16:49:37,882 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se cauta echipa cu id 36
+2025-03-24 16:49:37,882 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa nu a fost gasita.
+2025-03-24 16:49:37,886 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se adauga o echipa in baza de date.
+2025-03-24 16:49:37,893 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost adaugata cu succes.
+2025-03-24 16:49:37,893 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se adauga o cursa in baza de date.
+2025-03-24 16:49:37,899 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost adaugata cu succes.
+2025-03-24 16:49:37,900 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Incep adaugarea participantului: Participant Test
+2025-03-24 16:49:37,907 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Participantul Participant Test a fost adaugat cu succes.
+2025-03-24 16:49:37,908 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep adaugarea unui participant la cursa cu idCursa 32
+2025-03-24 16:49:37,915 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Adaugarea participantului cu id 11 la cursa cu idCursa 32 s-a realizat cu succes.
+2025-03-24 16:49:37,915 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea participantilor pentru cursa cu id 32
+2025-03-24 16:49:37,915 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea participantilor pentru cursa cu id 32 s-a incheiat cu succes.
+2025-03-24 16:49:37,917 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea curselor pentru participantul cu id 11
+2025-03-24 16:49:37,917 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea curselor pentru participantul cu id 11 s-a incheiat cu succes.
+2025-03-24 16:49:37,918 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep stergerea participantului cu id 11
+2025-03-24 16:49:37,925 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Stergerea participantului cu id 11 s-a realizat cu succes.
+2025-03-24 16:49:37,925 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Incep cautarea participantilor pentru cursa cu id 32
+2025-03-24 16:49:37,925 [.NET TP Worker] DEBUG lab3.repository.ParticipantCursaRepository - Cautarea participantilor pentru cursa cu id 32 s-a incheiat cu succes.
+2025-03-24 16:49:37,925 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Incep stergerea participantului cu id 11
+2025-03-24 16:49:37,932 [.NET TP Worker] DEBUG lab3.repository.ParticipantRepository - Participantul cu id 11 a fost sters cu succes.
+2025-03-24 16:49:37,932 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Se sterge echipa cu id 37
+2025-03-24 16:49:37,940 [.NET TP Worker] DEBUG lab3.repository.EchipaRepository - Echipa a fost stearsa cu succes.
+2025-03-24 16:49:37,940 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Se sterge cursa cu id 32
+2025-03-24 16:49:37,947 [.NET TP Worker] DEBUG lab3.repository.CursaRepository - Cursa a fost stearsa cu succes.
+2025-03-24 16:49:37,949 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep adaugarea utilizatorului: Utilizator Test
+2025-03-24 16:49:37,956 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul Utilizator Test a fost adaugat cu succes.
+2025-03-24 16:49:37,957 [.NET TP Worker] DEBUG lab3.Tests.RepositoryTest - Utilizatorul a fost adăugat: 26
+2025-03-24 16:49:37,957 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep modificarea utilizatorului cu idUtilizator 26
+2025-03-24 16:49:37,964 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu idUtilizator 26 a fost modificat cu succes.
+2025-03-24 16:49:37,964 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea utilizatorului cu id 26
+2025-03-24 16:49:37,964 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 26 a fost gasit.
+2025-03-24 16:49:37,964 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea tuturor utilizatorilor.
+2025-03-24 16:49:37,965 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Cautarea tuturor utilizatorilor s-a realizat cu succes.
+2025-03-24 16:49:37,965 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep stergerea utilizatorului cu id 26
+2025-03-24 16:49:37,972 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 26 a fost sters cu succes.
+2025-03-24 16:49:37,972 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Incep cautarea utilizatorului cu id 26
+2025-03-24 16:49:37,972 [.NET TP Worker] DEBUG lab3.repository.UtilizatorRepository - Utilizatorul cu id 26 nu a fost gasit.

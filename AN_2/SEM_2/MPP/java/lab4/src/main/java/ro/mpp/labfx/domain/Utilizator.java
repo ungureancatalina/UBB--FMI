@@ -1,5 +1,7 @@
 package ro.mpp.labfx.domain;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 import java.util.Objects;
 
 public class Utilizator implements Identifiable<Integer>{
@@ -9,7 +11,7 @@ public class Utilizator implements Identifiable<Integer>{
 
     public Utilizator(String nume, String parola) {
         this.nume = nume;
-        this.parola = parola;
+        setParola(parola);
     }
 
     public Utilizator(int idUtilizator,String nume, String parola) {
@@ -41,7 +43,11 @@ public class Utilizator implements Identifiable<Integer>{
     }
 
     public void setParola(String parola) {
-        this.parola = parola;
+        this.parola = BCrypt.hashpw(parola, BCrypt.gensalt());
+    }
+
+    public boolean verificaParola(String parola) {
+        return BCrypt.checkpw(parola, this.parola);
     }
 
     @Override

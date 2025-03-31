@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ro.mpp.labfx.domain.Echipa;
 import ro.mpp.labfx.domain.Participant;
+import ro.mpp.labfx.domain.ParticipantDTO;
 import ro.mpp.labfx.utils.JdbcUtils;
 
 import java.sql.*;
@@ -130,9 +131,9 @@ public class ParticipantRepository implements ParticipantRepositoryInterface {
     }
 
     @Override
-    public List<Participant> findByEchipa(Echipa echipa) {
+    public List<ParticipantDTO> findByEchipa(Echipa echipa) {
         logger.traceEntry("Incep cautarea participantilor din echipa cu id " + echipa.getId());
-        List<Participant> result = new ArrayList<>();
+        List<ParticipantDTO> result = new ArrayList<>();
         String sql = "SELECT p.idParticipant, p.nume, p.CNP, p.capacitate_motor, e.idEchipa, e.nume as echipaNume " +
                 "FROM participant p " +
                 "JOIN echipa e ON p.idEchipa = e.idEchipa " +
@@ -142,12 +143,10 @@ public class ParticipantRepository implements ParticipantRepositoryInterface {
             statement.setInt(1, echipa.getId());
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
-                Participant participant = new Participant(
-                        resultSet.getInt("idParticipant"),
+                ParticipantDTO participant = new ParticipantDTO(
                         resultSet.getString("nume"),
-                        resultSet.getString("CNP"),
                         resultSet.getInt("capacitate_motor"),
-                        new Echipa(resultSet.getInt("idEchipa"), resultSet.getString("echipaNume"))
+                        resultSet.getString("echipaNume")
                 );
                 result.add(participant);
             }
@@ -156,6 +155,35 @@ public class ParticipantRepository implements ParticipantRepositoryInterface {
             logger.error("Eroare la cautarea participantilor din echipa cu id " + echipa.getId(), e);
         }
         return result;
+    }
+
+    @Override
+    public Participant findbynume(String nume) {
+        logger.traceEntry("Incep cautarea participantului cu numele " + nume);
+        String sql = "SELECT p.idParticipant, p.nume, p.CNP, p.capacitate_motor, e.idEchipa, e.nume as echipaNume " +
+                "FROM participant p " +
+                "JOIN echipa e ON p.idEchipa = e.idEchipa " +
+                "WHERE p.nume = ?";
+        try (Connection connection = _dbUtils.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, nume);
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                Participant participant = new Participant(
+                        resultSet.getInt("idParticipant"),
+                        resultSet.getString("nume"),
+                        resultSet.getString("CNP"),
+                        resultSet.getInt("capacitate_motor"),
+                        new Echipa(resultSet.getInt("idEchipa"), resultSet.getString("echipaNume"))
+                );
+                logger.traceExit("Participantul cu numele " + nume + " a fost gasit.");
+                return participant;
+            }
+        } catch (SQLException e) {
+            logger.error("Eroare la cautarea participantului cu numele " + nume, e);
+        }
+        logger.traceExit("Participantul cu numele " + nume + " nu a fost gasit.");
+        return null;
     }
 
 

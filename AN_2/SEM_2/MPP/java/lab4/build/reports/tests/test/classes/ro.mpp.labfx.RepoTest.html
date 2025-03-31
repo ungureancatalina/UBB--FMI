@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - RepoTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>RepoTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ro.mpp.labfx.html">ro.mpp.labfx</a> &gt; RepoTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.181s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Test Cursa Repository: Add, Modify, FindById, FindAll, Delete</td>
+<td class="success">testCursaRepository()</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Echipa Repository: Add, Modify, FindById, FindAll, Delete</td>
+<td class="success">testEchipaRepository()</td>
+<td class="success">0.037s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Echipa Repository: FindByNume</td>
+<td class="success">testFindEchipaByNume()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test ParticipantCursa Repository: FindNrPartByCursa</td>
+<td class="success">testFindNrPartByCursa()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Participant Repository: FindByEchipa</td>
+<td class="success">testFindParticipantByEchipa()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Utilizator Repository: FindByNume</td>
+<td class="success">testFindUtilizatorByNume()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Participant Repository: Add, Modify, FindById, FindAll, Delete</td>
+<td class="success">testParticipantRepository()</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Test Utilizator Repository: Add, Modify, FindById, FindAll, Delete</td>
+<td class="success">testUtilizatorRepository()</td>
+<td class="success">0.034s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>24 Mar 2025 14:55:44,959 TRACE ro.mpp.labfx.repository.CursaRepository 76 findById - Enter Se cauta cursa cu id 67
+24 Mar 2025 14:55:44,959 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,960 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,960 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,961 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,961 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,961 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c025cb)
+24 Mar 2025 14:55:44,963 TRACE ro.mpp.labfx.repository.CursaRepository 89 findById - Exit with(Cursa gasita: Moto2)
+24 Mar 2025 14:55:44,963 TRACE ro.mpp.labfx.repository.ParticipantCursaRepository 220 findNrPartByCursa - Enter Incep cautarea participantilor pentru cursa cu id 67
+24 Mar 2025 14:55:44,963 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,963 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,964 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,964 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,964 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,964 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@68809cc7)
+24 Mar 2025 14:55:44,965 TRACE ro.mpp.labfx.repository.ParticipantCursaRepository 245 findNrPartByCursa - Exit with(Cautarea participantilor pentru cursa cu id 67 s-a incheiat cu succes.)
+24 Mar 2025 14:55:44,967 TRACE ro.mpp.labfx.repository.EchipaRepository 116 findByNume - Enter Se cauta echipa cu numele Honda
+24 Mar 2025 14:55:44,967 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,968 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,968 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,968 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,968 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,969 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2abc224d)
+24 Mar 2025 14:55:44,970 TRACE ro.mpp.labfx.repository.EchipaRepository 127 findByNume - Exit with(Echipa gasita: Honda)
+24 Mar 2025 14:55:44,970 TRACE ro.mpp.labfx.repository.ParticipantRepository 135 findByEchipa - Enter Incep cautarea participantilor din echipa cu id 87
+24 Mar 2025 14:55:44,971 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,971 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,971 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,971 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,971 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,972 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@102d92c4)
+24 Mar 2025 14:55:44,977 TRACE ro.mpp.labfx.repository.ParticipantRepository 153 findByEchipa - Exit with(Cautarea participantilor din echipa cu id 87 s-a realizat cu succes.)
+24 Mar 2025 14:55:44,980 TRACE ro.mpp.labfx.repository.EchipaRepository 23 adauga - Enter Se adauga o echipa in baza de date.
+24 Mar 2025 14:55:44,980 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,980 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,980 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,980 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,981 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,981 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4443ef6f)
+24 Mar 2025 14:55:44,990 TRACE ro.mpp.labfx.repository.EchipaRepository 29 adauga - Exit with(Echipa a fost adaugata cu succes.)
+24 Mar 2025 14:55:44,990 TRACE ro.mpp.labfx.repository.EchipaRepository 56 modifica - Enter Se modifica echipa cu id 120
+24 Mar 2025 14:55:44,990 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:44,990 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:44,991 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:44,991 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:44,991 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:44,992 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38548b19)
+24 Mar 2025 14:55:44,999 TRACE ro.mpp.labfx.repository.EchipaRepository 63 modifica - Exit with(Echipa a fost modificata cu succes.)
+24 Mar 2025 14:55:44,999 TRACE ro.mpp.labfx.repository.EchipaRepository 71 findById - Enter Se cauta echipa cu id 120
+24 Mar 2025 14:55:45,000 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,000 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,000 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,000 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,000 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,001 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41aaedaa)
+24 Mar 2025 14:55:45,002 TRACE ro.mpp.labfx.repository.EchipaRepository 82 findById - Exit with(Echipa gasita: Echipa Modificata)
+24 Mar 2025 14:55:45,002 TRACE ro.mpp.labfx.repository.EchipaRepository 94 findAll - Enter Se preiau toate echipele din baza de date.
+24 Mar 2025 14:55:45,002 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,002 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,002 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,002 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,003 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,003 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@303a5119)
+24 Mar 2025 14:55:45,004 TRACE ro.mpp.labfx.repository.EchipaRepository 107 findAll - Exit with(S-au preluat 8 echipe.)
+24 Mar 2025 14:55:45,004 TRACE ro.mpp.labfx.repository.EchipaRepository 42 sterge - Enter Se sterge echipa cu id 120
+24 Mar 2025 14:55:45,004 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,004 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,004 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,005 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,005 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,005 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75b3673)
+24 Mar 2025 14:55:45,013 TRACE ro.mpp.labfx.repository.EchipaRepository 48 sterge - Exit with(Echipa a fost stearsa cu succes.)
+24 Mar 2025 14:55:45,013 TRACE ro.mpp.labfx.repository.EchipaRepository 71 findById - Enter Se cauta echipa cu id 120
+24 Mar 2025 14:55:45,013 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,014 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,014 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,014 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,014 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,015 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bcb79c2)
+24 Mar 2025 14:55:45,016 TRACE ro.mpp.labfx.repository.EchipaRepository 88 findById - Exit with(Echipa nu a fost gasita.)
+24 Mar 2025 14:55:45,017 TRACE ro.mpp.labfx.repository.UtilizatorRepository 23 adauga - Enter Incep adaugarea utilizatorului: Utilizator Test
+24 Mar 2025 14:55:45,018 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,018 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,018 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,018 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,018 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,019 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d1a10ac)
+24 Mar 2025 14:55:45,026 TRACE ro.mpp.labfx.repository.UtilizatorRepository 30 adauga - Exit with(Utilizatorul Utilizator Test a fost adaugat cu succes.)
+24 Mar 2025 14:55:45,027 TRACE ro.mpp.labfx.repository.UtilizatorRepository 57 modifica - Enter Incep modificarea utilizatorului cu idUtilizator 46
+24 Mar 2025 14:55:45,027 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,027 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,027 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,027 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,028 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,029 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fca2a8f)
+24 Mar 2025 14:55:45,036 TRACE ro.mpp.labfx.repository.UtilizatorRepository 65 modifica - Exit with(Utilizatorul cu idUtilizator 46 a fost modificat cu succes.)
+24 Mar 2025 14:55:45,037 TRACE ro.mpp.labfx.repository.UtilizatorRepository 73 findById - Enter Incep cautarea utilizatorului cu id 46
+24 Mar 2025 14:55:45,037 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,037 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,037 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,037 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,037 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,038 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31fc71ab)
+24 Mar 2025 14:55:45,038 TRACE ro.mpp.labfx.repository.UtilizatorRepository 85 findById - Exit with(Utilizatorul cu id 46 a fost gasit.)
+24 Mar 2025 14:55:45,038 TRACE ro.mpp.labfx.repository.UtilizatorRepository 97 findAll - Enter Incep cautarea tuturor utilizatorilor.
+24 Mar 2025 14:55:45,039 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,039 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,039 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,039 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,039 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,039 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71391b3f)
+24 Mar 2025 14:55:45,040 TRACE ro.mpp.labfx.repository.UtilizatorRepository 111 findAll - Exit with(Cautarea tuturor utilizatorilor s-a realizat cu succes.)
+24 Mar 2025 14:55:45,040 TRACE ro.mpp.labfx.repository.UtilizatorRepository 43 sterge - Enter Incep stergerea utilizatorului cu id 46
+24 Mar 2025 14:55:45,040 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,040 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,040 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,040 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,040 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,041 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2cfbeac4)
+24 Mar 2025 14:55:45,048 TRACE ro.mpp.labfx.repository.UtilizatorRepository 49 sterge - Exit with(Utilizatorul cu id 46 a fost sters cu succes.)
+24 Mar 2025 14:55:45,048 TRACE ro.mpp.labfx.repository.UtilizatorRepository 73 findById - Enter Incep cautarea utilizatorului cu id 46
+24 Mar 2025 14:55:45,049 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,049 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,049 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,049 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,049 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,050 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@12db3386)
+24 Mar 2025 14:55:45,050 TRACE ro.mpp.labfx.repository.UtilizatorRepository 91 findById - Exit with(Utilizatorul cu id 46 nu a fost gasit.)
+24 Mar 2025 14:55:45,051 TRACE ro.mpp.labfx.repository.CursaRepository 23 adauga - Enter Se adauga o cursa in baza de date.
+24 Mar 2025 14:55:45,051 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,051 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,052 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,052 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,052 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,052 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4078695f)
+24 Mar 2025 14:55:45,060 TRACE ro.mpp.labfx.repository.CursaRepository 31 adauga - Exit with(Cursa a fost adaugata cu succes.)
+24 Mar 2025 14:55:45,060 TRACE ro.mpp.labfx.repository.CursaRepository 59 modifica - Enter Se modifica cursa cu id 94
+24 Mar 2025 14:55:45,060 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,060 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,061 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,061 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,061 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,062 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79a1728c)
+24 Mar 2025 14:55:45,069 TRACE ro.mpp.labfx.repository.CursaRepository 68 modifica - Exit with(Cursa a fost modificata cu succes.)
+24 Mar 2025 14:55:45,069 TRACE ro.mpp.labfx.repository.CursaRepository 76 findById - Enter Se cauta cursa cu id 94
+24 Mar 2025 14:55:45,069 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,069 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,069 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,070 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,070 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,070 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a7f0ab6)
+24 Mar 2025 14:55:45,071 TRACE ro.mpp.labfx.repository.CursaRepository 89 findById - Exit with(Cursa gasita: Cursa Modificata)
+24 Mar 2025 14:55:45,071 TRACE ro.mpp.labfx.repository.CursaRepository 101 findAll - Enter Se preiau toate cursele din baza de date.
+24 Mar 2025 14:55:45,071 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,071 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,071 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,071 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,071 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,072 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41f35f7c)
+24 Mar 2025 14:55:45,072 TRACE ro.mpp.labfx.repository.CursaRepository 116 findAll - Exit with(S-au preluat 6 curse.)
+24 Mar 2025 14:55:45,073 TRACE ro.mpp.labfx.repository.CursaRepository 45 sterge - Enter Se sterge cursa cu id 94
+24 Mar 2025 14:55:45,073 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,073 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,073 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,073 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,073 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,073 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42c2f48c)
+24 Mar 2025 14:55:45,080 TRACE ro.mpp.labfx.repository.CursaRepository 51 sterge - Exit with(Cursa a fost stearsa cu succes.)
+24 Mar 2025 14:55:45,081 TRACE ro.mpp.labfx.repository.CursaRepository 76 findById - Enter Se cauta cursa cu id 94
+24 Mar 2025 14:55:45,081 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,081 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,081 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,081 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,081 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,082 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3005db4a)
+24 Mar 2025 14:55:45,083 TRACE ro.mpp.labfx.repository.CursaRepository 95 findById - Exit with(Cursa nu a fost gasita.)
+24 Mar 2025 14:55:45,084 TRACE ro.mpp.labfx.repository.EchipaRepository 23 adauga - Enter Se adauga o echipa in baza de date.
+24 Mar 2025 14:55:45,085 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,085 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,085 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,085 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,085 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,085 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@425d5d46)
+24 Mar 2025 14:55:45,093 TRACE ro.mpp.labfx.repository.EchipaRepository 29 adauga - Exit with(Echipa a fost adaugata cu succes.)
+24 Mar 2025 14:55:45,094 TRACE ro.mpp.labfx.repository.ParticipantRepository 25 adauga - Enter Incep adaugarea participantului: Participant Test
+24 Mar 2025 14:55:45,094 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,094 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,094 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,094 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,095 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,095 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4cbd03e7)
+24 Mar 2025 14:55:45,103 TRACE ro.mpp.labfx.repository.ParticipantRepository 34 adauga - Exit with(Participantul Participant Test a fost adaugat cu succes.)
+24 Mar 2025 14:55:45,103 TRACE ro.mpp.labfx.repository.ParticipantRepository 61 modifica - Enter Incep modificarea participantului cu idParticipant 104
+24 Mar 2025 14:55:45,104 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,104 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,104 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,104 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,104 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,105 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52fc5eb1)
+24 Mar 2025 14:55:45,113 TRACE ro.mpp.labfx.repository.ParticipantRepository 71 modifica - Exit with(Participantul cu idParticipant 104 a fost modificat cu succes.)
+24 Mar 2025 14:55:45,113 TRACE ro.mpp.labfx.repository.ParticipantRepository 79 findById - Enter Incep cautarea participantului cu id 104
+24 Mar 2025 14:55:45,113 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,114 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,114 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,114 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,114 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,115 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7a639ec5)
+24 Mar 2025 14:55:45,116 TRACE ro.mpp.labfx.repository.ParticipantRepository 96 findById - Exit with(Participantul cu id 104 a fost gasit.)
+24 Mar 2025 14:55:45,116 TRACE ro.mpp.labfx.repository.EchipaRepository 42 sterge - Enter Se sterge echipa cu id 121
+24 Mar 2025 14:55:45,116 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,116 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,116 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,116 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,116 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,117 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14151bc5)
+24 Mar 2025 14:55:45,125 TRACE ro.mpp.labfx.repository.EchipaRepository 48 sterge - Exit with(Echipa a fost stearsa cu succes.)
+24 Mar 2025 14:55:45,125 TRACE ro.mpp.labfx.repository.ParticipantRepository 47 sterge - Enter Incep stergerea participantului cu id 104
+24 Mar 2025 14:55:45,125 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,125 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,125 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,125 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,126 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,127 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3013909b)
+24 Mar 2025 14:55:45,134 TRACE ro.mpp.labfx.repository.ParticipantRepository 53 sterge - Exit with(Participantul cu id 104 a fost sters cu succes.)
+24 Mar 2025 14:55:45,136 TRACE ro.mpp.labfx.repository.UtilizatorRepository 120 findByNume - Enter Incep cautarea utilizatorului cu numele cata
+24 Mar 2025 14:55:45,137 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,137 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,137 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,137 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,137 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,138 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a49fe)
+24 Mar 2025 14:55:45,139 TRACE ro.mpp.labfx.repository.UtilizatorRepository 132 findByNume - Exit with(Utilizatorul cu numele cata a fost gasit.)
+24 Mar 2025 14:55:45,140 TRACE ro.mpp.labfx.repository.EchipaRepository 116 findByNume - Enter Se cauta echipa cu numele BMW
+24 Mar 2025 14:55:45,140 TRACE ro.mpp.labfx.utils.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 14:55:45,140 TRACE ro.mpp.labfx.utils.JdbcUtils 24 getNewConnection - Enter
+24 Mar 2025 14:55:45,141 INFO  ro.mpp.labfx.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:moto.db
+24 Mar 2025 14:55:45,141 INFO  ro.mpp.labfx.utils.JdbcUtils 30 getNewConnection - user: null
+24 Mar 2025 14:55:45,141 INFO  ro.mpp.labfx.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Mar 2025 14:55:45,141 TRACE ro.mpp.labfx.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66596a88)
+24 Mar 2025 14:55:45,142 TRACE ro.mpp.labfx.repository.EchipaRepository 127 findByNume - Exit with(Echipa gasita: BMW)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at Mar 24, 2025, 2:55:45 PM</p>
+</div>
+</div>
+</body>
+</html>

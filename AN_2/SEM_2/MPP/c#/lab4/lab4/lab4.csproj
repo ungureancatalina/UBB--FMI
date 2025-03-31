@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+        <OutputType>Exe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <StartupObject>lab4.Program</StartupObject>
+        <Version>1.0.0</Version>
+        <AssemblyTitle>lab4</AssemblyTitle>
+        <AssemblyCompany>lab4</AssemblyCompany>
+        <AssemblyProduct>lab4</AssemblyProduct>
+        <AssemblyFileVersion>1.0.0</AssemblyFileVersion>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GenerateGlobalUsings>false</GenerateGlobalUsings>
+        <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+        <PackageReference Include="log4net" Version="3.0.4" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0-preview.2.25163.8" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0-preview.2.25163.2" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0-preview.2.25163.2" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.0-preview-25107-01" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="WindowsFormsApplication1" Version="1.0.0" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="log4net.config">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="bd.config">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="moto.db">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="forms\MainForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="forms\InscriereForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="forms\LoginForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+</Project>

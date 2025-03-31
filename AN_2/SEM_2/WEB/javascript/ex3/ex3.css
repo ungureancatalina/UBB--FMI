@@ -1,0 +1,33 @@
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cell img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cell.revealed img {
+    display: block;
+}
+
+#winMessage{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}

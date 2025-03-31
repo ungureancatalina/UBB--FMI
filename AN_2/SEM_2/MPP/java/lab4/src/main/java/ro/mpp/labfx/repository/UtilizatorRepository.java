@@ -121,21 +121,22 @@ public class UtilizatorRepository implements UtilizatorRepositoryInterface {
         String sql = "SELECT * FROM utilizator WHERE nume = ?";
         try (Connection connection = dbUtils.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
-            statement.setString(1, nume);
-            ResultSet resultSet = statement.executeQuery();
-            if (resultSet.next()) {
-                Utilizator utilizator = new Utilizator(
-                        resultSet.getInt("idUtilizator"),
-                        resultSet.getString("nume"),
-                        resultSet.getString("parola")
-                );
-                logger.traceExit("Utilizatorul cu numele " + nume + " a fost gasit.");
-                return utilizator;
+            statement.setString(1, nume.trim());
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    Utilizator utilizator = new Utilizator(
+                            resultSet.getInt("idUtilizator"),
+                            resultSet.getString("nume"),
+                            resultSet.getString("parola")
+                    );
+                    logger.traceExit("Utilizatorul cu numele " + nume + " a fost gasit.");
+                    return utilizator;
+                }
             }
         } catch (SQLException e) {
             logger.error("Eroare la cautarea utilizatorului cu numele " + nume, e);
         }
-        logger.traceExit("Utilizatorul cu numele " + nume + " nu a fost gasit.");
+        logger.traceExit("Utilizatorul nu a fost gasit.");
         return null;
     }
 }

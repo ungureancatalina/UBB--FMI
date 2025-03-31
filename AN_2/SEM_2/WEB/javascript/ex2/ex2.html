@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validare Formular</title>
+  <link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+
+<h2>Validare Formular</h2>
+
+<form id="formular" onsubmit="return valideaza()">
+  <label for="nume">Nume:</label>
+  <input type="text" id="nume" placeholder="Nume">
+
+  <label for="data_nasterii">Data nașterii:</label>
+  <input type="date" id="data_nasterii">
+
+  <label for="varsta">Vârsta (10-90):</label>
+  <input type="text" id="varsta" placeholder="Varsta (10-90)">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Email">
+
+  <button type="submit">Trimite</button>
+</form>
+
+
+<p id="mesaj"></p>
+<script src="ex2.js"></script>
+
+</body>
+</html>

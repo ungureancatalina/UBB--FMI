@@ -2,6 +2,7 @@ package ro.mpp.labfx.repository;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.checkerframework.checker.units.qual.C;
 import ro.mpp.labfx.domain.Cursa;
 import ro.mpp.labfx.domain.Echipa;
 import ro.mpp.labfx.domain.Participant;
@@ -9,9 +10,7 @@ import ro.mpp.labfx.domain.ParticipantCursa;
 import ro.mpp.labfx.utils.JdbcUtils;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 public class ParticipantCursaRepository implements ParticipantCursaRepositoryInterface {
     private static final Logger logger = LogManager.getLogger(ParticipantCursaRepository.class);
@@ -216,25 +215,56 @@ public class ParticipantCursaRepository implements ParticipantCursaRepositoryInt
         return result;
     }
 
-
-    private Echipa getEchipaById(int echipaId) {
-        logger.traceEntry("Incep cautarea echipei cu id " + echipaId);
-        String sql = "SELECT * FROM echipa WHERE idEchipa = ?";
+    @Override
+    public int findNrPartByCursa(Cursa cursa) {
+        logger.traceEntry("Incep cautarea participantilor pentru cursa cu id " + cursa.getId());
+        int result = 0;
+        String sql = "SELECT p.idParticipant, p.nume, p.CNP, p.capacitate_motor, e.idEchipa, e.nume as echipaNume, c.idCursa, c.nume as cursaNume, c.capacitate_minima, c.capacitate_maxima " +
+                "FROM participant_cursa pc " +
+                "JOIN participant p ON pc.idParticipant = p.idParticipant " +
+                "JOIN cursa c ON pc.idCursa = c.idCursa " +
+                "JOIN echipa e ON p.idEchipa = e.idEchipa " +
+                "WHERE pc.idCursa = ?";
 
         try (Connection connection = dbUtils.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
-            statement.setInt(1, echipaId);
+            statement.setInt(1, cursa.getId());
             ResultSet resultSet = statement.executeQuery();
 
-            if (resultSet.next()) {
-                String nume = resultSet.getString("nume");
-                logger.traceExit("Cautarea echipei cu id " + echipaId + " s-a realizat cu succes.");
-                return new Echipa(echipaId, nume);
+            while (resultSet.next()) {
+                int participantId = resultSet.getInt("idParticipant");
+                int cursaId = resultSet.getInt("idCursa");
+                String cursaNume = resultSet.getString("cursaNume");
+                int capacitateMinima = resultSet.getInt("capacitate_minima");
+                int capacitateMaxima = resultSet.getInt("capacitate_maxima");
+
+                result+=1;
             }
+
+            logger.traceExit("Cautarea participantilor pentru cursa cu id " + cursa.getId() + " s-a incheiat cu succes.");
         } catch (SQLException e) {
-            logger.error("Eroare la cautarea echipei cu id " + echipaId, e);
+            logger.error("Eroare la cautarea participantilor pentru cursa cu id " + cursa.getId(), e);
         }
-        return null;
+        return result;
     }
+
+    @Override
+    public void adaugainbaza(Participant participant, Cursa cursa) {
+        logger.traceEntry("Incep adaugarea unui participant la cursa: " + participant.getId() + "+" + cursa.getId());
+        String sql = "INSERT INTO participant_cursa (idParticipant, idCursa) VALUES (?, ?)";
+
+        try (Connection connection = dbUtils.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+
+            statement.setInt(1, participant.getId());
+            statement.setInt(2, cursa.getId());
+            statement.executeUpdate();
+
+            logger.traceExit("Adaugarea participantului cu idParticipant " + participant.getId() + " la cursa cu idCursa " + cursa.getId() + " s-a realizat cu succes.");
+        } catch (SQLException e) {
+            logger.error("Eroare la adaugarea participantului la cursa", e);
+        }
+    }
+
 }
