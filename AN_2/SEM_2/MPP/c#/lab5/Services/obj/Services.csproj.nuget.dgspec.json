@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\ungur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ungur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "MessagePack": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "MessagePack.Annotations": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\ungur\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\ungur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ungur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\ungur\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+package ro.mpp2024.network.rpcprotocol;
+
+public enum ResponseType {
+    OK,
+    ERROR,
+    GET_ALL_CURSE,
+    LIST_DTO_CURSE,
+    GET_ALL_PARTICIPANTI,
+    CAUTA_PARTICIPANTI_ECHIPA,
+    NEW_PARTICIPANT,
+    FIND_ECHIPA_BY_NUME,
+    FIND_NR_PART_BY_CURSA,
+    GET_ALL_PARTICIPANT_CURSA
+
+}

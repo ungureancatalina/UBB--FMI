@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "julIZL8kee4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ungur\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepack\\3.0.3\\messagepack.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepack.annotations\\3.0.3\\messagepack.annotations.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepackanalyzer\\3.0.3\\messagepackanalyzer.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\microsoft.net.stringtools\\17.11.4\\microsoft.net.stringtools.17.11.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MessagePack' 3.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4qm4-8hg2-g2xm",
+      "libraryId": "MessagePack",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

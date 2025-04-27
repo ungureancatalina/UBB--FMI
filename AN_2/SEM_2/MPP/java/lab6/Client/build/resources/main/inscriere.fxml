@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ro.mpp2024.client.gui.InscriereController"
+      alignment="CENTER" spacing="20" style="-fx-padding: 20px; -fx-background-color: #f0f8ff;">
+
+    <Label text="Înscriere Participant" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;"/>
+
+    <TextField fx:id="numeField" promptText="Numele Participantului" style="-fx-font-size: 14px; -fx-padding: 10px;"/>
+    <TextField fx:id="cnpField" promptText="CNP Participant" style="-fx-font-size: 14px; -fx-padding: 10px;"/>
+    <TextField fx:id="echipaField" promptText="Echipa" style="-fx-font-size: 14px; -fx-padding: 10px;"/>
+    <ComboBox fx:id="capacitateMotoCombo" promptText="Capacitate Motor" style="-fx-font-size: 14px; -fx-padding: 10px;"/>
+
+    <Button text="Înscriere" onAction="#handleInscriere" style="-fx-background-color: #1a2c56; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10px;"/>
+
+    <TableView fx:id="tableViewParticipantiCurse" prefWidth="600" prefHeight="300">
+        <columns>
+            <TableColumn fx:id="columnNumeCursa" text="Nume Cursa" style="-fx-font-size: 14px;" />
+            <TableColumn fx:id="columnNumeParticipant" text="Nume Participant" style="-fx-font-size: 14px;" />
+        </columns>
+    </TableView>
+
+</VBox>

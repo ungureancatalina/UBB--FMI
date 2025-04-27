@@ -1,0 +1,13 @@
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\bin\Debug\net8.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\bin\Debug\net8.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Persistence\obj\Debug\net8.0\ref\Persistence.dll

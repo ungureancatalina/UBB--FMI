@@ -1,0 +1,22 @@
+plugins {
+  id 'java'
+}
+
+group = 'lab5'
+version = '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation platform('org.junit:junit-bom:5.10.0')
+  testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+  implementation 'org.mindrot:jbcrypt:0.4'
+  implementation 'org.openjfx:javafx-base:17.0.2:win'
+  implementation 'org.openjfx:javafx-controls:17.0.2:win'
+}
+
+test {
+  useJUnitPlatform()
+}

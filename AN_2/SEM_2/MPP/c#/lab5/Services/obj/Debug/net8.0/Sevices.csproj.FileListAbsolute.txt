@@ -1,0 +1,13 @@
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\bin\Debug\net8.0\Sevices.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\bin\Debug\net8.0\Sevices.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\bin\Debug\net8.0\Sevices.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\bin\Debug\net8.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\bin\Debug\net8.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.csproj.Up2Date
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\refint\Sevices.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\Sevices.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Sevices\obj\Debug\net8.0\ref\Sevices.dll

@@ -1,0 +1,30 @@
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Networking.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Networking.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Services.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\bin\Debug\net9.0\Services.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.csproj.Up2Date
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\refint\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\Networking.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Networking\obj\Debug\net9.0\ref\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Networking.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Networking.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Services.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\bin\Debug\net9.0\Services.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.csproj.Up2Date
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\refint\Networking.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\Networking.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Networking\obj\Debug\net9.0\ref\Networking.dll

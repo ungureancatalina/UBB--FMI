@@ -1,0 +1,101 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Model/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.2",
+          "MessagePack": "3.0.3",
+          "MessagePack.Annotations": "3.0.3"
+        },
+        "runtime": {
+          "Model.dll": {}
+        }
+      },
+      "BCrypt.Net-Next/4.0.2": {
+        "runtime": {
+          "lib/net5.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "MessagePack/3.0.3": {
+        "dependencies": {
+          "MessagePack.Annotations": "3.0.3",
+          "MessagePackAnalyzer": "3.0.3",
+          "Microsoft.NET.StringTools": "17.11.4"
+        },
+        "runtime": {
+          "lib/net8.0/MessagePack.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.3.6"
+          }
+        }
+      },
+      "MessagePack.Annotations/3.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.3.6"
+          }
+        }
+      },
+      "MessagePackAnalyzer/3.0.3": {},
+      "Microsoft.NET.StringTools/17.11.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.NET.StringTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.11.4.40609"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCrypt.Net-Next/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LyNKpIpr4GraRD9+xlTviyxxbZpF6J4xJf7DvraC1mR8PSN/KonGc4rt8C/fjkD3vaEvgA7BcvsbHFCOjgczyQ==",
+      "path": "bcrypt.net-next/4.0.2",
+      "hashPath": "bcrypt.net-next.4.0.2.nupkg.sha512"
+    },
+    "MessagePack/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-emGywYqR3NkjuNo70WkT0BiThzf7vgi5GVQniHXc0iNg1xruhtCgB4T8CZgIC3QHZ9vUl6o1XDotquugn+/eTw==",
+      "path": "messagepack/3.0.3",
+      "hashPath": "messagepack.3.0.3.nupkg.sha512"
+    },
+    "MessagePack.Annotations/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qLpvJIHMKrP9/2W7txUmrwM4mU1s1yNVtgQTpg8rqWGtePK5GcqTV7eOfDQV2dPYiAt1pBajfaC9xlejo3VG/A==",
+      "path": "messagepack.annotations/3.0.3",
+      "hashPath": "messagepack.annotations.3.0.3.nupkg.sha512"
+    },
+    "MessagePackAnalyzer/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F4qer4Zu98kOdsiQgE2UeF3IBx9azNgiGGD/KFZ+3N2AqKONJKcbGuh+scS9Jk978ntE81WWum8Eav9AkcEJuw==",
+      "path": "messagepackanalyzer/3.0.3",
+      "hashPath": "messagepackanalyzer.3.0.3.nupkg.sha512"
+    },
+    "Microsoft.NET.StringTools/17.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mudqUHhNpeqIdJoUx2YDWZO/I9uEDYVowan89R6wsomfnUJQk6HteoQTlNjZDixhT2B4IXMkMtgZtoceIjLRmA==",
+      "path": "microsoft.net.stringtools/17.11.4",
+      "hashPath": "microsoft.net.stringtools.17.11.4.nupkg.sha512"
+    }
+  }
+}

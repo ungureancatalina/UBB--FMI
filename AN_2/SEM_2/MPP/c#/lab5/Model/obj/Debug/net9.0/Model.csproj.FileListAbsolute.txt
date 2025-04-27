@@ -1,0 +1,20 @@
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\bin\Debug\net9.0\Model.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\bin\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\bin\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\Model.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\refint\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5\Model\obj\Debug\net9.0\ref\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\bin\Debug\net9.0\Model.deps.json
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\bin\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\bin\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\Model.csproj.AssemblyReference.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\refint\Model.dll
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\Model.pdb
+C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab5_care merge normal\lab5\Model\obj\Debug\net9.0\ref\Model.dll

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "lu2RoGvN0TI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ungur\\OneDrive\\Desktop\\facultate_materiale\\AN_2\\SEM_2\\mpp\\teme\\csharp_projects\\lab5_care merge normal\\lab5\\Networking\\Networking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ungur\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepack\\3.0.3\\messagepack.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepack.annotations\\3.0.3\\messagepack.annotations.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\messagepackanalyzer\\3.0.3\\messagepackanalyzer.3.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\microsoft.net.stringtools\\17.11.4\\microsoft.net.stringtools.17.11.4.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\system.io.pipelines\\10.0.0-preview.3.25171.5\\system.io.pipelines.10.0.0-preview.3.25171.5.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\system.text.encodings.web\\10.0.0-preview.3.25171.5\\system.text.encodings.web.10.0.0-preview.3.25171.5.nupkg.sha512",
+    "C:\\Users\\ungur\\.nuget\\packages\\system.text.json\\10.0.0-preview.3.25171.5\\system.text.json.10.0.0-preview.3.25171.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MessagePack' 3.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4qm4-8hg2-g2xm",
+      "libraryId": "MessagePack",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

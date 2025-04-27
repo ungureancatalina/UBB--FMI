@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+
+<VBox alignment="CENTER" spacing="30" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.mpp2024.client.gui.LoginController" style="-fx-background-color: #f0f8ff; -fx-padding: 30px;">
+    <Label text="Autentificare" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #1a2c56;" />
+    <TextField fx:id="usernameField" promptText="Username" style="-fx-background-color: #b4cfe0; -fx-border-radius: 5px; -fx-padding: 10px; -fx-font-size: 16px;" />
+    <PasswordField fx:id="passwordField" promptText="Password" style="-fx-background-color: #b4cfe0; -fx-border-radius: 5px; -fx-padding: 10px; -fx-font-size: 16px;" />
+    <Button text="Login" onAction="#handleLogin" style="-fx-background-color: #1a2c56; -fx-text-fill: white; -fx-font-size: 16px; -fx-border-radius: 5px; -fx-padding: 15px; -fx-cursor: hand;" />
+</VBox>

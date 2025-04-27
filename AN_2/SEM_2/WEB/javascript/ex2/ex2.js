@@ -1,4 +1,5 @@
-function valideaza() {
+function valideaza(ob) {
+    this.event.preventDefault();
     let nume = document.getElementById("nume");
     let dataNasterii = document.getElementById("data_nasterii");
     let varsta = document.getElementById("varsta");
