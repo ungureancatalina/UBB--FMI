@@ -1,3 +1,0 @@
-C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab4\lab4\obj\Debug\net8.0\lab4.csproj.AssemblyReference.cache
-C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab4\lab4\obj\Debug\net8.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ungur\OneDrive\Desktop\facultate_materiale\AN_2\SEM_2\mpp\teme\csharp_projects\lab4\lab4\obj\Debug\net8.0\lab4.csproj.CoreCompileInputs.cache

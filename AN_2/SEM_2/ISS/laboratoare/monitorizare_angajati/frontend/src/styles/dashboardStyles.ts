@@ -1,9 +1,0 @@
-export const wrapper = "min-h-screen bg-gradient-to-br from-rose-100 to-rose-300 flex items-center justify-center p-10";
-export const container = "w-full max-w-7xl bg-white p-14 rounded-[40px] shadow-2xl space-y-16";
-export const heading = "text-6xl font-extrabold text-center text-rose-600 tracking-wide";
-export const sectionTitle = "text-3xl font-bold mb-6 text-gray-800";
-export const tableBase = "w-full border rounded-2xl overflow-hidden text-xl shadow-md";
-export const th = "p-5 text-left font-semibold";
-export const td = "p-5";
-export const input = "w-full p-5 border-2 border-rose-200 rounded-2xl text-xl shadow-sm";
-export const button = "bg-rose-500 hover:bg-rose-600 text-white font-bold text-xl px-10 py-5 rounded-2xl transition-all";

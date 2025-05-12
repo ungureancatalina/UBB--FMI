@@ -1,0 +1,35 @@
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+#mesaj {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+#mesaj.error {
+    color: red;
+}
