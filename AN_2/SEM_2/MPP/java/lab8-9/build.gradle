@@ -1,0 +1,26 @@
+plugins {
+  id 'java'
+}
+
+group = 'lab5'
+version = '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+allprojects {
+  tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+  }
+}
+
+dependencies {
+  testImplementation platform('org.junit:junit-bom:5.10.0')
+  testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+
+}
+
+test {
+  useJUnitPlatform()
+}
