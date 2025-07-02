@@ -69,16 +69,14 @@ cd employee_tracker
 ```
 
 2. Install and start the backend server:
-
-cd server
-npm install
-npm run dev
+   - cd server
+   - npm install
+   - npm run dev
 
 3. Install and start the React frontend:
-
-cd ../client
-npm install
-npm run dev
+   - cd ../client
+   - npm install
+   - npm run dev
 
 4. This is how the app looks like:
 
