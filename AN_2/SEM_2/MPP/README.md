@@ -1,21 +1,22 @@
 ## About the Project
 
 
-**Moto Contest** is a Java-based client-server desktop application for managing motocross races and participants. Users can authenticate, search for races and participants, and assign participants to teams. This project uses JavaFX for the GUI, SQLite for persistent storage, and Java Sockets for communication between the client and server.
+**Moto Contest** is a client-server desktop application for managing motocross races and participants. The original version is implemented in Java, and a parallel implementation is available in C# using .NET 9. 
+Users can authenticate, search for races and participants, and assign participants to teams. This project uses SQLite for persistent storage, and Sockets for communication between the client and server.
 
-This application demonstrates the use of **MVC architecture**, **JavaFX**, **SQLite**, and **multi-threaded socket programming**.
+This application demonstrates the use of **SQLite**, and **multi-threaded socket programming**.
 
 ---
 
 ## 🛠 Technologies Used
 
-| Tool             | Purpose                                   |
-|------------------|-------------------------------------------|
-| Java             | Core language for client and server       |
-| JavaFX           | UI framework                              |
-| SQLite           | Embedded relational database              |
-| JDBC             | Database connectivity                     |
-| Java Sockets     | Client-server communication               |
+| Tool                           | Purpose                                   |
+|--------------------------------|-------------------------------------------|
+| C#/ Java                       | Core language for client and server       |
+| .NET 9/ JavaFX                 | UI framework                              |
+| SQLite                         | Embedded relational database              |
+| Entity Framework Core/ JBDC    | Database connectivity                     |
+| Java Sockets/ .NET Sockets     | Client-server communication               |
 
 ---
 
@@ -35,13 +36,13 @@ This application demonstrates the use of **MVC architecture**, **JavaFX**, **SQL
 
 ```
 moto_contest_java/
-├── client/               → JavaFX client code
-│   ├── gui/              → JavaFX controllers and scenes
+├── client/               → client code
+│   ├── gui/              → Views/ Controllers and scenes
 │   └── StartClient.java  → Client entry point
-├── server/               → Java socket server
+├── server/               → Socket server
 │   └── StartServer.java  → Server entry point
 ├── model/                → Shared domain entities (Race, Team, Participant, User)
-├── persistence/          → Helpers for database access (SQLite, JDBC)
+├── persistence/          → Helpers for database access (SQLite)
 ├── service/              → Business logic and functionalities
 ├── resources/            → FXML layouts
 └── database/             → SQLite DB file and schema
@@ -54,8 +55,10 @@ moto_contest_java/
 ### Requirements
 
 - Java 17+
+- .NET 9 SDK (preview or latest stable)
 - JavaFX SDK (set in your IDE)
 - An IDE like IntelliJ IDEA or VS Code
+- Visual Studio 2022 or later / VS Code with C# extension
 - PostgreSQL installed and running
 
 ### Steps
@@ -73,8 +76,8 @@ cd moto_contest_java
      --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
      ```
 
-3. Run `Main.java` to launch the application.
-4. This is how the app looks like:
+3. Run `Main.java`/ to launch the application.
+4. This is how the app looks like (for example in Java):
 
 
 
