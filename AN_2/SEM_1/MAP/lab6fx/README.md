@@ -74,9 +74,9 @@ cd social_network
 
 
 
-![Screenshot 2025-07-02 201635](https://github.com/user-attachments/assets/00f3a19d-60f7-4545-b2f5-8e0e944b414b)
-![Screenshot 2025-07-02 201555](https://github.com/user-attachments/assets/51486ea2-8b35-4e54-b315-e845823a007f)
-![Screenshot 2025-07-02 201522](https://github.com/user-attachments/assets/965b2a93-143a-4df6-b914-70096e4fab01)
-![Screenshot 2025-07-02 201439](https://github.com/user-attachments/assets/687a2583-ea35-4726-b994-5a42fbfe025c)
 ![Screenshot 2025-07-02 201400](https://github.com/user-attachments/assets/93360a4a-5d09-40d7-b427-3f7c9a44b93d)
+![Screenshot 2025-07-02 201439](https://github.com/user-attachments/assets/687a2583-ea35-4726-b994-5a42fbfe025c)
+![Screenshot 2025-07-02 201522](https://github.com/user-attachments/assets/965b2a93-143a-4df6-b914-70096e4fab01)
+![Screenshot 2025-07-02 201555](https://github.com/user-attachments/assets/51486ea2-8b35-4e54-b315-e845823a007f)
+![Screenshot 2025-07-02 201635](https://github.com/user-attachments/assets/00f3a19d-60f7-4545-b2f5-8e0e944b414b)
 
