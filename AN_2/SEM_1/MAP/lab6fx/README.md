@@ -1,7 +1,7 @@
 ## About the Project
 
 
-**Social Network** is a Java-based desktop application that enables users to authenticate, search and add friends, and manage friend requests. 
+**Social Network** is a Java-based desktop application that enables users to authenticate, search and add friends manage friend requests and have a chat with them. 
 This project was developed for educational purposes and demonstrates the use of layered architecture (MVC) in a Java desktop environment.
 The application uses a **PostgreSQL database** for persistent storage and supports user authentication.
 
