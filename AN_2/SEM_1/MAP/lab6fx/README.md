@@ -45,34 +45,7 @@ social_network/
 
 ---
 
-## How to Run
-
-### Requirements
-
-- Java 17+
-- JavaFX SDK (set in your IDE)
-- An IDE like IntelliJ IDEA or VS Code
-- PostgreSQL installed and running
-
-### Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ungureancatalina/socia](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_1/MAP/lab6fx
-cd social_network
-```
-
-2. Make sure JavaFX is configured in your IDE:
-   - Add it to libraries/dependencies
-   - Set VM options:
-     ```
-     --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
-     ```
-
-3. Run `Main.java` to launch the application.
-4. This is how the app looks like:
-
-
+## This is how the app looks like:
 
 ![Screenshot 2025-07-02 201400](https://github.com/user-attachments/assets/93360a4a-5d09-40d7-b427-3f7c9a44b93d)
 ![Screenshot 2025-07-02 201439](https://github.com/user-attachments/assets/687a2583-ea35-4726-b994-5a42fbfe025c)
