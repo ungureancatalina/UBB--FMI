@@ -52,33 +52,7 @@ social_network/
 
 ---
 
-## How to Run
-
-### Requirements
-
-- Node.js 18+ installed
-- MongoDB installed locally or MongoDB Atlas account
-- Code editor (e.g., VS Code)
-
-### Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ungureancatalina/UBB--FMI/new/main/AN_2/SEM_2/ISS/monitorizare_angajati
-cd employee_tracker
-```
-
-2. Install and start the backend server:
-   - cd server
-   - npm install
-   - npm run dev
-
-3. Install and start the React frontend:
-   - cd ../client
-   - npm install
-   - npm run dev
-
-4. This is how the app looks like:
+## This is how the app looks like:
 
 
 ![Screenshot 2025-07-02 205343](https://github.com/user-attachments/assets/3ff76e20-376d-41d2-b7d5-3346f9270264)
