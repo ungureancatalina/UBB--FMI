@@ -50,35 +50,7 @@ moto_contest_java/
 
 ---
 
-## How to Run
-
-### Requirements
-
-- Java 17+
-- .NET 9 SDK (preview or latest stable)
-- JavaFX SDK (set in your IDE)
-- An IDE like IntelliJ IDEA or VS Code
-- Visual Studio 2022 or later / VS Code with C# extension
-- PostgreSQL installed and running
-
-### Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ungureancatalina/UBB--FMI/new/main/AN_2/SEM_2/MPP
-cd moto_contest_java
-```
-
-2. Make sure JavaFX is configured in your IDE:
-   - Add it to libraries/dependencies
-   - Set VM options:
-     ```
-     --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
-     ```
-
-3. Run `Main.java`/ to launch the application.
-4. This is how the app looks like (for example in Java):
-
+## This is how the app looks like (for example in Java):
 
 
 ![Screenshot 2025-07-02 203046](https://github.com/user-attachments/assets/573c0a5b-cdc4-46f1-832f-ed46adb2222b)
