@@ -1,0 +1,49 @@
+// Linia cu @ trebuie sa genereze eroare lexicala
+start
+{
+    int 1x = 5;
+    1x = 1x @ 2;    
+    afisare(1x);
+}
+end
+
+// Sir neinchis -> eroare lexicala pentru tokenul string
+start
+{
+    siruri 1s = "un sir neinchis;
+    afisare(1s);
+}
+end
+
+// Tip necunoscut nu e in lista de tipuri (int/double/siruri)
+start
+{
+    tip_nou 1z = 5;   
+    afisare(1z);
+}
+end
+
+// Instructiune interzisa (return 0)
+start
+{
+    int 1a = 3;
+    return 0;   
+}
+end
+
+
+// Urmatoarea sectiune NU are tokenul 'start' => parser ar trebui sa semnaleze "no main"
+{
+    int 1m = 1;
+    afisare(1m);
+}
+
+// comentariile // trebuie ignorate de analizor
+start
+{
+    // acesta este un comentariu - nu trebuie sa genereze erori
+    int 1p = 100; 
+    citire(1p);   
+    afisare(1p);
+}
+end

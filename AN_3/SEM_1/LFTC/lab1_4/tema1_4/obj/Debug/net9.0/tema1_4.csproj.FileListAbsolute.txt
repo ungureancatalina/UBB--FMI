@@ -1,0 +1,14 @@
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\bin\Debug\net9.0\tema1_4.exe
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\bin\Debug\net9.0\tema1_4.deps.json
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\bin\Debug\net9.0\tema1_4.runtimeconfig.json
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\bin\Debug\net9.0\tema1_4.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\bin\Debug\net9.0\tema1_4.pdb
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.AssemblyInfoInputs.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.AssemblyInfo.cs
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\refint\tema1_4.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.pdb
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\tema1_4.genruntimeconfig.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema1\tema1_4\tema1_4\obj\Debug\net9.0\ref\tema1_4.dll

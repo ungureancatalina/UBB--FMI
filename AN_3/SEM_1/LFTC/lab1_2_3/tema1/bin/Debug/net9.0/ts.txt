@@ -1,0 +1,6 @@
+Idx	Lexem
+1	1sum
+2	0
+3	2n
+4	3a
+5	1
