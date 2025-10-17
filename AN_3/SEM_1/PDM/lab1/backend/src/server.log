@@ -1,0 +1,297 @@
+[2025-10-07T10:56:02.576Z] Database initialized and table "books" ensured.
+[2025-10-07T10:56:24.218Z] Database initialized and table "books" ensured.
+[2025-10-07T11:03:10.982Z] Database initialized and table "books" ensured.
+[2025-10-07T11:03:15.579Z] GET /books called
+[2025-10-07T11:03:15.579Z] Found 6 books
+[2025-10-07T11:03:15.590Z] GET /books called
+[2025-10-07T11:03:15.590Z] Found 6 books
+[2025-10-07T11:03:32.656Z] GET /books called
+[2025-10-07T11:03:32.657Z] Found 6 books
+[2025-10-07T11:03:32.662Z] Found 6 books
+[2025-10-07T11:03:32.662Z] GET /books called
+[2025-10-07T11:03:36.769Z] GET /books called
+[2025-10-07T11:03:36.770Z] Found 6 books
+[2025-10-07T11:03:36.773Z] GET /books called
+[2025-10-07T11:03:36.774Z] Found 6 books
+[2025-10-07T11:03:38.312Z] PUT /books/8 called
+[2025-10-07T11:03:38.323Z] Book updated with id=8
+[2025-10-07T11:03:41.916Z] PUT /books/8 called
+[2025-10-07T11:03:41.927Z] Book updated with id=8
+[2025-10-07T11:06:05.807Z] Found 6 books
+[2025-10-07T11:06:05.806Z] GET /books called
+[2025-10-07T11:06:05.809Z] GET /books called
+[2025-10-07T11:06:05.810Z] Found 6 books
+[2025-10-07T11:06:06.736Z] GET /books called
+[2025-10-07T11:06:06.737Z] Found 6 books
+[2025-10-07T11:06:06.739Z] GET /books called
+[2025-10-07T11:06:06.740Z] Found 6 books
+[2025-10-07T11:08:03.404Z] GET /books called
+[2025-10-07T11:08:03.405Z] Found 6 books
+[2025-10-07T11:08:03.406Z] Found 6 books
+[2025-10-07T11:08:03.406Z] GET /books called
+[2025-10-07T11:08:04.214Z] GET /books called
+[2025-10-07T11:08:04.215Z] Found 6 books
+[2025-10-07T11:08:04.216Z] GET /books called
+[2025-10-07T11:08:04.217Z] Found 6 books
+[2025-10-07T11:13:00.727Z] Database initialized and table "books" ensured.
+[2025-10-07T11:13:06.928Z] GET /books called
+[2025-10-07T11:13:06.928Z] Found 6 books
+[2025-10-07T11:13:06.944Z] Found 6 books
+[2025-10-07T11:13:06.944Z] GET /books called
+[2025-10-07T11:13:08.056Z] GET /books called
+[2025-10-07T11:13:08.056Z] Found 6 books
+[2025-10-07T11:13:08.058Z] GET /books called
+[2025-10-07T11:13:08.058Z] Found 6 books
+[2025-10-07T11:13:09.977Z] GET /books called
+[2025-10-07T11:13:09.978Z] Found 6 books
+[2025-10-07T11:13:09.979Z] GET /books called
+[2025-10-07T11:13:09.980Z] Found 6 books
+[2025-10-07T11:13:11.892Z] GET /books called
+[2025-10-07T11:13:11.893Z] Found 6 books
+[2025-10-07T11:13:11.896Z] GET /books called
+[2025-10-07T11:13:11.897Z] Found 6 books
+[2025-10-07T11:13:20.174Z] Book updated with id=8
+[2025-10-07T11:13:20.174Z] PUT /books/8 called
+[2025-10-07T11:15:59.794Z] Database initialized and table "books" ensured.
+[2025-10-07T11:17:03.343Z] Database initialized and table "books" ensured.
+[2025-10-07T11:17:06.516Z] GET /books called
+[2025-10-07T11:17:06.516Z] Found 6 books
+[2025-10-07T11:17:06.519Z] Found 6 books
+[2025-10-07T11:17:06.518Z] GET /books called
+[2025-10-07T11:17:18.283Z] GET /books called
+[2025-10-07T11:17:18.283Z] Found 6 books
+[2025-10-07T11:17:18.286Z] Found 6 books
+[2025-10-07T11:17:18.286Z] GET /books called
+[2025-10-07T11:17:19.968Z] GET /books called
+[2025-10-07T11:17:19.968Z] Found 6 books
+[2025-10-07T11:17:19.970Z] GET /books called
+[2025-10-07T11:17:19.971Z] Found 6 books
+[2025-10-07T11:17:29.925Z] POST /books called with title="Ana"
+[2025-10-07T11:17:29.945Z] Book created with id=9
+[2025-10-07T11:17:36.811Z] Book deleted with id=9
+[2025-10-07T11:17:36.793Z] DELETE /books/9 called
+[2025-10-07T11:19:04.599Z] Found 6 books
+[2025-10-07T11:19:04.597Z] GET /books called
+[2025-10-07T11:19:04.603Z] Found 6 books
+[2025-10-07T11:19:04.602Z] GET /books called
+[2025-10-07T11:22:39.143Z] Database initialized and table "books" ensured.
+[2025-10-07T11:22:51.637Z] Database initialized and table "books" ensured.
+[2025-10-07T11:24:27.989Z] Database initialized and table "books" ensured.
+[2025-10-07T11:27:05.634Z] Database initialized and table "books" ensured.
+[2025-10-07T11:27:13.633Z] GET /books called
+[2025-10-07T11:27:13.633Z] Found 6 books
+[2025-10-07T11:27:13.637Z] Found 6 books
+[2025-10-07T11:27:13.636Z] GET /books called
+[2025-10-07T11:29:06.435Z] Database initialized and table "books" ensured.
+[2025-10-07T11:30:28.864Z] Database initialized and table "books" ensured.
+[2025-10-07T11:31:40.236Z] Database initialized and table "books" ensured.
+[2025-10-07T11:32:06.301Z] Database initialized and table "books" ensured.
+[2025-10-07T11:39:32.277Z] Database initialized and table "books" ensured.
+[2025-10-07T11:41:27.383Z] Database initialized and table "books" ensured.
+[2025-10-07T11:42:30.371Z] Database initialized and table "books" ensured.
+[2025-10-07T11:46:29.396Z] Database initialized and table "books" ensured.
+[2025-10-07T11:53:26.287Z] GET /books called
+[2025-10-07T11:53:26.288Z] Found 6 books
+[2025-10-07T11:53:26.301Z] Found 6 books
+[2025-10-07T11:53:26.300Z] GET /books called
+[2025-10-07T11:53:26.999Z] GET /books called
+[2025-10-07T11:53:27.001Z] Found 6 books
+[2025-10-07T11:53:27.004Z] GET /books called
+[2025-10-07T11:53:27.004Z] Found 6 books
+[2025-10-07T11:53:28.715Z] PUT /books/8 called
+[2025-10-07T11:53:28.715Z] Book updated with id=8
+[2025-10-07T11:53:39.969Z] GET /books called
+[2025-10-07T11:53:39.969Z] Found 6 books
+[2025-10-07T11:53:39.973Z] GET /books called
+[2025-10-07T11:53:39.974Z] Found 6 books
+[2025-10-07T11:53:43.768Z] PUT /books/5 called
+[2025-10-07T11:53:43.789Z] Book updated with id=5
+[2025-10-10T13:06:46.987Z] GET /books called
+[2025-10-10T13:06:46.989Z] Found 6 books
+[2025-10-10T13:06:46.993Z] GET /books called
+[2025-10-10T13:06:46.994Z] Found 6 books
+[2025-10-10T13:11:05.066Z] GET /books called
+[2025-10-10T13:11:05.067Z] Found 6 books
+[2025-10-10T13:11:05.069Z] Found 6 books
+[2025-10-10T13:11:05.069Z] GET /books called
+[2025-10-10T13:11:09.797Z] PUT /books/8 called
+[2025-10-10T13:11:09.816Z] Book updated with id=8
+[2025-10-13T10:36:26.066Z] Database initialized and table "books" ensured.
+[2025-10-13T10:36:29.651Z] GET /books called
+[2025-10-13T10:36:29.651Z] Found 6 books
+[2025-10-13T10:36:29.656Z] GET /books called
+[2025-10-13T10:36:29.657Z] Found 6 books
+[2025-10-13T10:39:30.587Z] Database initialized and table "books" ensured.
+[2025-10-13T10:39:34.487Z] GET /books called
+[2025-10-13T10:39:34.488Z] Found 6 books
+[2025-10-13T10:39:34.500Z] GET /books called
+[2025-10-13T10:39:34.500Z] Found 6 books
+[2025-10-13T10:53:49.031Z] Database initialized and table "books" ensured.
+[2025-10-13T10:53:56.545Z] GET /books called
+[2025-10-13T10:53:56.546Z] Found 6 books
+[2025-10-13T10:53:56.556Z] GET /books called
+[2025-10-13T10:53:56.556Z] Found 6 books
+[2025-10-13T10:54:03.935Z] GET /books called
+[2025-10-13T10:54:03.936Z] Found 6 books
+[2025-10-13T10:54:03.938Z] GET /books called
+[2025-10-13T10:54:03.938Z] Found 6 books
+[2025-10-13T10:55:39.580Z] Database initialized and table "books" ensured.
+[2025-10-13T10:55:45.631Z] GET /books called
+[2025-10-13T10:55:45.631Z] Found 6 books
+[2025-10-13T10:55:45.646Z] GET /books called
+[2025-10-13T10:55:45.646Z] Found 6 books
+[2025-10-13T10:55:45.677Z] GET /books called
+[2025-10-13T10:55:45.678Z] Found 6 books
+[2025-10-13T10:55:45.679Z] GET /books called
+[2025-10-13T10:55:45.680Z] Found 6 books
+[2025-10-13T10:56:44.306Z] Database initialized and table "books" ensured.
+[2025-10-13T10:56:48.501Z] Database initialized and table "books" ensured.
+[2025-10-13T10:57:19.723Z] Database initialized and table "books" ensured.
+[2025-10-13T10:57:21.746Z] GET /books called
+[2025-10-13T10:57:21.747Z] Found 6 books
+[2025-10-13T10:57:21.767Z] Found 6 books
+[2025-10-13T10:57:21.766Z] GET /books called
+[2025-10-13T10:57:25.998Z] Database initialized and table "books" ensured.
+[2025-10-13T10:57:32.547Z] GET /books called
+[2025-10-13T10:57:32.548Z] Found 6 books
+[2025-10-13T10:57:32.551Z] Found 6 books
+[2025-10-13T10:57:32.551Z] GET /books called
+[2025-10-13T10:58:03.050Z] GET /books called
+[2025-10-13T10:58:03.050Z] Found 6 books
+[2025-10-13T10:58:03.053Z] GET /books called
+[2025-10-13T10:58:03.054Z] Found 6 books
+[2025-10-13T10:59:53.625Z] Database initialized and table "books" ensured.
+[2025-10-13T10:59:59.006Z] GET /books called
+[2025-10-13T10:59:59.007Z] Found 6 books
+[2025-10-13T10:59:59.020Z] Found 6 books
+[2025-10-13T10:59:59.020Z] GET /books called
+[2025-10-13T10:59:59.034Z] GET /books called
+[2025-10-13T10:59:59.035Z] Found 6 books
+[2025-10-13T10:59:59.038Z] GET /books called
+[2025-10-13T10:59:59.038Z] Found 6 books
+[2025-10-13T11:00:23.156Z] GET /books called
+[2025-10-13T11:00:23.156Z] Found 6 books
+[2025-10-13T11:00:23.158Z] GET /books called
+[2025-10-13T11:00:23.158Z] Found 6 books
+[2025-10-13T11:00:24.926Z] GET /books called
+[2025-10-13T11:00:24.927Z] Found 6 books
+[2025-10-13T11:00:24.929Z] Found 6 books
+[2025-10-13T11:00:24.929Z] GET /books called
+[2025-10-13T11:00:27.379Z] PUT /books/8 called
+[2025-10-13T11:00:27.399Z] Book updated with id=8
+[2025-10-13T11:00:58.290Z] Database initialized and table "books" ensured.
+[2025-10-13T11:01:19.668Z] Database initialized and table "books" ensured.
+[2025-10-13T11:02:01.311Z] Database initialized and table "books" ensured.
+[2025-10-13T11:02:03.748Z] GET /books called
+[2025-10-13T11:02:03.749Z] Found 6 books
+[2025-10-13T11:02:03.761Z] Found 6 books
+[2025-10-13T11:02:03.760Z] GET /books called
+[2025-10-13T11:04:05.380Z] Database initialized and table "books" ensured.
+[2025-10-13T11:04:51.867Z] Database initialized and table "books" ensured.
+[2025-10-13T11:04:57.048Z] GET /books called
+[2025-10-13T11:04:57.049Z] Found 6 books
+[2025-10-13T11:04:57.061Z] Found 6 books
+[2025-10-13T11:04:57.061Z] GET /books called
+[2025-10-13T11:04:57.064Z] GET /books called
+[2025-10-13T11:04:57.065Z] Found 6 books
+[2025-10-13T11:04:57.067Z] GET /books called
+[2025-10-13T11:04:57.068Z] Found 6 books
+[2025-10-13T11:09:02.284Z] Database initialized and table "books" ensured.
+[2025-10-13T11:09:12.277Z] Database initialized and table "books" ensured.
+[2025-10-13T11:09:15.256Z] GET /books called
+[2025-10-13T11:09:15.257Z] Found 6 books
+[2025-10-13T11:09:15.272Z] Found 6 books
+[2025-10-13T11:09:15.272Z] GET /books called
+[2025-10-13T11:09:22.755Z] GET /books called
+[2025-10-13T11:09:22.755Z] Found 6 books
+[2025-10-13T11:09:22.757Z] GET /books called
+[2025-10-13T11:09:22.757Z] Found 6 books
+[2025-10-13T11:09:22.760Z] GET /books called
+[2025-10-13T11:09:22.760Z] Found 6 books
+[2025-10-13T11:09:22.764Z] GET /books called
+[2025-10-13T11:09:22.764Z] Found 6 books
+[2025-10-13T11:10:04.508Z] Database initialized and table "books" ensured.
+[2025-10-13T11:10:15.413Z] GET /books called
+[2025-10-13T11:10:15.414Z] Found 6 books
+[2025-10-13T11:10:15.428Z] Found 6 books
+[2025-10-13T11:10:15.428Z] GET /books called
+[2025-10-13T11:10:16.676Z] GET /books called
+[2025-10-13T11:10:16.676Z] Found 6 books
+[2025-10-13T11:10:16.678Z] GET /books called
+[2025-10-13T11:10:16.678Z] Found 6 books
+[2025-10-13T11:12:21.845Z] Database initialized and table "books" ensured.
+[2025-10-13T11:12:26.166Z] GET /books called
+[2025-10-13T11:12:26.167Z] Found 6 books
+[2025-10-13T11:12:26.170Z] Found 6 books
+[2025-10-13T11:12:26.169Z] GET /books called
+[2025-10-13T11:15:20.799Z] Database initialized and table "books" ensured.
+[2025-10-13T11:15:54.387Z] Database initialized and table "books" ensured.
+[2025-10-13T11:19:57.153Z] Database initialized and table "books" ensured.
+[2025-10-13T11:22:57.324Z] Database initialized and table "books" ensured.
+[2025-10-13T11:22:57.345Z] Server running on http://localhost:4000
+[2025-10-13T11:22:57.396Z] Socket connected: I1zVQEZwgP3pJMw5AAAB
+[2025-10-13T11:22:59.116Z] Socket connected: fUvpp0M4KUUZLDHQAAAD
+[2025-10-13T11:23:01.124Z] Socket connected: t_9ASWNyGlDDsDFPAAAF
+[2025-10-13T11:23:38.965Z] Database initialized and table "books" ensured.
+[2025-10-13T11:23:48.142Z] GET /books called
+[2025-10-13T11:23:48.142Z] Found 6 books
+[2025-10-13T11:23:48.165Z] GET /books called
+[2025-10-13T11:23:48.166Z] Found 6 books
+[2025-10-13T11:23:52.064Z] Database initialized and table "books" ensured.
+[2025-10-13T11:23:55.509Z] GET /books called
+[2025-10-13T11:23:55.514Z] Found 6 books
+[2025-10-13T11:23:55.519Z] Found 6 books
+[2025-10-13T11:23:55.519Z] GET /books called
+[2025-10-13T11:23:55.521Z] GET /books called
+[2025-10-13T11:23:55.522Z] Found 6 books
+[2025-10-13T11:23:55.537Z] GET /books called
+[2025-10-13T11:23:55.537Z] Found 6 books
+[2025-10-13T11:25:27.130Z] GET /books called
+[2025-10-13T11:25:27.131Z] Found 6 books
+[2025-10-13T11:25:35.060Z] GET /books called
+[2025-10-13T11:25:35.060Z] Found 6 books
+[2025-10-13T11:25:35.062Z] GET /books called
+[2025-10-13T11:25:35.062Z] Found 6 books
+[2025-10-13T11:25:50.883Z] Database initialized and table "books" ensured.
+[2025-10-13T11:25:53.224Z] GET /books called
+[2025-10-13T11:25:53.224Z] Found 6 books
+[2025-10-13T11:25:53.238Z] GET /books called
+[2025-10-13T11:25:53.238Z] Found 6 books
+[2025-10-13T11:26:19.142Z] GET /books called
+[2025-10-13T11:26:19.142Z] Found 6 books
+[2025-10-13T11:26:19.148Z] GET /books called
+[2025-10-13T11:26:19.148Z] Found 6 books
+[2025-10-13T11:26:55.105Z] Database initialized and table "books" ensured.
+[2025-10-13T11:26:58.169Z] Database initialized and table "books" ensured.
+[2025-10-13T11:27:00.905Z] GET /books called
+[2025-10-13T11:27:00.906Z] Found 6 books
+[2025-10-13T11:27:00.911Z] GET /books called
+[2025-10-13T11:27:00.911Z] Found 6 books
+[2025-10-13T11:27:00.923Z] [FRONTEND] [2025-10-13T11:27:00.903Z] Fetching initial books...
+[2025-10-13T11:27:00.925Z] [FRONTEND] [2025-10-13T11:27:00.905Z] Fetching initial books...
+[2025-10-13T11:27:00.926Z] GET /books called
+[2025-10-13T11:27:00.929Z] [FRONTEND] [2025-10-13T11:27:00.923Z] Books fetched: 6
+[2025-10-13T11:27:00.927Z] Found 6 books
+[2025-10-13T11:27:00.930Z] GET /books called
+[2025-10-13T11:27:00.931Z] Found 6 books
+[2025-10-13T11:27:00.941Z] [FRONTEND] [2025-10-13T11:27:00.939Z] Books fetched: 6
+[2025-10-13T11:27:33.146Z] GET /books called
+[2025-10-13T11:27:33.147Z] Found 6 books
+[2025-10-13T11:27:33.150Z] [FRONTEND] [2025-10-13T11:27:33.136Z] Fetching initial books...
+[2025-10-13T11:27:33.159Z] [FRONTEND] [2025-10-13T11:27:33.154Z] Books fetched: 6
+[2025-10-13T11:27:34.918Z] [FRONTEND] [2025-10-13T11:27:34.918Z] Fetching initial books...
+[2025-10-13T11:27:34.920Z] Found 6 books
+[2025-10-13T11:27:34.919Z] GET /books called
+[2025-10-13T11:27:34.921Z] [FRONTEND] [2025-10-13T11:27:34.920Z] Fetching initial books...
+[2025-10-13T11:27:34.922Z] Found 6 books
+[2025-10-13T11:27:34.922Z] GET /books called
+[2025-10-13T11:27:34.928Z] [FRONTEND] [2025-10-13T11:27:34.928Z] Books fetched: 6
+[2025-10-13T11:27:34.931Z] [FRONTEND] [2025-10-13T11:27:34.931Z] Books fetched: 6
+[2025-10-13T11:28:57.554Z] GET /books called
+[2025-10-13T11:28:57.554Z] Found 6 books
+[2025-10-13T11:28:57.556Z] [FRONTEND] [2025-10-13T11:28:57.549Z] Fetching initial books...
+[2025-10-13T11:28:57.557Z] Found 6 books
+[2025-10-13T11:28:57.556Z] GET /books called
+[2025-10-13T11:28:57.558Z] [FRONTEND] [2025-10-13T11:28:57.551Z] Fetching initial books...
+[2025-10-13T11:28:57.562Z] [FRONTEND] [2025-10-13T11:28:57.559Z] Books fetched: 6
+[2025-10-13T11:28:57.566Z] [FRONTEND] [2025-10-13T11:28:57.562Z] Books fetched: 6
