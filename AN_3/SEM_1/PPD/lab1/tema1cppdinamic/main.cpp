@@ -43,14 +43,14 @@ void generateFile(int N, int M, int n, int p){
     ofstream fout("date.txt");
     fout << N << " " << M << " " << n << " " << p << "\n";
 
-    // Generam matricea originala cu valori intre 40 si 60
+    // Generam matricea originala
     for(int i=0;i<N;i++){
         for(int j=0;j<M;j++)
             fout << (rand()%21+40) << " ";
         fout << "\n";
     }
 
-    // Generam nucleul de convolutie (0 sau 1)
+    // Generam nucleul de convolutie
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++)
             fout << (rand()%2) << " ";
