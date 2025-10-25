@@ -1,7 +1,7 @@
 #ifndef HORIZONTAL_ALLOCATED_THREADS_H
 #define HORIZONTAL_ALLOCATED_THREADS_H
 
-#define MAX 101
+#define MAX 10005
 
 class HorizontalAllocatedThreads {
 private:

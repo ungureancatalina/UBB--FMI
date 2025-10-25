@@ -1,7 +1,7 @@
 #ifndef SEQUENTIAL_H
 #define SEQUENTIAL_H
 
-#define MAX 101
+#define MAX 10005
 
 class Sequential {
 private:

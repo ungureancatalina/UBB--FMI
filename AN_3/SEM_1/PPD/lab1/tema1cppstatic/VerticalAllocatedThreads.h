@@ -1,7 +1,7 @@
 #ifndef VERTICAL_ALLOCATED_THREADS_H
 #define VERTICAL_ALLOCATED_THREADS_H
 
-#define MAX 101
+#define MAX 10005
 
 class VerticalAllocatedThreads {
 private:
