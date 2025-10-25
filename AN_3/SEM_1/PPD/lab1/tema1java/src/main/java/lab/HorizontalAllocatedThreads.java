@@ -22,7 +22,7 @@ public class HorizontalAllocatedThreads {
         int extra = N % p;               // linii ramase
         int start = 0;
 
-        // cream threaduri
+        // cream threaduri, fiecare thread primeste un interval de linii: [start, end).
         for (int i = 0; i < p; i++) {
             int end = start + rowsPerThread + (extra-- > 0 ? 1 : 0);
             threads[i] = new Worker(start, end);
@@ -35,7 +35,7 @@ public class HorizontalAllocatedThreads {
         return result;
     }
 
-    // Thread pentru un bloc de linii
+    // Thread pentru un bloc de linii, efectueaza efectiv calculul convolutiei
     class Worker extends Thread {
         int startRow, endRow;
         public Worker(int startRow, int endRow) {
@@ -45,8 +45,11 @@ public class HorizontalAllocatedThreads {
 
         public void run() {
             int border = n / 2;
+            // Se parcurge fiecare pozitie (i, j) din matricea mare
             for (int i = startRow + border; i < endRow + border; i++) {
                 for (int j = border; j < M + border; j++) {
+                    // Se aplica formula convolutiei: se inmultesc elementele din zona de vecinatate (n x n)
+                    // cu valorile din nucleu conv, apoi se aduna in sum.
                     int sum = 0;
                     for (int x = 0; x < n; x++)
                         for (int y = 0; y < n; y++)

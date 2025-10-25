@@ -19,7 +19,7 @@ public class Sequential {
         int[][] result = new int[N][M];
         int border = n / 2;
 
-        // parcurgem matricea bordata (inclusiv bordura)
+        // parcurgem matricea bordata, inclusiv bordura
         for (int i = border; i < N + border; i++) {
             for (int j = border; j < M + border; j++) {
                 int sum = 0;

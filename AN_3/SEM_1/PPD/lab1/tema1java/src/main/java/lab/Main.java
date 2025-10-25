@@ -3,6 +3,29 @@ package lab;
 import java.io.*;
 import java.util.*;
 
+// Scrie simultan in consola si in fisier
+class TeePrintStream extends PrintStream {
+    private final PrintStream second;
+
+    public TeePrintStream(OutputStream main, OutputStream second) {
+        super(main, true);
+        this.second = new PrintStream(second, true);
+    }
+
+    @Override
+    public void write(byte[] buf, int off, int len) {
+        super.write(buf, off, len);
+        second.write(buf, off, len);
+    }
+
+    @Override
+    public void flush() {
+        super.flush();
+        second.flush();
+    }
+}
+
+
 public class Main {
 
     private static int N, M, n, p;
@@ -95,6 +118,7 @@ public class Main {
         int border = n / 2;
         int[][] bordered = new int[N + 2 * border][M + 2 * border];
 
+        //copiaza matricea originala în centru
         for (int i = 0; i < N; i++)
             for (int j = 0; j < M; j++)
                 bordered[i + border][j + border] = matrix[i][j];
@@ -129,7 +153,6 @@ public class Main {
 
     // Testeaza toate metodele
     private static void testAll(int[][] bordered) throws Exception {
-        System.out.println("--- Rulari multiple (10) ---");
 
         long[] seqTimes = new long[10];
         long[] horTimes = new long[10];
@@ -188,7 +211,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         PrintStream fileOut = new PrintStream(new FileOutputStream("rezultate.txt", true));
-        System.setOut(fileOut);
+        System.setOut(new TeePrintStream(fileOut, System.out));
 
         //Genereaza fisierul doar daca nu exista sau dimensiunile s-au schimbat
         generateFileIfNeeded(10000  , 10000  , 5, 2);
