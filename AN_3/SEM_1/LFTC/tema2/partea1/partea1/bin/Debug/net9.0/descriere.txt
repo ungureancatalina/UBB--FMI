@@ -1,0 +1,22 @@
+<automat> ::= <numar_stari> <lista_stari>
+              <dimensiune_alfabet> <lista_simboluri>
+              <numar_tranzitii> <lista_tranzitii>
+              <stare_start>
+              <numar_stari_finale> <lista_stari_finale>
+
+<numar_stari> ::= CONST_INT_POSITIV
+<lista_stari> ::= <stare> | <stare> <lista_stari>
+<stare>       ::= (sir fara spatii, ex. q0, q1, start, S)
+
+<dimensiune_alfabet> ::= CONST_INT_POSITIV
+<lista_simboluri>    ::= <simbol> | <simbol> <lista_simboluri>
+<simbol>             ::= un singur caracter (ex. a, b, 0, 1)
+
+<numar_tranzitii> ::= CONST_INT_POSITIV
+<lista_tranzitii> ::= <tranzitie> | <tranzitie> <lista_tranzitii>
+<tranzitie>       ::= <stare> <simbol> <stare>
+
+<stare_start> ::= <stare>
+
+<numar_stari_finale> ::= CONST_INT_POZITIV_SAU_ZERO
+<lista_stari_finale> ::= <stare> | <stare> <lista_stari_finale>

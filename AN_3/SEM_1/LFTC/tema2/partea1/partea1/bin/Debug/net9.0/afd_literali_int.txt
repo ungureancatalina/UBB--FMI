@@ -1,0 +1,20 @@
+4
+q0 qZ qN qE
+3
+0 1 2
+12
+q0 0 qZ
+q0 1 qN
+q0 2 qN
+qZ 0 qZ
+qZ 1 qZ
+qZ 2 qZ
+qN 0 qN
+qN 1 qN
+qN 2 qN
+qE 0 qE
+qE 1 qE
+qE 2 qE
+q0
+2
+qZ qN

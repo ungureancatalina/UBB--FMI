@@ -1,0 +1,29 @@
+7
+q0 qC qA1 qA2 qB1 qB2 qE
+3
+a b c
+21
+q0 a qA1
+q0 b qE
+q0 c qC
+qC a qE
+qC b qE
+qC c qC
+qA1 a qA2
+qA1 b qE
+qA1 c qE
+qA2 a qA2
+qA2 b qB1
+qA2 c qE
+qB1 a qE
+qB1 b qB2
+qB1 c qE
+qB2 a qE
+qB2 b qB2
+qB2 c qE
+qE a qE
+qE b qE
+qE c qE
+q0
+3
+q0 qC qB2
