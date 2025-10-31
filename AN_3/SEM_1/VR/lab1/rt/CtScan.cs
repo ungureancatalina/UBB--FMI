@@ -70,11 +70,11 @@ public class CtScan: Geometry
 
         double tmin = (Math.Min(_v0.X, _v1.X) - line.X0.X) * invDx;
         double tmax = (Math.Max(_v0.X, _v1.X) - line.X0.X) * invDx;
-        if (tmin > tmax) { var tmp = tmin; tmin = tmax; tmax = tmp; }
+        if (tmin > tmax) (tmin, tmax) = (tmax, tmin);
 
         double tymin = (Math.Min(_v0.Y, _v1.Y) - line.X0.Y) * invDy;
         double tymax = (Math.Max(_v0.Y, _v1.Y) - line.X0.Y) * invDy;
-        if (tymin > tymax) { var tmp = tymin; tymin = tymax; tymax = tmp; }
+        if (tymin > tymax) (tymin, tymax) = (tymax, tymin);
 
         if ((tmin > tymax) || (tymin > tmax)) return Intersection.NONE;
         if (tymin > tmin) tmin = tymin;
@@ -82,43 +82,50 @@ public class CtScan: Geometry
 
         double tzmin = (Math.Min(_v0.Z, _v1.Z) - line.X0.Z) * invDz;
         double tzmax = (Math.Max(_v0.Z, _v1.Z) - line.X0.Z) * invDz;
-        if (tzmin > tzmax) { var tmp = tzmin; tzmin = tzmax; tzmax = tmp; }
+        if (tzmin > tzmax) (tzmin, tzmax) = (tzmax, tzmin);
 
         if ((tmin > tzmax) || (tzmin > tmax)) return Intersection.NONE;
         if (tzmin > tmin) tmin = tzmin;
         if (tzmax < tmax) tmax = tzmax;
 
-        // Verificam limitele impuse
+        // limite
         if (tmax < minDist || tmin > maxDist) return Intersection.NONE;
         double tStart = Math.Max(tmin, minDist);
         double tEnd = Math.Min(tmax, maxDist);
         if (tEnd < tStart) return Intersection.NONE;
 
-        // Pas de ray-marching (alegem cel mai mic voxel)
-        var step = Math.Min(Math.Min(_thickness[0], _thickness[1]), _thickness[2]) * _scale;
-        if (step <= 0) step = 1.0;
+        // Pas mic de sampling
+        var step = Math.Min(Math.Min(_thickness[0], _thickness[1]), _thickness[2]) * _scale * 0.5;
+        if (step <= 0) step = 0.5;
 
-        // Parcurgem volumul voxel cu voxel
-        double t = tStart;
-        while (t <= tEnd)
+        // Compoziție volumetrică
+        Color accumulated = new Color(0, 0, 0, 0);
+        double T = 1.0;
+        const double EPS = 1e-3;
+
+        for (double t = tStart; t <= tEnd; t += step)
         {
             var pos = line.CoordinateToPosition(t);
-
-            // Daca voxelul este "solid" (are culoare / intensitate)
             var col = GetColor(pos);
-            if (col != null && col.Alpha > 0.0)
-            {
-                var normal = GetNormal(pos);
-                var material = Material.FromColor(col);
-                return new Intersection(true, true, this, line, t, normal, material, col);
-            }
+            if (col == null || col.Alpha <= 0.0) continue;
 
-            t += step;
+            // culoare contribuie în funcție de transparență
+            accumulated += col * col.Alpha * T;
+            T *= (1.0 - col.Alpha);
+
+            if (T < EPS)
+                break;
         }
 
-        return Intersection.NONE;
-    }
+        // dacă nu s-a acumulat nimic vizibil
+        if (accumulated.Alpha == 0 && T > 0.999) return Intersection.NONE;
 
+        // creăm o "intersecție" virtuală ca să coloreze pixelul
+        var fakeNormal = new Vector(0, 0, 1);
+        var fakeMat = Material.FromColor(accumulated);
+
+        return new Intersection(true, true, this, line, tStart, fakeNormal, fakeMat, accumulated);
+    }
 
     
     private int[] GetIndexes(Vector v)

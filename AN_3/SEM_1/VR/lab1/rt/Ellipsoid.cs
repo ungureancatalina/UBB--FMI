@@ -9,6 +9,7 @@ namespace rt
         private Vector SemiAxesLength { get; }
         private double Radius { get; }
 
+        public Quaternion Rotation { get; set;  } = Quaternion.NONE;
 
         public Ellipsoid(Vector center, Vector semiAxesLength, double radius, Material material, Color color) : base(
             material, color)
@@ -25,6 +26,10 @@ namespace rt
             Radius = radius;
         }
 
+        public Ellipsoid (Ellipsoid e) : this(new Vector(e.Center), new Vector(e.SemiAxesLength), e.Radius, new Material(e.Material), new Color(e.Color))
+        {
+        }
+        
         public override Intersection GetIntersection(Line line, double minDist, double maxDist)
         {
             // Consideram elipsoidul ca o sfera scalata pe fiecare axa
