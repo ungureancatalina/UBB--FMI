@@ -25,3 +25,12 @@
 - [Ingineria sistemelor soft](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/ISS)
 - [Programare web](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/WEB)
 - [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_2/SEM_2/Psihopedagogie)
+
+## Semestrul 5
+- [Programare Paralela si Distributiva](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/PPD)
+- [Limbaje Formale si Tehnici de compilare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/LFTC)
+- [Proiect de Cercetare](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/PC)
+- [Virtual Reality](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/VR)
+- [Robotic Process Automation](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/RPA)
+- [Programarea Dispozitivelor Mobile](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/PDM)
+- [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/Psihopedagogie)
