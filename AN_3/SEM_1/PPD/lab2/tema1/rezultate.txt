@@ -1,0 +1,157 @@
+Fisierul date.txt exista deja si dimensiunile coincid, nu se genereaza din nou.
+--- Rulari multiple (10) ---
+N=10 M=10 n=m=3
+Secvential: 65300 ns
+2 - vertical (coloane): 433740 ns
+2 - orizontal (randuri): 426630 ns
+--- Rulari multiple (10) ---
+N=10 M=10 n=m=3
+Secvential: 26220 ns
+4 - vertical (coloane): 457460 ns
+4 - orizontal (randuri): 501810 ns
+--- Rulari multiple (10) ---
+N=10 M=10 n=m=3
+Secvential: 27920 ns
+8 - vertical (coloane): 989390 ns
+8 - orizontal (randuri): 1299060 ns
+--- Rulari multiple (10) ---
+N=10 M=10 n=m=3
+Secvential: 26290 ns
+16 - vertical (coloane): 938490 ns
+16 - orizontal (randuri): 1168690 ns
+Fisierul date.txt a fost generat cu succes!
+--- Rulari multiple (10) ---
+N=1000 M=1000 n=m=5
+Secvential: 27744910 ns
+2 - vertical (coloane): 12804340 ns
+2 - orizontal (randuri): 12660250 ns
+--- Rulari multiple (10) ---
+N=1000 M=1000 n=m=5
+Secvential: 19356830 ns
+4 - vertical (coloane): 7000550 ns
+4 - orizontal (randuri): 7982810 ns
+--- Rulari multiple (10) ---
+N=1000 M=1000 n=m=5
+Secvential: 19566340 ns
+8 - vertical (coloane): 6340840 ns
+8 - orizontal (randuri): 7105810 ns
+--- Rulari multiple (10) ---
+N=1000 M=1000 n=m=5
+Secvential: 21635590 ns
+16 - vertical (coloane): 7294740 ns
+16 - orizontal (randuri): 6119080 ns
+Fisierul date.txt a fost generat cu succes!
+--- Rulari multiple (10) ---
+N=10 M=10000 n=m=5
+Secvential: 3992700 ns
+2 - vertical (coloane): 3278100 ns
+2 - orizontal (randuri): 4179330 ns
+--- Rulari multiple (10) ---
+N=10 M=10000 n=m=5
+Secvential: 2030420 ns
+4 - vertical (coloane): 1567640 ns
+4 - orizontal (randuri): 1396060 ns
+--- Rulari multiple (10) ---
+N=10 M=10000 n=m=5
+Secvential: 2077900 ns
+8 - vertical (coloane): 1118000 ns
+8 - orizontal (randuri): 1526350 ns
+--- Rulari multiple (10) ---
+N=10 M=10000 n=m=5
+Secvential: 1920640 ns
+16 - vertical (coloane): 1742910 ns
+16 - orizontal (randuri): 1665610 ns
+Fisierul date.txt a fost generat cu succes!
+--- Rulari multiple (10) ---
+N=10000 M=10 n=m=5
+Secvential: 2756370 ns
+2 - vertical (coloane): 3216830 ns
+2 - orizontal (randuri): 3368110 ns
+--- Rulari multiple (10) ---
+N=10000 M=10 n=m=5
+Secvential: 2397410 ns
+4 - vertical (coloane): 1634890 ns
+4 - orizontal (randuri): 1714620 ns
+--- Rulari multiple (10) ---
+N=10000 M=10 n=m=5
+Secvential: 2134220 ns
+8 - vertical (coloane): 1582390 ns
+8 - orizontal (randuri): 1705810 ns
+--- Rulari multiple (10) ---
+N=10000 M=10 n=m=5
+Secvential: 2158620 ns
+16 - vertical (coloane): 2054930 ns
+16 - orizontal (randuri): 2358590 ns
+Fisierul date.txt a fost generat cu succes!
+--- Rulari multiple (10) ---
+N=10000 M=10000 n=m=5
+Secvential: 2157853680 ns
+2 - vertical (coloane): 1159725630 ns
+2 - orizontal (randuri): 1159725630 ns
+--- Rulari multiple (10) ---
+N=10000 M=10000 n=m=5
+Secvential: 2157813680 ns
+4 - vertical (coloane): 510289200 ns
+4 - orizontal (randuri): 510143470 ns
+--- Rulari multiple (10) ---
+N=10000 M=10000 n=m=5
+Secvential: 2157350600 ns
+8 - vertical (coloane): 458518700 ns
+8 - orizontal (randuri): 414504780 ns
+--- Rulari multiple (10) ---
+N=10000 M=10000 n=m=5
+Secvential: 2156150970 ns
+16 - vertical (coloane): 306501000 ns
+16 - orizontal (randuri): 308059750 ns
+Fisierul date.txt a fost generat cu succes!
+--- Rulari multiple (10) ---
+
+
+
+
+
+
+
+
+
+
+
+Fisierul date.txt a fost generat cu succes!
+N=10 M=10 n=m=3
+Secvential: 73430 ns
+2 - orizontal (randuri): 368080 ns
+N=10 M=10 n=m=3
+Secvential: 38760 ns
+4 - orizontal (randuri): 812480 ns
+N=10 M=10 n=m=3
+Secvential: 36430 ns
+8 - orizontal (randuri): 629110 ns
+N=10 M=10 n=m=3
+Secvential: 36180 ns
+16 - orizontal (randuri): 1270990 ns
+Fisierul date.txt a fost generat cu succes!
+N=1000 M=1000 n=m=3
+Secvential: 18869950 ns
+2 - orizontal (randuri): 10084910 ns
+N=1000 M=1000 n=m=3
+Secvential: 10085320 ns
+4 - orizontal (randuri): 5981390 ns
+N=1000 M=1000 n=m=3
+Secvential: 10445690 ns
+8 - orizontal (randuri): 5385810 ns
+N=1000 M=1000 n=m=3
+Secvential: 10440800 ns
+16 - orizontal (randuri): 4141520 ns
+Fisierul date.txt a fost generat cu succes!
+N=10000 M=10000 n=m=3
+Secvential: 1453297030 ns
+2 - orizontal (randuri): 940058660 ns
+N=10000 M=10000 n=m=3
+Secvential: 1325427840 ns
+4 - orizontal (randuri): 442514250 ns
+N=10000 M=10000 n=m=3
+Secvential: 1889232880 ns
+8 - orizontal (randuri): 287193600 ns
+N=10000 M=10000 n=m=3
+Secvential: 2666384250 ns
+16 - orizontal (randuri): 364201250 ns
