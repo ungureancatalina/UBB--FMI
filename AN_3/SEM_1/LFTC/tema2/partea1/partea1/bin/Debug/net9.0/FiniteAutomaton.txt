@@ -1,0 +1,23 @@
+FiniteAutomaton
+ states: Map<State>                   /** Multimea starilor (ex: q0, q1, q2) */
+ alphabet: Map<Char>                  /** Alfabetul automatului - simbolurile de intrare */
+ initialState: State                  /** Starea initiala a automatului */
+ finalStates: Map<State>              /** Multimea starilor finale */
+ transitions: Dictionary<State, Dictionary<Char, Map<Transiction>>> 
+                                      /** Functia de tranzitie: (stare, simbol) → multime de stari destinatie.
+                                          Pentru AFD, fiecare HashSet contine exact un element. */
+
+State
+ name: String                                     /** Numele starii, ex: "q0" */
+ isAcceptState: Boolean                           /** True daca starea apartine multimii finale F */
+ transitions: Dictionary<Char, Map<Transition>> 
+                                                  /** Mapare de la simbol la multimea starilor urmatoare.
+                                                      Pentru AFD exista o singura stare urmatoare pentru                          
+                                                      fiecare simbol. */
+
+Transition
+ fromState: State                      /** Starea sursa a tranzitiei */
+ symbol: Char                          /** Simbolul de intrare care declanseaza tranzitia */
+ toState: List<State>                  /** Starea destinatie a tranzitiei */
+
+
