@@ -1,0 +1,4 @@
+Student,Average,Status
+ana,9,Promovat
+mihai,4,Respins
+ioana,7.666666666666667,Promovat
