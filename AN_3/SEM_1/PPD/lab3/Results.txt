@@ -1,0 +1,132 @@
+----------------------------------------
+Data rulare: Fri Nov 07 16:06:32 2025
+Varianta: Varianta 0 
+N1=16 | N2=16 | Procese=1 | Timp total (ns): 89970
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:07 2025
+Varianta: Varianta 1 
+N1=16 | N2=16 | Procese=5 | Timp total (ns): 180930
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:12 2025
+Varianta: Varianta 2 
+N1=16 | N2=16 | Procese=4 | Timp total (ns): 136180
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:18 2025
+Varianta: Varianta 3 
+N1=16 | N2=16 | Procese=5 | Timp total (ns): 301520
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:50 2025
+Varianta: Varianta 0 
+N1=10000 | N2=10000 | Procese=1 | Timp total (ns): 1899360
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:53 2025
+Varianta: Varianta 1 
+N1=10000 | N2=10000 | Procese=5 | Timp total (ns): 2027600
+----------------------------------------
+Data rulare: Fri Nov 07 16:07:59 2025
+Varianta: Varianta 2 
+N1=10000 | N2=10000 | Procese=4 | Timp total (ns): 1499580
+----------------------------------------
+Data rulare: Fri Nov 07 16:17:50 2025
+Varianta: Varianta 3 
+N1=10000 | N2=10000 | Procese=5 | Timp total (ns): 1456770
+----------------------------------------
+Data rulare: Fri Nov 07 16:18:36 2025
+Varianta: Varianta 0 
+N1=100 | N2=100000 | Procese=1 | Timp total (ns): 6233820
+----------------------------------------
+Data rulare: Fri Nov 07 16:18:41 2025
+Varianta: Varianta 1 
+N1=100 | N2=100000 | Procese=5 | Timp total (ns): 6610140
+----------------------------------------
+Data rulare: Fri Nov 07 16:18:46 2025
+Varianta: Varianta 2 
+N1=100 | N2=100000 | Procese=4 | Timp total (ns): 7207110
+----------------------------------------
+Data rulare: Fri Nov 07 16:18:49 2025
+Varianta: Varianta 3 
+N1=100 | N2=100000 | Procese=5 | Timp total (ns): 6748350
+----------------------------------------
+Data rulare: Fri Nov 14 10:28:01 2025
+Varianta: Varianta 0 
+N1=16 | N2=16 | Procese=1 | Timp total (ns): 84150
+----------------------------------------
+Data rulare: Fri Nov 14 10:31:48 2025
+Varianta: Varianta 1 
+N1=16 | N2=16 | Procese=9 | Timp total (ns): 845530
+----------------------------------------
+Data rulare: Fri Nov 14 10:31:57 2025
+Varianta: Varianta 2 
+N1=16 | N2=16 | Procese=8 | Timp total (ns): 673930
+----------------------------------------
+Data rulare: Fri Nov 14 10:32:00 2025
+Varianta: Varianta 3 
+N1=16 | N2=16 | Procese=9 | Timp total (ns): 675830
+----------------------------------------
+Data rulare: Fri Nov 14 10:36:04 2025
+Varianta: Varianta 1 
+N1=16 | N2=16 | Procese=17 | Timp total (ns): 1566680
+----------------------------------------
+Data rulare: Fri Nov 14 10:36:10 2025
+Varianta: Varianta 2 
+N1=16 | N2=16 | Procese=16 | Timp total (ns): 1174300
+----------------------------------------
+Data rulare: Fri Nov 14 10:36:13 2025
+Varianta: Varianta 3 
+N1=16 | N2=16 | Procese=17 | Timp total (ns): 1449800
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:11 2025
+Varianta: Varianta 1 
+N1=10000 | N2=10000 | Procese=9 | Timp total (ns): 2336780
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:14 2025
+Varianta: Varianta 2 
+N1=10000 | N2=10000 | Procese=8 | Timp total (ns): 1921030
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:17 2025
+Varianta: Varianta 3 
+N1=10000 | N2=10000 | Procese=9 | Timp total (ns): 1900620
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:42 2025
+Varianta: Varianta 1 
+N1=10000 | N2=10000 | Procese=17 | Timp total (ns): 2981890
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:48 2025
+Varianta: Varianta 2 
+N1=10000 | N2=10000 | Procese=16 | Timp total (ns): 2909150
+----------------------------------------
+Data rulare: Fri Nov 14 10:37:52 2025
+Varianta: Varianta 3 
+N1=10000 | N2=10000 | Procese=17 | Timp total (ns): 3311250
+----------------------------------------
+Data rulare: Fri Nov 14 10:39:16 2025
+Varianta: Varianta 0 
+N1=10000 | N2=10000 | Procese=1 | Timp total (ns): 1176760
+----------------------------------------
+Data rulare: Fri Nov 14 10:39:45 2025
+Varianta: Varianta 0 
+N1=100 | N2=100000 | Procese=1 | Timp total (ns): 5877410
+----------------------------------------
+Data rulare: Fri Nov 14 10:39:52 2025
+Varianta: Varianta 1 
+N1=100 | N2=100000 | Procese=9 | Timp total (ns): 7054880
+----------------------------------------
+Data rulare: Fri Nov 14 10:40:06 2025
+Varianta: Varianta 2 
+N1=100 | N2=100000 | Procese=8 | Timp total (ns): 6862160
+----------------------------------------
+Data rulare: Fri Nov 14 10:40:16 2025
+Varianta: Varianta 3 
+N1=100 | N2=100000 | Procese=9 | Timp total (ns): 7573230
+----------------------------------------
+Data rulare: Fri Nov 14 10:40:28 2025
+Varianta: Varianta 1 
+N1=100 | N2=100000 | Procese=17 | Timp total (ns): 7766700
+----------------------------------------
+Data rulare: Fri Nov 14 10:40:38 2025
+Varianta: Varianta 2 
+N1=100 | N2=100000 | Procese=16 | Timp total (ns): 7800230
+----------------------------------------
+Data rulare: Fri Nov 14 10:40:45 2025
+Varianta: Varianta 3 
+N1=100 | N2=100000 | Procese=17 | Timp total (ns): 8659820
