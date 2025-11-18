@@ -1,0 +1,6 @@
+start
+int 1x = 25;
+double 1y = 3.14;
+1x = 1x + 7;
+afisare(1y);
+end

@@ -1,0 +1,5 @@
+﻿start
+repeta
+    afisare("Salut");
+panacand(1x)sfrepeta
+end
