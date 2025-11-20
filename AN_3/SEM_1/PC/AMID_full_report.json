@@ -1,0 +1,3122 @@
+{
+    "U1": {
+        "UserID": "U1",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (71 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 38.6,
+        "A_total": 0.683,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U2": {
+        "UserID": "U2",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.757,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U3": {
+        "UserID": "U3",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (91 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 110.6,
+        "A_total": 0.72,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U4": {
+        "UserID": "U4",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (80 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 9.0,
+        "A_total": 0.669,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U5": {
+        "UserID": "U5",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.713,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U6": {
+        "UserID": "U6",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (94 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 37.4,
+        "A_total": 0.722,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U7": {
+        "UserID": "U7",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (94 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 37.4,
+        "A_total": 0.691,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U8": {
+        "UserID": "U8",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.575,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U9": {
+        "UserID": "U9",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.661,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U10": {
+        "UserID": "U10",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.728,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U11": {
+        "UserID": "U11",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (72 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 64.2,
+        "A_total": 0.622,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U12": {
+        "UserID": "U12",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.668,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U13": {
+        "UserID": "U13",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.787,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U14": {
+        "UserID": "U14",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.707,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U15": {
+        "UserID": "U15",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.785,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U16": {
+        "UserID": "U16",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (83 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 85.8,
+        "A_total": 0.647,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U17": {
+        "UserID": "U17",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (79 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 48.4,
+        "A_total": 0.584,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U18": {
+        "UserID": "U18",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.787,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U19": {
+        "UserID": "U19",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.7,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U20": {
+        "UserID": "U20",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (95 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 78.0,
+        "A_total": 0.643,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U21": {
+        "UserID": "U21",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (77 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 102.2,
+        "A_total": 0.683,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U22": {
+        "UserID": "U22",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.592,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U23": {
+        "UserID": "U23",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (68 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 56.8,
+        "A_total": 0.757,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U24": {
+        "UserID": "U24",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (78 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 102.8,
+        "A_total": 0.716,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U25": {
+        "UserID": "U25",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.771,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U26": {
+        "UserID": "U26",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (79 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 63.4,
+        "A_total": 0.761,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U27": {
+        "UserID": "U27",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (99 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20.4,
+        "A_total": 0.655,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U28": {
+        "UserID": "U28",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.617,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U29": {
+        "UserID": "U29",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 64.6,
+        "A_total": 0.606,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U30": {
+        "UserID": "U30",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 9.6,
+        "A_total": 0.764,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U31": {
+        "UserID": "U31",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (66 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60.6,
+        "A_total": 0.685,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U32": {
+        "UserID": "U32",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 9.6,
+        "A_total": 0.636,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U33": {
+        "UserID": "U33",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (70 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 58.0,
+        "A_total": 0.569,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U34": {
+        "UserID": "U34",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (74 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 5.3999999999999995,
+        "A_total": 0.748,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U35": {
+        "UserID": "U35",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (83 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 105.8,
+        "A_total": 0.612,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U36": {
+        "UserID": "U36",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.558,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U37": {
+        "UserID": "U37",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (70 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 23.0,
+        "A_total": 0.611,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U38": {
+        "UserID": "U38",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.725,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U39": {
+        "UserID": "U39",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.683,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U40": {
+        "UserID": "U40",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (92 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 51.2,
+        "A_total": 0.598,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U41": {
+        "UserID": "U41",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.569,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U42": {
+        "UserID": "U42",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.758,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U43": {
+        "UserID": "U43",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.632,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U44": {
+        "UserID": "U44",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (79 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 48.4,
+        "A_total": 0.614,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U45": {
+        "UserID": "U45",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.684,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U46": {
+        "UserID": "U46",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.722,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U47": {
+        "UserID": "U47",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (72 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 79.2,
+        "A_total": 0.611,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U48": {
+        "UserID": "U48",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.693,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U49": {
+        "UserID": "U49",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (79 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 63.4,
+        "A_total": 0.627,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U50": {
+        "UserID": "U50",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (90 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 15.0,
+        "A_total": 0.732,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U51": {
+        "UserID": "U51",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "Low light (6 lux)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 79.2,
+        "A_total": 0.626,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Enable dark mode",
+            "Increase contrast",
+            "Use soft backgrounds",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U52": {
+        "UserID": "U52",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.796,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U53": {
+        "UserID": "U53",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (66 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55.6,
+        "A_total": 0.739,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U54": {
+        "UserID": "U54",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.619,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U55": {
+        "UserID": "U55",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (97 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 79.2,
+        "A_total": 0.566,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U56": {
+        "UserID": "U56",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.678,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U57": {
+        "UserID": "U57",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (69 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 77.4,
+        "A_total": 0.712,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U58": {
+        "UserID": "U58",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.68,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U59": {
+        "UserID": "U59",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.7,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U60": {
+        "UserID": "U60",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.797,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U61": {
+        "UserID": "U61",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (73 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 39.8,
+        "A_total": 0.778,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U62": {
+        "UserID": "U62",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.691,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U63": {
+        "UserID": "U63",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (73 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 44.8,
+        "A_total": 0.603,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U64": {
+        "UserID": "U64",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (82 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 30.2,
+        "A_total": 0.719,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U65": {
+        "UserID": "U65",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.564,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U66": {
+        "UserID": "U66",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.669,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U67": {
+        "UserID": "U67",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.705,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U68": {
+        "UserID": "U68",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (93 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 71.8,
+        "A_total": 0.762,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U69": {
+        "UserID": "U69",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 84.6,
+        "A_total": 0.633,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U70": {
+        "UserID": "U70",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.658,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U71": {
+        "UserID": "U71",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (67 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 56.2,
+        "A_total": 0.594,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U72": {
+        "UserID": "U72",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.63,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U73": {
+        "UserID": "U73",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (91 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 35.6,
+        "A_total": 0.593,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U74": {
+        "UserID": "U74",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (97 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 19.2,
+        "A_total": 0.74,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U75": {
+        "UserID": "U75",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 69.6,
+        "A_total": 0.703,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U76": {
+        "UserID": "U76",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.673,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U77": {
+        "UserID": "U77",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (99 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 40.4,
+        "A_total": 0.712,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U78": {
+        "UserID": "U78",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (72 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 4.2,
+        "A_total": 0.627,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U79": {
+        "UserID": "U79",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.69,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U80": {
+        "UserID": "U80",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.567,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U81": {
+        "UserID": "U81",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (79 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 28.4,
+        "A_total": 0.695,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U82": {
+        "UserID": "U82",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.851,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U83": {
+        "UserID": "U83",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.612,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U84": {
+        "UserID": "U84",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.785,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U85": {
+        "UserID": "U85",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.644,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U86": {
+        "UserID": "U86",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (84 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 86.4,
+        "A_total": 0.7,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U87": {
+        "UserID": "U87",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (90 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 35.0,
+        "A_total": 0.675,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U88": {
+        "UserID": "U88",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.71,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U89": {
+        "UserID": "U89",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.62,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U90": {
+        "UserID": "U90",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.648,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U91": {
+        "UserID": "U91",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (82 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 45.2,
+        "A_total": 0.688,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U92": {
+        "UserID": "U92",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.622,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U93": {
+        "UserID": "U93",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.661,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U94": {
+        "UserID": "U94",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.614,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U95": {
+        "UserID": "U95",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.773,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U96": {
+        "UserID": "U96",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.767,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U97": {
+        "UserID": "U97",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.725,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U98": {
+        "UserID": "U98",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.62,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U99": {
+        "UserID": "U99",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.743,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U100": {
+        "UserID": "U100",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.602,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U101": {
+        "UserID": "U101",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (92 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 36.2,
+        "A_total": 0.652,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U102": {
+        "UserID": "U102",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (91 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 15.6,
+        "A_total": 0.672,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U103": {
+        "UserID": "U103",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 75,
+        "A_total": 0.782,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U104": {
+        "UserID": "U104",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.764,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U105": {
+        "UserID": "U105",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.682,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U106": {
+        "UserID": "U106",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (67 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 41.2,
+        "A_total": 0.66,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U107": {
+        "UserID": "U107",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.539,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U108": {
+        "UserID": "U108",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 104.6,
+        "A_total": 0.591,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U109": {
+        "UserID": "U109",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.631,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U110": {
+        "UserID": "U110",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.673,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U111": {
+        "UserID": "U111",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.729,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U112": {
+        "UserID": "U112",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (84 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 11.4,
+        "A_total": 0.584,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U113": {
+        "UserID": "U113",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (66 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20.6,
+        "A_total": 0.602,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U114": {
+        "UserID": "U114",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (97 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 54.2,
+        "A_total": 0.776,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U115": {
+        "UserID": "U115",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.665,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U116": {
+        "UserID": "U116",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 60,
+        "A_total": 0.675,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U117": {
+        "UserID": "U117",
+        "Classification": "No accessibility issues detected",
+        "Situational_Issues": [],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 0,
+        "A_total": 0.727,
+        "Recommended_Adaptations": [
+            "No adaptation needed"
+        ]
+    },
+    "U118": {
+        "UserID": "U118",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.74,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U119": {
+        "UserID": "U119",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.791,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U120": {
+        "UserID": "U120",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.697,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U121": {
+        "UserID": "U121",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (98 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Medium severity",
+        "Severity_Score": 39.8,
+        "A_total": 0.62,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U122": {
+        "UserID": "U122",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.661,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U123": {
+        "UserID": "U123",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.644,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U124": {
+        "UserID": "U124",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (96 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 78.6,
+        "A_total": 0.793,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U125": {
+        "UserID": "U125",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "High noise (70 dB)"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 3.0,
+        "A_total": 0.651,
+        "Recommended_Adaptations": [
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U126": {
+        "UserID": "U126",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (82 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 105.2,
+        "A_total": 0.698,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U127": {
+        "UserID": "U127",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (71 dB)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 78.6,
+        "A_total": 0.684,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U128": {
+        "UserID": "U128",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.776,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U129": {
+        "UserID": "U129",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.619,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U130": {
+        "UserID": "U130",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.656,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U131": {
+        "UserID": "U131",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 95,
+        "A_total": 0.629,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U132": {
+        "UserID": "U132",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "Low light (6 lux)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 54.2,
+        "A_total": 0.746,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Enable dark mode",
+            "Increase contrast",
+            "Use soft backgrounds"
+        ]
+    },
+    "U133": {
+        "UserID": "U133",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.683,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U134": {
+        "UserID": "U134",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.724,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U135": {
+        "UserID": "U135",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.743,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U136": {
+        "UserID": "U136",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (90 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 50.0,
+        "A_total": 0.7,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U137": {
+        "UserID": "U137",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (78 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 102.8,
+        "A_total": 0.721,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U138": {
+        "UserID": "U138",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.681,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U139": {
+        "UserID": "U139",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (85 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 47.0,
+        "A_total": 0.686,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U140": {
+        "UserID": "U140",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "Low light (13 lux)"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 88.6,
+        "A_total": 0.722,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Enable dark mode",
+            "Increase contrast",
+            "Use soft backgrounds"
+        ]
+    },
+    "U141": {
+        "UserID": "U141",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.631,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U142": {
+        "UserID": "U142",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 44.6,
+        "A_total": 0.675,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts"
+        ]
+    },
+    "U143": {
+        "UserID": "U143",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (76 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 101.6,
+        "A_total": 0.655,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U144": {
+        "UserID": "U144",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.73,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U145": {
+        "UserID": "U145",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 55,
+        "A_total": 0.703,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U146": {
+        "UserID": "U146",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 35,
+        "A_total": 0.759,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions"
+        ]
+    },
+    "U147": {
+        "UserID": "U147",
+        "Classification": "Situational impairment",
+        "Situational_Issues": [
+            "User is moving"
+        ],
+        "Permanent_Issues": [],
+        "Severity": "Low severity",
+        "Severity_Score": 20,
+        "A_total": 0.581,
+        "Recommended_Adaptations": [
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U148": {
+        "UserID": "U148",
+        "Classification": "Permanent disability",
+        "Situational_Issues": [],
+        "Permanent_Issues": [
+            "Visual disability"
+        ],
+        "Severity": "Medium severity",
+        "Severity_Score": 40,
+        "A_total": 0.675,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout"
+        ]
+    },
+    "U149": {
+        "UserID": "U149",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (81 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Visual disability",
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 104.6,
+        "A_total": 0.701,
+        "Recommended_Adaptations": [
+            "Increase font size",
+            "Enable high contrast",
+            "Activate TTS",
+            "Simplify layout",
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    },
+    "U150": {
+        "UserID": "U150",
+        "Classification": "Mixed impairment",
+        "Situational_Issues": [
+            "High noise (94 dB)",
+            "User is moving"
+        ],
+        "Permanent_Issues": [
+            "Motor disability"
+        ],
+        "Severity": "High severity",
+        "Severity_Score": 72.4,
+        "A_total": 0.591,
+        "Recommended_Adaptations": [
+            "Increase button size",
+            "Enable voice control",
+            "Reduce precision interactions",
+            "Disable voice input",
+            "Enable text input",
+            "Use visual alerts",
+            "Increase touch targets",
+            "Reduce multi-step actions",
+            "Use chunked layout"
+        ]
+    }
+}

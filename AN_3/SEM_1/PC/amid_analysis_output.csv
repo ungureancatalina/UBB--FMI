@@ -1,0 +1,151 @@
+UserID,Classification,Situational_Issues,Permanent_Issues,Severity
+U1,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U2,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U3,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U4,Situational impairment,High noise,-,Low severity
+U5,Permanent disability,-,Visual disability,Medium severity
+U6,Situational impairment,"High noise, Movement detected",-,Medium severity
+U7,Situational impairment,"High noise, Movement detected",-,Medium severity
+U8,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U9,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U10,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U11,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,Medium severity
+U12,Permanent disability,-,Motor disability,Medium severity
+U13,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U14,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U15,Permanent disability,-,"Visual disability, Motor disability",High severity
+U16,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U17,Mixed impairment (permanent + situational),High noise,Visual disability,Medium severity
+U18,No accessibility issues detected,-,-,Low severity
+U19,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U20,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,High severity
+U21,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U22,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U23,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U24,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U25,No accessibility issues detected,-,-,Low severity
+U26,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U27,Situational impairment,High noise,-,Low severity
+U28,Permanent disability,-,Motor disability,Medium severity
+U29,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U30,Situational impairment,High noise,-,Low severity
+U31,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,Medium severity
+U32,Situational impairment,High noise,-,Low severity
+U33,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U34,Situational impairment,High noise,-,Low severity
+U35,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U36,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U37,Situational impairment,"High noise, Movement detected",-,Low severity
+U38,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U39,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U40,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U41,Permanent disability,-,Visual disability,Medium severity
+U42,No accessibility issues detected,-,-,Low severity
+U43,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U44,Mixed impairment (permanent + situational),High noise,Visual disability,Medium severity
+U45,Situational impairment,Movement detected,-,Low severity
+U46,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U47,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U48,Permanent disability,-,Motor disability,Medium severity
+U49,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U50,Situational impairment,High noise,-,Low severity
+U51,Mixed impairment (permanent + situational),"Low light, Movement detected",Visual disability,High severity
+U52,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U53,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U54,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U55,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,High severity
+U56,Permanent disability,-,Visual disability,Medium severity
+U57,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U58,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U59,Situational impairment,Movement detected,-,Low severity
+U60,No accessibility issues detected,-,-,Low severity
+U61,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U62,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U63,Mixed impairment (permanent + situational),High noise,Visual disability,Medium severity
+U64,Situational impairment,"High noise, Movement detected",-,Medium severity
+U65,Permanent disability,-,"Visual disability, Motor disability",High severity
+U66,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U67,Permanent disability,-,Motor disability,Medium severity
+U68,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,High severity
+U69,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U70,Permanent disability,-,"Visual disability, Motor disability",High severity
+U71,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,Medium severity
+U72,No accessibility issues detected,-,-,Low severity
+U73,Situational impairment,"High noise, Movement detected",-,Medium severity
+U74,Situational impairment,High noise,-,Low severity
+U75,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,High severity
+U76,Permanent disability,-,Visual disability,Medium severity
+U77,Situational impairment,"High noise, Movement detected",-,Medium severity
+U78,Situational impairment,High noise,-,Low severity
+U79,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U80,Permanent disability,-,"Visual disability, Motor disability",High severity
+U81,Situational impairment,"High noise, Movement detected",-,Medium severity
+U82,Situational impairment,Movement detected,-,Low severity
+U83,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U84,Permanent disability,-,Visual disability,Medium severity
+U85,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U86,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U87,Situational impairment,"High noise, Movement detected",-,Medium severity
+U88,Permanent disability,-,Motor disability,Medium severity
+U89,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U90,Permanent disability,-,"Visual disability, Motor disability",High severity
+U91,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U92,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U93,Permanent disability,-,Visual disability,Medium severity
+U94,Permanent disability,-,Motor disability,Medium severity
+U95,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U96,No accessibility issues detected,-,-,Low severity
+U97,No accessibility issues detected,-,-,Low severity
+U98,No accessibility issues detected,-,-,Low severity
+U99,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U100,Permanent disability,-,Motor disability,Medium severity
+U101,Situational impairment,"High noise, Movement detected",-,Medium severity
+U102,Situational impairment,High noise,-,Low severity
+U103,Permanent disability,-,"Visual disability, Motor disability",High severity
+U104,No accessibility issues detected,-,-,Low severity
+U105,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U106,Mixed impairment (permanent + situational),High noise,Visual disability,Medium severity
+U107,Permanent disability,-,Visual disability,Medium severity
+U108,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U109,No accessibility issues detected,-,-,Low severity
+U110,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U111,Situational impairment,Movement detected,-,Low severity
+U112,Situational impairment,High noise,-,Low severity
+U113,Situational impairment,"High noise, Movement detected",-,Low severity
+U114,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U115,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U116,Mixed impairment (permanent + situational),Movement detected,Visual disability,Medium severity
+U117,No accessibility issues detected,-,-,Low severity
+U118,Situational impairment,Movement detected,-,Low severity
+U119,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U120,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U121,Situational impairment,"High noise, Movement detected",-,Medium severity
+U122,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U123,Permanent disability,-,Visual disability,Medium severity
+U124,Mixed impairment (permanent + situational),"High noise, Movement detected",Visual disability,High severity
+U125,Situational impairment,High noise,-,Low severity
+U126,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U127,Mixed impairment (permanent + situational),High noise,"Visual disability, Motor disability",High severity
+U128,Permanent disability,-,Motor disability,Medium severity
+U129,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U130,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U131,Mixed impairment (permanent + situational),Movement detected,"Visual disability, Motor disability",High severity
+U132,Mixed impairment (permanent + situational),Low light,Motor disability,Medium severity
+U133,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U134,Permanent disability,-,Motor disability,Medium severity
+U135,Permanent disability,-,Visual disability,Medium severity
+U136,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U137,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U138,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U139,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U140,Mixed impairment (permanent + situational),Low light,"Visual disability, Motor disability",High severity
+U141,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U142,Mixed impairment (permanent + situational),High noise,Motor disability,Medium severity
+U143,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U144,Permanent disability,-,Motor disability,Medium severity
+U145,Mixed impairment (permanent + situational),Movement detected,Motor disability,Medium severity
+U146,Permanent disability,-,Motor disability,Medium severity
+U147,Situational impairment,Movement detected,-,Low severity
+U148,Permanent disability,-,Visual disability,Medium severity
+U149,Mixed impairment (permanent + situational),"High noise, Movement detected","Visual disability, Motor disability",High severity
+U150,Mixed impairment (permanent + situational),"High noise, Movement detected",Motor disability,High severity
