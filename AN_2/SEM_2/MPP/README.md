@@ -51,3 +51,6 @@ moto_contest_java/
 ## This is how the app looks like (for example in Java):
 
 ![Screenshot 2025-07-02 203046](https://github.com/user-attachments/assets/573c0a5b-cdc4-46f1-832f-ed46adb2222b)
+![Screenshot 2025-07-02 203122](https://github.com/user-attachments/assets/47bf49db-4682-448a-9368-1252b02cbc83)
+![Screenshot 2025-07-02 203204](https://github.com/user-attachments/assets/5096859c-6280-4ee2-a32d-8d976fe88e06)
+
