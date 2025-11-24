@@ -1,52 +1,53 @@
 ## About the Project
 
-**Book Tracker** is a cross–platform mobile application built in two parallel implementations: Ionic + TypeScript (cross–platform web-based mobile app) and Android Kotlin with Jetpack Compose (native Android app). Both implementations provide the same core functionality for managing a personal book collection, functioning in both online and offline modes, supporting local storage, image capture, map integration, and smooth UI animations. This project demonstrates practical mobile development concepts such as offline-first architecture, state management, camera integration, API synchronization, and animated interfaces.
+**Moto Contest** is a client-server desktop application for managing motocross races and participants. The original version is implemented in Java, and a parallel implementation is available in C# using .NET 9. 
+Users can authenticate, search for races and participants, and assign participants to teams. This project uses SQLite for persistent storage, and Sockets for communication between the client and server.
+This application demonstrates the use of **SQLite**, and **multi-threaded socket programming**.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
-| Tool                              | Purpose                                         |
-|-----------------------------------|-------------------------------------------------|
-| Ionic + TypeScript                | Hybrid mobile UI, cross–platform implementation |
-| Android Kotlin + Jetpack Compose  | Native Android UI, declarative mobile interface |
-| SQLite                            | Embedded relational database                    |
+| Tool                           | Purpose                                   |
+|--------------------------------|-------------------------------------------|
+| C#/ Java                       | Core language for client and server       |
+| .NET 9/ JavaFX                 | UI framework                              |
+| SQLite                         | Embedded relational database              |
+| Entity Framework Core/ JBDC    | Database connectivity                     |
+| Java Sockets/ .NET Sockets     | Client-server communication               |
 
 ---
 
 ## Features
 
 - User login/logout
-- View list of books
-- Add/Edit/Delete books
-- Search & filter
-- Online & offline support
-- Local persistence
-- Camera photo capture for covers
-- Map integration
-- Smooth animations across the app
-  
+- View list of races
+- Search participants by name
+- Add participants to teams
+- View team assignments
+- Persistent data in SQLite
+- Clean, responsive GUI with JavaFX
+
 ---
 
 ## Project Structure
 
 ```
-book_tracker/
-├── src/
-│   ├── pages/                 → Screens (Home, AddBook, Details, Map, Camera)
-│   ├── utils/                 → Logger
-│   ├── services/              → API calls, local storage handler
-│   └── theme/                 → Global styling
-└── App.tsx / main.tsx         → Entry files
-
+moto_contest_java/
+├── client/               → client code
+│   ├── gui/              → Views/ Controllers and scenes
+│   └── StartClient.java  → Client entry point
+├── server/               → Socket server
+│   └── StartServer.java  → Server entry point
+├── model/                → Shared domain entities (Race, Team, Participant, User)
+├── persistence/          → Helpers for database access (SQLite)
+├── service/              → Business logic and functionalities
+├── resources/            → FXML layouts
+└── database/             → SQLite DB file and schema
 ```
 
 ---
 
-## This is how the app looks like (for example in Ionic):
+## This is how the app looks like (for example in Java):
 
-<img width="694" height="1515" alt="Screenshot 2025-11-24 120406" src="https://github.com/user-attachments/assets/91c15bd8-ac4b-447d-a71c-9a3d868d6fcb" />
-<img width="696" height="1525" alt="Screenshot 2025-11-24 120439" src="https://github.com/user-attachments/assets/4428319b-b021-4d8c-83ce-c9ca329f4903" />
-<img width="691" height="1510" alt="Screenshot 2025-11-24 120447" src="https://github.com/user-attachments/assets/82b1e405-fbd9-4885-8f37-487344be8cf6" />
-
-
+![Screenshot 2025-07-02 203046](https://github.com/user-attachments/assets/573c0a5b-cdc4-46f1-832f-ed46adb2222b)
