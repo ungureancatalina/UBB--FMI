@@ -1,0 +1,7 @@
+start
+    int x;
+    int y;
+    citire(x);
+    y <- x * 2 + 3;
+    afisare(y);
+end

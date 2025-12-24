@@ -1,0 +1,14 @@
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\bin\Debug\net9.0\partea1.exe
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\bin\Debug\net9.0\partea1.deps.json
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\bin\Debug\net9.0\partea1.runtimeconfig.json
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\bin\Debug\net9.0\partea1.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\bin\Debug\net9.0\partea1.pdb
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.AssemblyInfoInputs.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.AssemblyInfo.cs
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.csproj.CoreCompileInputs.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\refint\partea1.dll
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.pdb
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\partea1.genruntimeconfig.cache
+C:\Users\ungur\OneDrive\Desktop\AN_3\SEM1\LFTC\lab\tema5\partea1\partea1\obj\Debug\net9.0\ref\partea1.dll

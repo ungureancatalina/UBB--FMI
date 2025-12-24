@@ -1,0 +1,33 @@
+﻿PROGRAM -> start BLOCK end
+
+BLOCK -> { STMT_LIST }
+
+STMT_LIST -> STMT
+STMT_LIST -> STMT STMT_LIST
+
+STMT -> DECL ;
+STMT -> ASSIGN ;
+STMT -> READ ;
+STMT -> WRITE ;
+
+DECL -> TYPE ID
+TYPE -> int | double | siruri
+
+ASSIGN -> ID = EXPR
+
+READ -> citire ( ID )
+WRITE -> afisare ( EXPR )
+
+EXPR -> TERM
+EXPR -> TERM ADD_OP TERM
+
+TERM -> FACTOR
+TERM -> FACTOR MUL_OP FACTOR
+
+FACTOR -> ID
+FACTOR -> CONST_NUM
+FACTOR -> CONST_SIR
+FACTOR -> ( EXPR )
+
+ADD_OP -> + | -
+MUL_OP -> * | / | %

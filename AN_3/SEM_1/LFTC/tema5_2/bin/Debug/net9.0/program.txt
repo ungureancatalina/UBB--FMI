@@ -1,0 +1,12 @@
+start
+{
+    double 1raza;
+    citire(1raza);
+    double 2pi = 3.14;
+    double 3A = 2pi * 1raza * 1raza;
+    double 4P = 2 * 2pi * 1raza;
+    afisare(3A);
+    afisare(" ");
+    afisare(4P);
+}
+end
