@@ -1,0 +1,3 @@
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/in-class4/project/cmake-build-debug/CMakeFiles/project.dir
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/in-class4/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/in-class4/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

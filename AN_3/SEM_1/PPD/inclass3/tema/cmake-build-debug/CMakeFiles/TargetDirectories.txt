@@ -1,0 +1,3 @@
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/inclass3/tema/cmake-build-debug/CMakeFiles/MPI_Asincron.dir
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/inclass3/tema/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ungur/OneDrive/Desktop/AN_3/SEM1/PPD/inclass3/tema/cmake-build-debug/CMakeFiles/rebuild_cache.dir
