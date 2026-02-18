@@ -1,0 +1,229 @@
+--- VERIFICARE Sat Jan 24 16:07:33 EET 2026 ---
+Sold Total Asteptat: 0.00 | Sold Tranzactii: 0.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:07:43 EET 2026 ---
+Sold Total Asteptat: 1650.00 | Sold Tranzactii: 1650.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:07:53 EET 2026 ---
+Expirat rezervare: 1c95517e-e994-44ad-a093-247f0f2a8c08
+Expirat rezervare: f740b2aa-9131-46e1-9a21-5d47fe9da05e
+Expirat rezervare: 91462e02-4108-4401-94f9-ecd9332ca650
+Expirat rezervare: dede12b9-c822-4bee-b800-2abb6e5ee89c
+Expirat rezervare: 3712453f-f7b9-4dcd-884c-72373a0746fa
+Expirat rezervare: c2161b3c-eff6-4091-ba2b-a8ef09d88d61
+Sold Total Asteptat: 2610.00 | Sold Tranzactii: 2610.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:03 EET 2026 ---
+Expirat rezervare: 18e26dee-c0ee-4e35-9978-d676f90a4b79
+Expirat rezervare: f2fda9a2-5543-4483-a24a-f8cda638ef1c
+Expirat rezervare: 3cb07608-74ea-4d79-b68b-8482c8a2c5e5
+Expirat rezervare: 4bd757cf-906a-47c2-b9fd-6c1ed8e66670
+Expirat rezervare: bc5ddac1-436d-46ab-ae5b-6df55f575b23
+Expirat rezervare: ef1cb284-3b81-49dd-964a-f59f570e8eff
+Expirat rezervare: 3359c711-069f-4b56-b550-5f80792aab53
+Expirat rezervare: 5f0aa06f-4e60-4b95-9682-7e9c3a314275
+Expirat rezervare: bfab453b-2021-4820-a4ad-45cc24d8aa36
+Expirat rezervare: 5ff29e89-8271-4dc7-a248-a584cc897cc6
+Expirat rezervare: 87dc7111-cc9e-4c81-85c1-42855e8f7b6b
+Expirat rezervare: 106b3b78-3d13-49cd-ba21-9e5828f08fe3
+Expirat rezervare: 6ff16735-a35f-4b53-bb82-696ab60b4a57
+Expirat rezervare: d3063e33-4a11-46b4-a354-667968af8546
+Expirat rezervare: 0d58b5af-454a-4813-aa5e-55c8bbf944a4
+Expirat rezervare: d5d941c9-ae75-469e-b8ef-25af83bcd944
+Expirat rezervare: fa6e4b10-3b0c-4e33-ad04-aa44bf90176a
+Expirat rezervare: da81ec54-15a3-4c1a-ad23-87c0bd4e1622
+Expirat rezervare: 2bd43fe9-e08f-4307-97a8-56d3044a71ce
+Expirat rezervare: 769e4f44-48d1-430f-be7e-aa7222e05915
+Sold Total Asteptat: 4070.00 | Sold Tranzactii: 4070.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:13 EET 2026 ---
+Expirat rezervare: 7b55266e-c20b-4d03-95df-73f458f4f895
+Expirat rezervare: 4dd06042-86b6-485e-b08d-28090093f6ab
+Expirat rezervare: 0fd876cd-c5d6-4887-a09c-d14641d295e8
+Expirat rezervare: dbfd3832-d2a1-471f-bb04-e86a0cb7fe9c
+Expirat rezervare: 3f168c29-bbe4-4ad7-aa84-2ed7615cb213
+Expirat rezervare: 1717910d-6eea-4202-8c6a-7ed832dbe22c
+Expirat rezervare: 652c494c-9fd2-41b7-b431-76e2dc3fe479
+Sold Total Asteptat: 5700.00 | Sold Tranzactii: 5700.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:23 EET 2026 ---
+Expirat rezervare: 2e9aa0a8-13b9-4076-a154-d12d9387bdba
+Expirat rezervare: 10bd19e9-ff3e-4ade-8749-4c3a6162f3ae
+Expirat rezervare: 8c737097-bd63-48bd-891d-c46d5c4a99a0
+Expirat rezervare: 49246ad9-bc54-4a96-8513-101a508ff9ce
+Expirat rezervare: b1c00e3d-79d8-4d58-93e4-cdd001e29d5f
+Expirat rezervare: 69cedd8f-9e7a-4df2-a52b-857e49920352
+Expirat rezervare: 932c4f8c-051c-43f4-9082-d058e559185d
+Expirat rezervare: 4e9e582e-3a0d-45d2-a68e-96708d27a418
+Expirat rezervare: 9cd628d9-5dc6-434d-8153-a056b725da64
+Expirat rezervare: 056a44dd-4c35-4fce-a3b0-feb43dcf84fe
+Sold Total Asteptat: 7030.00 | Sold Tranzactii: 7030.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:33 EET 2026 ---
+Expirat rezervare: c9af5ed4-06a2-4373-afb8-b654b35a9591
+Expirat rezervare: e35477b8-efcc-4874-98a6-97920842a9c6
+Expirat rezervare: 5faca3fe-a2ec-4b0e-bbe8-3efe49526a85
+Expirat rezervare: ff985c77-9e7f-4589-ad82-7dc778cc8142
+Expirat rezervare: cfc6cb00-787d-4293-a418-a62262d94339
+Expirat rezervare: 5703bb50-7afb-4c18-9b64-32b876cea3d1
+Expirat rezervare: 7e24f259-7d40-42b6-8b5c-270540fa51f8
+Expirat rezervare: d05343f0-8c54-4c31-83ae-b000e4e95677
+Expirat rezervare: ad98c1df-689f-4adc-b5e9-85db221f8c78
+Expirat rezervare: a914a4fd-02be-4475-858f-aa9827746ff4
+Sold Total Asteptat: 8510.00 | Sold Tranzactii: 8510.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:43 EET 2026 ---
+Expirat rezervare: 7ab85c28-0f0e-4eb7-95e7-661fceb7202d
+Expirat rezervare: 684dba0a-ca0f-40cc-a3dc-0e70c782b44b
+Expirat rezervare: 9dc1a674-5285-42e4-9da4-b98a18149f13
+Expirat rezervare: ae877e56-109c-4118-934e-99bd77f93cae
+Expirat rezervare: 3caaba1c-8ac8-40a8-8304-e5b87c118931
+Expirat rezervare: 3e158bff-74fe-47bc-b2f4-4269b6440dbb
+Expirat rezervare: e6bc6802-2ff1-48e1-a322-d96292f82d5c
+Sold Total Asteptat: 9950.00 | Sold Tranzactii: 9950.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:08:53 EET 2026 ---
+Expirat rezervare: 0eb543da-ac87-499e-901c-9bed153f1308
+Expirat rezervare: 41599883-8cdf-4d4d-89f1-3092b74da9a1
+Expirat rezervare: 4dadf11a-a6dc-4724-834c-dbe31a1c0720
+Expirat rezervare: 4f5ee5a5-30e7-4487-b94e-9b1156c8b04d
+Expirat rezervare: bde16ab7-97b5-4b0d-a81f-8e3f288a6c38
+Expirat rezervare: 85fd6919-fe73-4b30-92aa-9ccde16ffde7
+Expirat rezervare: f28b97fc-4ad3-4795-8b6b-a04dba484835
+Expirat rezervare: cc0f7c80-6b50-4aae-a8d8-a38299e22c53
+Expirat rezervare: d4658d87-5ae2-41ca-a740-1145b543ed31
+Expirat rezervare: 1e540370-dac3-4a73-8bf1-2a28f0595ef8
+Expirat rezervare: 12a0f3ad-0193-41d0-a645-e714aef5b8b3
+Sold Total Asteptat: 11970.00 | Sold Tranzactii: 11970.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:03 EET 2026 ---
+Expirat rezervare: 75771e89-bbe5-4885-b12f-87fc852c665f
+Expirat rezervare: 728f7a3e-db6a-45c5-8029-c37091a51df1
+Expirat rezervare: 9957bf9f-7aac-42ec-93d1-3d3bc7d01e65
+Expirat rezervare: 5864adec-e8ad-4bd3-836c-16d5247dba53
+Expirat rezervare: 9f430536-e44c-46c3-aa31-6db5cae53502
+Expirat rezervare: d423d12b-e4d6-421b-824c-c1fef11a9455
+Expirat rezervare: 3b1ec59a-dd90-40cc-9265-2b0f408b920b
+Expirat rezervare: 27a76dd0-4e47-49b7-87ee-6acd7173a60e
+Expirat rezervare: 3a8377d3-cd11-4b3f-81f0-ab5e633dd354
+Expirat rezervare: 17232668-5aa4-4cfe-8ce7-07a5c5f0d6de
+Expirat rezervare: 20c3b4df-e564-4a6d-97ff-89310ab54c54
+Sold Total Asteptat: 12660.00 | Sold Tranzactii: 12660.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:13 EET 2026 ---
+Expirat rezervare: 23d78626-1666-4b24-b387-e39373355983
+Expirat rezervare: 626396f2-7fb2-412d-8bb4-7de6b4049801
+Expirat rezervare: e4cb5fd5-7b1f-4fad-8a62-f923bc28092d
+Expirat rezervare: 14f5a8b8-d0a6-4559-8c88-62b80d881597
+Expirat rezervare: 92b6b78d-fafa-44b9-8c4e-60fb91cb849f
+Expirat rezervare: d0cdda38-2c04-45da-af14-158bf6495ca4
+Expirat rezervare: e24ebe43-d50e-4e39-918d-a2f2aec70b49
+Expirat rezervare: ca9749c7-dd7f-483b-a3be-b1ee5be2cd0a
+Sold Total Asteptat: 13910.00 | Sold Tranzactii: 13910.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:23 EET 2026 ---
+Expirat rezervare: 8cc251a9-4fa4-4275-a974-e2b64708c24b
+Expirat rezervare: 2c107615-2c86-47c8-b8fa-ade8e2e4b8d5
+Expirat rezervare: 4a842059-d5df-449c-af69-c9b6c217be19
+Expirat rezervare: 5111b02c-a013-4fb3-82b6-2f4298d80e0e
+Expirat rezervare: 2dc7a1af-876d-42b2-8693-c28be16f0f70
+Expirat rezervare: e57f1ff2-2045-4442-9b78-efd25c1bd4f0
+Expirat rezervare: a1c0daef-c8c1-4659-9ac8-edf6c9200860
+Expirat rezervare: 6b9ef92b-5985-4460-85cd-1086f2c0dc3b
+Expirat rezervare: a501ca94-4dd3-470d-9e53-fb27dfc1d7fe
+Sold Total Asteptat: 15000.00 | Sold Tranzactii: 15000.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:33 EET 2026 ---
+Expirat rezervare: f5a54c0e-b1eb-452a-9c82-b90f9c8bdb81
+Expirat rezervare: cc95ffed-d297-4bda-9328-1a5c33fad2e1
+Expirat rezervare: c63c4a47-92c3-48a7-9e6d-a7cece156a8f
+Expirat rezervare: 779fa6e8-dab2-4bb6-86f7-5264b422a625
+Expirat rezervare: d2bcbdfd-9988-43f3-a781-afa9d8e26fc3
+Expirat rezervare: 3d080d7a-0ccb-4532-8f2b-4b643f733ff6
+Expirat rezervare: b0dec262-0254-4dc1-a086-3423e5e5af86
+Expirat rezervare: 2e470dec-f9d1-4afe-8102-01446814a445
+Expirat rezervare: e0519134-6c3e-4a30-b2b0-63dd4702f73b
+Expirat rezervare: 95706a7f-ee2c-4e3b-ae46-d43d85a10db1
+Expirat rezervare: e170c178-ac8e-4d59-9870-428cd50cc219
+Expirat rezervare: 498ded2b-fbac-4660-81c0-ddf8140923a9
+Sold Total Asteptat: 15600.00 | Sold Tranzactii: 15600.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:43 EET 2026 ---
+Expirat rezervare: e059912d-74e3-4f92-a0e9-fe1e671255a8
+Expirat rezervare: 41656e2c-7d06-43c6-8d57-c95c0877da57
+Expirat rezervare: 6daad2b8-a0fe-415c-bac7-126831cab427
+Expirat rezervare: 1a93dbb7-87b9-438a-ad1c-be20cca49e99
+Expirat rezervare: 5193b88b-c60d-4f38-b52c-70be349831b2
+Expirat rezervare: 57c8ace6-8457-4f2c-8b4f-be6c66e82c65
+Expirat rezervare: bb3a5a90-433e-43e8-bbda-baf95ac21b10
+Expirat rezervare: 0d3160ad-790b-4da8-887b-43d63b238c81
+Expirat rezervare: 3fc9d01a-594b-4497-b45e-2f8226b85952
+Expirat rezervare: 268d2a77-fd7f-49f4-a89e-f074c0221094
+Expirat rezervare: ab450e1d-e5fa-49fb-8a6e-0a4adc5b0707
+Expirat rezervare: a1dd93f8-8493-413e-befc-8c653d8ed620
+Expirat rezervare: 99c681a2-a11c-4a10-a015-12ffe163d7a5
+Expirat rezervare: abb43331-af8b-4eca-b0cb-6294b4568830
+Expirat rezervare: 6b0f018c-cf7c-4772-a496-7083ae9b91a8
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:09:53 EET 2026 ---
+Expirat rezervare: a168d407-92f2-490a-b515-57e877407801
+Expirat rezervare: d57c3d96-36a3-4e37-862e-4c156a6d2f6a
+Expirat rezervare: 21423f2e-34b8-48ac-8e9d-9448e39abe67
+Expirat rezervare: b54956c3-1227-4307-be1e-25e7c7d7faff
+Expirat rezervare: e0352cd2-56b3-4c84-acfd-4c1eedc685ab
+Expirat rezervare: 7670c6d3-27ed-4a5c-87b5-2cd4db3a4b7a
+Expirat rezervare: 72625380-14e6-46f5-b643-6f9f4db9ec64
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:03 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:13 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:23 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:33 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:43 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:10:53 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:03 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:13 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:23 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:33 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:43 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:11:53 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:12:03 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:12:13 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:12:23 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:12:33 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
+--- VERIFICARE Sat Jan 24 16:12:43 EET 2026 ---
+Sold Total Asteptat: 15850.00 | Sold Tranzactii: 15850.00
+----------------------------
