@@ -1,0 +1,191 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TextSimilarity_Check" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="out_Similarity" Type="OutArgument(x:String)" />
+    <x:Property Name="in_TextZ" Type="InArgument(x:String)" />
+    <x:Property Name="in_TextX" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>TextSimilarity_Check_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TextSimilarity_Check" sap:VirtualizedContainerService.HintSize="681,1263" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="textX_local" />
+      <Variable x:TypeArguments="x:String" Name="textZ_local" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Free online text compare tool  GoTrans" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1240" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="73f018e0-3089-4740-8a38-f50bc81b9f91" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,999" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="tempSimilarity" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'TEXTAREA'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="73f018e0-3089-4740-8a38-f50bc81b9f91" Text="[in_TextX]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="gotranscript.com/text-compare" ContentHash="VnC54PVEMUeYJ7OAyOH-1w" DesignTimeRectangle="313, 687, 636, 160" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" Guid="bd2f538d-d7a3-4a71-bef4-983eb85c3b60" InformativeScreenshot="67e0be68343863be116930be5df4b9de.png" Reference="Ga-BLfyw50aIBbqASpBpYw/_sktX_RoMkuX1ztM-qWTXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free online text compare tool | GoTranscript' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'TEXTAREA(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="73f018e0-3089-4740-8a38-f50bc81b9f91" Text="[in_TextZ]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="gotranscript.com/text-compare" ContentHash="_fl5tVO_jUqkWENTBuGTHg" DesignTimeRectangle="973, 687, 636, 160" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='text2' tag='TEXTAREA' /&gt;" Guid="5251a08b-3fae-49fd-a185-c79c00323489" InformativeScreenshot="f37f915cef61b6e7a2b58729a08c7bef.png" Reference="Ga-BLfyw50aIBbqASpBpYw/shkkHNodUEOUvs3As8mNIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free online text compare tool | GoTranscript' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Compare'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="73f018e0-3089-4740-8a38-f50bc81b9f91" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="gotranscript.com/text-compare" ContentHash="a-EAxVLO70ukh6OgkBgsEA" DesignTimeRectangle="865, 935, 191, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='recaptcha' tag='BUTTON' /&gt;" Guid="80e69729-b95d-4e8d-8ca3-1d0435781d6c" InformativeScreenshot="6e878d81d97c8e2cec6c7e1b8637ed16.png" Reference="Ga-BLfyw50aIBbqASpBpYw/4SpUcDQCv0qGoZM0_q9gdA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free online text compare tool | GoTranscript' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Similarity of text is 0%'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,136" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="73f018e0-3089-4740-8a38-f50bc81b9f91" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="gotranscript.com/text-compare" ContentHash="nln-phxSI0GrW6y6sA475A" DesignTimeRectangle="313, 595, 167, 24" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='diff' tag='DIV' type='' class='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="e4afd768-1ab5-4434-88a9-297119471210" InformativeScreenshot="793da7dc77dcce4adbd925f1ffaea9a9.png" Reference="Ga-BLfyw50aIBbqASpBpYw/xJ542r1KRUOfZRePJji8hA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free online text compare tool | GoTranscript' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="461, 445, 1016, 1032" BrowserType="Chrome" ContentHash="GnARzY3wbUeHpScvURWBoA" IconBase64="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" InformativeScreenshot="5dc3595d34ed7953e7f9c27671c384b3.jpg" Reference="Ga-BLfyw50aIBbqASpBpYw/jPytd1ogTEKObYcVEWkf7A" Selector="&lt;html app='chrome.exe' title='Free online text compare tool | GoTranscript' /&gt;" Url="https://gotranscript.com/text-compare" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

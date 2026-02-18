@@ -1,0 +1,253 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Process" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="processOriginalText" Type="InArgument(x:String)" />
+    <x:Property sap2010:Annotation.AnnotationText="Transaction item to be processed." Name="in_TransactionItem" Type="InArgument(sd:DataRow)" />
+    <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>818.4,454.4</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="50">
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Windows.Forms</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Numerics</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="80">
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="681,3229" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+      <Variable x:TypeArguments="x:String" Name="SimilarityPercent_DeepL" />
+      <Variable x:TypeArguments="x:String" Name="text_EN_final_DeepL" />
+      <Variable x:TypeArguments="x:String" Name="text_FR_DeepL" />
+      <Variable x:TypeArguments="x:String" Name="text_RO_DeepL" />
+      <Variable x:TypeArguments="x:String" Name="originalText_EN" />
+      <Variable x:TypeArguments="x:String" Name="text_EN_final" />
+      <Variable x:TypeArguments="x:String" Name="text_FR" />
+      <Variable x:TypeArguments="x:String" Name="text_Ro" />
+      <Variable x:TypeArguments="x:String" Name="SimilarityPercent" />
+      <Variable x:TypeArguments="x:String" Name="tempTextRO" />
+      <Variable x:TypeArguments="x:String" Name="FinalTextZ" />
+      <Variable x:TypeArguments="x:String" Name="processOriginalText" />
+      <Variable x:TypeArguments="x:String" Name="intermediateChain" />
+      <Variable x:TypeArguments="x:String" Name="chainType" />
+      <Variable x:TypeArguments="x:String" Name="toLang" />
+      <Variable x:TypeArguments="x:String" Name="fromLang" />
+      <Variable x:TypeArguments="x:String" Name="translator" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[translator]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_TransactionItem("TranslatorName").ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[fromLang]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_TransactionItem("FromLang").ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[toLang]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_TransactionItem("ToLang").ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[chainType]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_TransactionItem("ChainType").ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[intermediateChain]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_TransactionItem("IntermediateChain").ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Case: &quot; + translator + &quot; | &quot; + chainType + &quot; | &quot; + fromLang + &quot;-&gt;&quot; + toLang + &quot; | chain=&quot; + intermediateChain]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DoTranslation - Invoke Workflow File (Process\DoTranslation.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Process\DoTranslation.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_FinalTextZ">[tempTextRO]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OriginalText">[processOriginalText]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_IntermediateChain">[intermediateChain]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ChainType">[chainType]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">[toLang]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">[fromLang]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Translator">[translator]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;tempTextRO length = &quot; + tempTextRO.Length.ToString]" />
+    <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;Data\\Output\\Results.txt&quot;)]" sap:VirtualizedContainerService.HintSize="450,176" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[&quot;Translator: &quot; &amp; translator &amp; Environment.NewLine &amp;&#xD;&#xA;&quot;Result:&quot; &amp; Environment.NewLine &amp;&#xD;&#xA;tempTextRO]" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GoogleTranslate_Direct - Invoke Workflow File (Process\GoogleTranslate_Direct.xaml)" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Process\GoogleTranslate_Direct.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_TextTranslated">[text_Ro]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">Romanian</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">English</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Text">[originalText_EN]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OriginalText" />
+        <InArgument x:TypeArguments="x:String" x:Key="in_Translator">[translator]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ChainType">Direct</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_IntermediateChain">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_finalTextZ" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GoogleTranslate_Direct - Invoke Workflow File (Process\GoogleTranslate_Direct.xaml)" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Process\GoogleTranslate_Direct.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_TextTranslated">[text_EN_final]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">English</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">Romanian</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Text">[text_RO]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OriginalText">[tempTextRO]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Translator">[translator]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ChainType">Direct</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_IntermediateChain">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_FinalTextZ">[FinalTextZ]</OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TextSimilarity_Check - Invoke Workflow File (Process\TextSimilarity_Check.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Process\TextSimilarity_Check.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_Similarity">[SimilarityPercent]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TextZ">[text_EN_final]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TextX">[originalText_EN]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BingTranslate_Direct - Invoke Workflow File (Process\BingTranslate_Direct.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Process\BingTranslate_Direct.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_TextTranslated">[text_RO_DeepL]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">Romanian</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">English</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Text">[originalText_EN]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BingTranslate_Direct - Invoke Workflow File (Process\BingTranslate_Direct.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Process\BingTranslate_Direct.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_TextTranslated">[text_FR_DeepL]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">French</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">Romanian</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Text">[text_RO_DeepL]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BingTranslate_Direct - Invoke Workflow File (Process\BingTranslate_Direct.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Process\BingTranslate_Direct.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_TextTranslated">[text_EN_final_DeepL]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_ToLang">English</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_FromLang">French</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Text">[text_FR_DeepL]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TextSimilarity_Check - Invoke Workflow File (Process\TextSimilarity_Check.xaml)" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Process\TextSimilarity_Check.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="x:String" x:Key="out_Similarity">[SimilarityPercent_DeepL]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TextZ">[text_EN_final_DeepL]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TextX">[originalText_EN]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>
