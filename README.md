@@ -34,3 +34,9 @@
 - [Robotic Process Automation](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/RPA)
 - [Programarea Dispozitivelor Mobile](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/PDM)
 - [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_1/Psihopedagogie)
+
+## Semestrul 6
+- [Verificarea si validarea sistemelor soft](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_2/VVSS)
+- [Game Development](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_2/GD)
+- [Pedagogie](https://github.com/ungureancatalina/UBB--FMI/tree/main/AN_3/SEM_2/Psihopedagogie)
+
